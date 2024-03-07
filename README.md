@@ -2,55 +2,84 @@
 
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-Personal curated collection of awesome engineering, coding & setup links
+Personal curated collection of awesome engineering, coding & setup links & useful some snippets
 
 ## Contents
 
-- [CLI](#cli)
+- [AI](#ai)
+- [IDEs](#ides)
+- [IDE Fonts](#ide-fonts)
 - [Documentation](#documentation)
+- [Langauages](#languages)
+- [Terminal](#terminal)
+- [Terminal Tools](#terminal-tools)
+- [UX](#ux)
 - [Web Tools](#web-tools)
 
 ---
 
-### Web Tools
+### AI
 
-- [Postman](https://www.postman.com/) REST Client and API Platform
-- [Postman Interceptor](https://chromewebstore.google.com/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo) Capture requests from any website and send them to Postman Client
+- CLIs:
+  - [node-chatgpt-api](https://github.com/waylaidwanderer/node-chatgpt-api) Interact with ChatGPT on CLI or over REST
+- LLMs:
+  - [Ollama](https://github.com/ollama/ollama) Run large language models locally (https://ollama.com/download)
 
-### CLI
+### Terminal
 
 - [Cmder](https://cmder.app) Console emulator for Windows
-- [httpie](https://httpie.org/) Alternative for cURL, wget
-- [Hyper](https://hyper.is/): CLI replacement
+- [Hyper](https://hyper.is/): Cross platform terminal replacement with plugins
   - Plugins ([Awesome](https://github.com/bnb/awesome-hyper?tab=readme-ov-file)):
-    - [hyperpower](https://www.npmjs.com/package/hyperpower) completely unecessary but fun tool
+    - [hyperpower](https://www.npmjs.com/package/hyperpower) completely unecessary but fun cursor (Run: ```wow``` for extra craziness)
+      ```
+      hyper i hyperpower
+      ```
+
+	  - [hyper-pane](https://www.npmjs.com/package/hyper-pane) Pane navigation
+      ```
+      hyper i hyper-pane
+      ```
+
+	  - [hyper-search](https://www.npmjs.com/package/hyper-search) Search the hyper terminal (Cmd/Ctrl-F)
+      ```
+      hyper i hyper-search
+      ```
+
+	  - [hyper-tabs](https://www.npmjs.com/package/hyperterm-tabs): Let's you rearrange tabs by drag & dropping them.
+      ```
+      hyper i hyperterm-tabs
+      ```
+
+	  - [hyper-capture](https://www.npmjs.com/package/hyper-capture): Capture the output of hyper to a video file (Run: ```togglecapture``` to start)
+      ```
+      hyper i hyper-capture
+      ```
     
-      ```hyper i hyperpower```
-	- https://hyper.is/plugins/hyper-pane
-    
-      ```hyper i hyper-pane```
-	- https://hyper.is/plugins/hyper-search
-    
-      ```hyper i hyper-search```
-	- hyper-tabs
-	- https://github.com/henrikdahl/hyper-statusline
-	- https://www.npmjs.com/package/hyper-capture
-  - Themes:
-	- https://github.com/klaussinani/hyper-pokemon
-	- https://hyper.is/plugins/hyper-material-theme
-    - https://github.com/bnb/awesome-hyper
-		
+  - Awesome:
+    - [Awesome Hyper](https://github.com/bnb/awesome-hyper): Another curated collection of hyper links
+
+
+	- Snippets:
+    - Fix the hyper command on OSX (if you're using ZSH): ```zsh: command not found: hyper```
+       ```
+       sudo ln -s "/Applications/Hyper.app/Contents/Resources/bin/hyper" /usr/local/bin/hyper
+       ```
+
+### Terminal Tools
+
+- [httpie](https://httpie.org/) Alternative for cURL, wget
+- [jq](https://github.com/jqlang/jq) Command-line JSON processor 
+- [yq](https://github.com/kislyuk/yq) Command-line YAML processor (Also installs xq for XML and tomlq for TOML)
+- [fkill]() Cross-platform process killer
+- [thef*ck](https://github.com/nvbn/thefuck) Unfortunately named but super-useful for running the command you intended that just failed 
+
 ### Documentation
 
-- [carbon.now.sh](https://carbon.now.sh/) Simulated CLI / Code Screenshots
-- https://github.com/mixn/carbon-now-cli
+- [carbon.now.sh](https://carbon.now.sh/) Simulated/Generated CLI / Code Screenshots (online)
+- [carbon-now-cli](https://github.com/mixn/carbon-now-cli) Generated Code/Command line screenshots from the terminal
 		
-### CLI Tools
 
-- fkill (npm)
-- Thef*ck 
-
-### UX / Wireframing
+### UX
 
 - Balsamiq
 - Excalidraw
@@ -80,7 +109,13 @@ Personal curated collection of awesome engineering, coding & setup links
   - create-react-kotlin-app
   - React Developer Tools
 	
-#### JS (Node):
+#### HTML/CSS
+
+- Frameworks:
+  - [UI Kit](https://github.com/uikit/uikit) (https://getuikit.com/docs/slideshow) Clean and simple web UI framework
+- In-browser UI editor: https://www.codeply.com
+
+#### JavaScript/Typescript:
 	
 - https://www.npmjs.com/package/chalk
 	
@@ -96,14 +131,17 @@ Personal curated collection of awesome engineering, coding & setup links
 - Black
 - Pandas
 - Scikit-Learn
-- Tai Chi
+- Taichi
+- Requests
 	
-### Education / Course Creation
+### EduTech
 
- - IntelliJ EduTools Plugin: https://www.jetbrains.com/help/education/educator-start-guide.html: JPGs, MP4s etc. work as well within IntelliJ, 
- - Create video diagrams / animations for tutorials: https://www.videoscribe.co/en/
-	• CLI screenshots: https://carbon.now.sh/ / 
-	• Animated screencasts / gifs: https://asciinema.org/ / svg: https://github.com/marionebl/svg-term-cli
+ - [IntelliJ EduTools Plugin]():
+   - [Educator Start Guide](https://www.jetbrains.com/help/education/educator-start-guide.html): NB: JPGs, MP4s etc. work as well within IntelliJ 
+ - [VideoScribe](https://www.videoscribe.co/en/) Create video diagrams / animated explainer videos for tutorials. 
+ - High quality animated screencasts:
+   - GIFs: [asciinema](https://github.com/asciinema/asciinema) (https://asciinema.org/) free and open source solution for recording terminal sessions and sharing them
+   - SVG: [svg-term-cli](https://github.com/marionebl/svg-term-cli) Share terminal sessions as razor-sharp animated SVG
 
 ### IDEs
 
@@ -145,14 +183,14 @@ Personal curated collection of awesome engineering, coding & setup links
 			§ Peacock: great for differentiating your coding windows: https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock
 - https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek
 - Cody
-- 
 - Hashicorp Terraform Plugin
 	
 		Tips:
 		IntelliJ: Alt-Enter, VSCode: Ctrl+.
 
 ### IDE Fonts
-- Operator Mono
+- [Operator Mono](https://github.com/keyding/Operator-Mono) Break from the norm, more interesting coding font
+- [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) Nice clear coding font
 
 ### Icons and Images
 - www.flaticon.com
@@ -163,10 +201,6 @@ Personal curated collection of awesome engineering, coding & setup links
 
 ### Comparison
 - Beyond Compare
-
-### Web/UI
-- https://getuikit.com/docs/slideshow
-- In-browser UI editor: https://www.codeply.com
 
 ### Windows Package Manager
 - https://scoop.sh/
@@ -180,4 +214,8 @@ Personal curated collection of awesome engineering, coding & setup links
 - https://www.labnol.org/internet/useful-tools-for-programmers/29227/- https://medium.com/@ssharizal/hyper-js-oh-my-zsh-as-ubuntu-on-windows-wsl-terminal-8bf577cdbd97
 - https://github.com/athityakumar/colorls
 	
-	
+### Web Tools
+
+- [Postman](https://www.postman.com/) REST Client and API Platform
+- [Postman Interceptor](https://chromewebstore.google.com/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo) Capture requests from any website and send them to Postman Client
+
