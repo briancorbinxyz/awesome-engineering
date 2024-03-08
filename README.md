@@ -7,8 +7,8 @@ Personal curated collection of awesome engineering, coding & setup links & usefu
 ## Contents
 
 - [AI](#ai)
+- [Coding & CLI Fonts](#codingcli-fonts)
 - [IDEs](#ides)
-- [IDE Fonts](#ide-fonts)
 - [Documentation](#documentation)
 - [Langauages](#languages)
 - [Terminal](#terminal)
@@ -25,6 +25,16 @@ Personal curated collection of awesome engineering, coding & setup links & usefu
 - LLMs:
   - [Ollama](https://github.com/ollama/ollama) Run large language models locally (https://ollama.com/download)
 
+### Coding/CLI Fonts
+- [Operator Mono](https://github.com/keyding/Operator-Mono) Break from the norm, more interesting coding font (PAID)
+- [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) Nice clear coding font
+- [Fira Code](https://github.com/tonsky/FiraCode) Font with nice ligatures that makes your code more compact and readable
+
+### Documentation
+
+- [carbon.now.sh](https://carbon.now.sh/) Simulated/Generated CLI / Code Screenshots (online)
+- [carbon-now-cli](https://github.com/mixn/carbon-now-cli) Generated Code/Command line screenshots from the terminal
+		
 ### Terminal
 
 - [Cmder](https://cmder.app) Console emulator for Windows
@@ -58,8 +68,8 @@ Personal curated collection of awesome engineering, coding & setup links & usefu
   - Awesome:
     - [Awesome Hyper](https://github.com/bnb/awesome-hyper): Another curated collection of hyper links
 
+  - Snippets:
 
-	- Snippets:
     - Fix the hyper command on OSX (if you're using ZSH): ```zsh: command not found: hyper```
        ```
        sudo ln -s "/Applications/Hyper.app/Contents/Resources/bin/hyper" /usr/local/bin/hyper
@@ -73,12 +83,6 @@ Personal curated collection of awesome engineering, coding & setup links & usefu
 - [fkill]() Cross-platform process killer
 - [thef*ck](https://github.com/nvbn/thefuck) Unfortunately named but super-useful for running the command you intended that just failed 
 
-### Documentation
-
-- [carbon.now.sh](https://carbon.now.sh/) Simulated/Generated CLI / Code Screenshots (online)
-- [carbon-now-cli](https://github.com/mixn/carbon-now-cli) Generated Code/Command line screenshots from the terminal
-		
-
 ### UX
 
 - Balsamiq
@@ -88,12 +92,34 @@ Personal curated collection of awesome engineering, coding & setup links & usefu
 
 ### CIT
 
-- Jenkins
+- Jenkins:
   - Plugins:
     - BlueOcean 
 
 ### Languages
 
+#### HTML/CSS
+
+- Frameworks:
+  - [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) (https://tailwindcss.com/) It's CSS but much faster to write!
+    ```
+    npm install -D tailwindcss
+    npx tailwindcss init
+    ```
+  - [UI Kit](https://github.com/uikit/uikit) (https://getuikit.com/docs/slideshow) Clean and simple web UI framework
+    ```
+    npm i uikit
+    ```
+  - [Bootstrap](https://github.com/twbs/bootstrap) (https://getbootstrap.com/) World's most popular grid system framework, pretty easy to use (v 5 ditched JQuery)
+    ```
+    npm i bootstrap
+    ```
+- In-browser UI editor: https://www.codeply.com
+
+#### JavaScript/Typescript:
+	
+- https://www.npmjs.com/package/chalk
+	
 #### Java
 	
 - Testing:
@@ -109,17 +135,6 @@ Personal curated collection of awesome engineering, coding & setup links & usefu
   - create-react-kotlin-app
   - React Developer Tools
 	
-#### HTML/CSS
-
-- Frameworks:
-  - [UI Kit](https://github.com/uikit/uikit) (https://getuikit.com/docs/slideshow) Clean and simple web UI framework
-- In-browser UI editor: https://www.codeply.com
-
-#### JavaScript/Typescript:
-	
-- https://www.npmjs.com/package/chalk
-	
-
 #### Python
 
 - Wheel
@@ -147,53 +162,52 @@ Personal curated collection of awesome engineering, coding & setup links & usefu
 
 #### IntelliJ / IDEA IDE
 
-- https://plugins.jetbrains.com/plugin/7125-grep-console
-
-- Plugins
-
+- Plugins:
+  - [GREP Console](https://plugins.jetbrains.com/plugin/7125-grep-console) GREP the console in IntelliJ
   - GitToolBox
-    - Theme: PaleNight (Material Theme): https://plugins.jetbrains.com/plugin/8006-material-theme-ui + PaleNight
+- Themes:
+  - [PaleNight (Material Theme)](https://plugins.jetbrains.com/plugin/8006-material-theme-ui) Material theme (esp. Palenight) is generally awesome
 	
 #### Visual Studio
-- Theme: PaleNight (Material Theme) https://marketplace.visualstudio.com/items?itemName=gjactat.palenightvs2017
-	
+- Themes:
+  - [PaleNight (Material Theme)](https://marketplace.visualstudio.com/items?itemName=gjactat.palenightvs2017) Material theme (esp. Palenight) is generally awesome
+
 #### VS Code
 	
-- Theme: PaleNight (Material Theme) https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme
-- Theme: Fairyfloss
-- Code Screenshots: https://github.com/octref/polacode
-- GitHub Pull Requests and Issues: https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github
-			§ Atlassian Equivalent: https://marketplace.visualstudio.com/items?itemName=Atlassian.atlascode / https://support.atlassian.com/bitbucket-cloud/docs/jira-issues-in-vs-code/
-- Extensions Review - Awesome VSCode: https://viatsko.github.io/awesome-vscode/
-- Java: https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack (https://marketplace.visualstudio.com/items?itemName=redhat.java)
-- Vim: https://marketplace.visualstudio.com/items?itemName=vscodevim.vim
-- C++: https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
-- C#: https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp
-- Python: https://marketplace.visualstudio.com/items?itemName=ms-python.python
-- Icons: https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons
-- Code Screenshotting: https://marketplace.visualstudio.com/items?itemName=pnp.polacode
-- Gradle: https://marketplace.visualstudio.com/items?itemName=naco-siren.gradle-language&source=post_page-----8de7d2b59902----------------------
-			§ Gradle for Java: 
-- Kotlin: https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin
-- GitLens: https://gitlens.amod.io/
-- SonarLint: https://www.sonarlint.org/vscode/
-- Instant Markdown: https://marketplace.visualstudio.com/items?itemName=dbankier.vscode-instant-markdown
-- Live Sharing/Collaboration: https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack
-- List of Extensions: https://x-team.com/blog/best-vscode-extensions/
-			§ Peacock: great for differentiating your coding windows: https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock
-- https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek
-- Cody
-- Hashicorp Terraform Plugin
-	
-		Tips:
-		IntelliJ: Alt-Enter, VSCode: Ctrl+.
+- Plugins:
+  - Code Screenshots: https://github.com/octref/polacode
+  - GitHub Pull Requests and Issues: https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github
+        § Atlassian Equivalent: https://marketplace.visualstudio.com/items?itemName=Atlassian.atlascode / https://support.atlassian.com/bitbucket-cloud/docs/jira-issues-in-vs-code/
+  - Extensions Review - Awesome VSCode: https://viatsko.github.io/awesome-vscode/
+  - [Java (Bundle)](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) Java Support
+  - Vim: https://marketplace.visualstudio.com/items?itemName=vscodevim.vim
+  - C++: https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
+  - C#: https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp
+  - Python: https://marketplace.visualstudio.com/items?itemName=ms-python.python
+  - Icons: https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons
+  - Code Screenshotting: https://marketplace.visualstudio.com/items?itemName=pnp.polacode
+  - Gradle: https://marketplace.visualstudio.com/items?itemName=naco-siren.gradle-language&source=post_page-----8de7d2b59902----------------------
+        § Gradle for Java: 
+  - Kotlin: https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin
+  - GitLens: https://gitlens.amod.io/
+  - SonarLint: https://www.sonarlint.org/vscode/
+  - Instant Markdown: https://marketplace.visualstudio.com/items?itemName=dbankier.vscode-instant-markdown
+  - Live Sharing/Collaboration: https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack
+  - List of Extensions: https://x-team.com/blog/best-vscode-extensions/
+        § Peacock: great for differentiating your coding windows: https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock
+  - https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek
+  - Hashicorp Terraform Plugin
 
-### IDE Fonts
-- [Operator Mono](https://github.com/keyding/Operator-Mono) Break from the norm, more interesting coding font
-- [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) Nice clear coding font
+- AI Assistants:
+  - [Cody](https://marketplace.visualstudio.com/items?itemName=sourcegraph.cody-ai) AI code assistant by the sourcegraph folks with a free tier, even has natural language code search
+  - [Codeium](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium) 'Free Forver' code assistant - intelligently generates code as you type comments or use chat
+
+- Themes:
+  - [PaleNight (Material Theme)](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme) Material theme (esp. Palenight) is generally awesome
+  - [Fairyfloss](https://marketplace.visualstudio.com/items?itemName=nopjmp.fairyfloss) About as far from dark mode themes as I am willing to go. Cozy much?
 
 ### Icons and Images
-- www.flaticon.com
+- https://www.flaticon.com
 
 ### Screen Recorders / Screen Caster
 - Win: Record Screen http://www.screentogif.com/downloads.html#
@@ -202,9 +216,10 @@ Personal curated collection of awesome engineering, coding & setup links & usefu
 ### Comparison
 - Beyond Compare
 
-### Windows Package Manager
-- https://scoop.sh/
-- https://chocolatey.org/install
+### Operating Systems
+
+#### Windows
+- [choco](https://github.com/chocolatey/choco) (https://chocolatey.org/install) Windows package manager
 
 ### Interesting/Unsorted:
 - https://www.barbarianmeetscoding.com/blog/2019/02/08/boost-your-coding-fu-with-vscode-and-vim
