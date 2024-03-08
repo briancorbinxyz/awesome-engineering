@@ -45,22 +45,22 @@ Personal curated collection of awesome engineering, coding & setup links & usefu
       hyper i hyperpower
       ```
 
-	  - [hyper-pane](https://www.npmjs.com/package/hyper-pane) Pane navigation
+    - [hyper-pane](https://www.npmjs.com/package/hyper-pane) Pane navigation
       ```
       hyper i hyper-pane
       ```
 
-	  - [hyper-search](https://www.npmjs.com/package/hyper-search) Search the hyper terminal (Cmd/Ctrl-F)
+    - [hyper-search](https://www.npmjs.com/package/hyper-search) Search the hyper terminal (Cmd/Ctrl-F)
       ```
       hyper i hyper-search
       ```
 
-	  - [hyper-tabs](https://www.npmjs.com/package/hyperterm-tabs): Let's you rearrange tabs by drag & dropping them.
+    - [hyper-tabs](https://www.npmjs.com/package/hyperterm-tabs): Let's you rearrange tabs by drag & dropping them.
       ```
       hyper i hyperterm-tabs
       ```
 
-	  - [hyper-capture](https://www.npmjs.com/package/hyper-capture): Capture the output of hyper to a video file (Run: ```togglecapture``` to start)
+    - [hyper-capture](https://www.npmjs.com/package/hyper-capture): Capture the output of hyper to a video file (Run: ```togglecapture``` to start)
       ```
       hyper i hyper-capture
       ```
