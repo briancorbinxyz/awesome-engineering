@@ -2,12 +2,13 @@
 
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-Personal curated collection of awesome engineering, coding & setup links & useful some snippets
+Personally curated and opinionated collection of awesome engineering, coding & setup links & useful some snippets
 
 ## Contents
 
 - [AI](#ai)
 - [Coding & CLI Fonts](#codingcli-fonts)
+- [EduTech](#edutech)
 - [IDEs](#ides)
 - [Documentation](#documentation)
 - [Langauages](#languages)
@@ -15,11 +16,15 @@ Personal curated collection of awesome engineering, coding & setup links & usefu
 - [Terminal Tools](#terminal-tools)
 - [UX](#ux)
 - [Web Tools](#web-tools)
+- [Workflow Automation](workflow-automation)
 
 ---
 
 ### AI
 
+- Chats:
+  - [OpenAI](https://chat.openai.com/) AI Chatbot
+  - [Claude](https://claude.ai/chats) AI Chatbot
 - CLIs:
   - [node-chatgpt-api](https://github.com/waylaidwanderer/node-chatgpt-api) Interact with ChatGPT on CLI or over REST
 - LLMs:
@@ -30,11 +35,12 @@ Personal curated collection of awesome engineering, coding & setup links & usefu
 - [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) Nice clear coding font
 - [Fira Code](https://github.com/tonsky/FiraCode) Font with nice ligatures that makes your code more compact and readable
 
-### Documentation
+### Culture
+- [The Hot Co.](https://shop.thehot.co/) Awesome coding journals / notebooks and more (shameless plug!)
 
-- [carbon.now.sh](https://carbon.now.sh/) Simulated/Generated CLI / Code Screenshots (online)
-- [carbon-now-cli](https://github.com/mixn/carbon-now-cli) Generated Code/Command line screenshots from the terminal
-		
+### Documentation
+- [devdocs.io](https://devdocs.io) — API documentation for all popular programming languages and frameworks. Includes instant search and works offline too.
+
 ### Terminal
 
 - [Cmder](https://cmder.app) Console emulator for Windows
@@ -85,16 +91,16 @@ Personal curated collection of awesome engineering, coding & setup links & usefu
 
 ### UX
 
-- Balsamiq
-- Excalidraw
-- Axure
-- Figma
+- [Excalidraw](https://github.com/excalidraw/excalidraw) Hand-drawn style sketching app/whiteboarding with collaboration
+- [Balsamiq](https://balsamiq.com/) Wireframing tool (PAID)
+- [Axure](https://www.axure.com/) UI/UX design tool (PAID)
+- [Figma](https://www.figma.com/) UI/UX design tool (PAID)
 
 ### CIT
 
 - Jenkins:
   - Plugins:
-    - BlueOcean 
+    - [BlueOcean](https://github.com/jenkinsci/blueocean-plugin) (https://plugins.jenkins.io/blueocean) Blue Ocean is a replacement interface for Jenkins that provides a modern and intuitive interface for navigating and interacting with Jenkins.
 
 ### Languages
 
@@ -118,22 +124,25 @@ Personal curated collection of awesome engineering, coding & setup links & usefu
 
 #### JavaScript/Typescript:
 	
-- https://www.npmjs.com/package/chalk
+- Repositories:
+  - [npm](https://www.npmjs.com/): The package manager for JavaScript
+
+- UI:
+  - [React](https://github.com/facebook/react) (https://reactjs.org/) A JavaScript library for building user interfaces
+- CLI:
+  - [Chalk](https://github.com/chalk/chalk) (https://www.npmjs.com/package/chalk) Terminal string styling done right
 	
 #### Java
 	
 - Testing:
-  - assertj
-  - Junit5
-- Reactive:
-  - RxJava
-	
-#### Kotlin
-	
-- React
-  - Kotlin Developer Tools
-  - create-react-kotlin-app
-  - React Developer Tools
+  - [assertj](https://github.com/joel-costigliola/assertj-core) (https://assertj.github.io/doc/) Assertion library for Java
+  - [hamcrest](https://github.com/hamcrest/JavaHamcrest) (https://hamcrest.org/JavaHamcrest/) Matcher library for Java
+  - [TestNG](https://github.com/cbeust/testng) (https://testng.org/doc/) Testing framework for Java (preferred)
+  - [JUnit](https://github.com/junit-team/junit5) (https://junit.org/junit5/) Testing framework for Java
+  - [Cucumber](https://github.com/cucumber/cucumber-jvm) (https://cucumber.io/) Behavior-Driven Development for Java
+  - [Selenium](https://github.com/SeleniumHQ/selenium) (https://www.selenium.dev/) Browser automation framework ideal for testing
+- Reactive: (https://www.reactivemanifesto.org/)
+  - [RxJava](https://github.com/ReactiveX/RxJava) (https://github.com/ReactiveX/RxJava/wiki) Reactive Extensions for the JVM
 	
 #### Python
 
@@ -151,9 +160,11 @@ Personal curated collection of awesome engineering, coding & setup links & usefu
 	
 ### EduTech
 
- - [IntelliJ EduTools Plugin]():
+ - [IntelliJ EduTools Plugin](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy):
    - [Educator Start Guide](https://www.jetbrains.com/help/education/educator-start-guide.html): NB: JPGs, MP4s etc. work as well within IntelliJ 
  - [VideoScribe](https://www.videoscribe.co/en/) Create video diagrams / animated explainer videos for tutorials. 
+- [carbon.now.sh](https://carbon.now.sh/) Simulated/Generated CLI / Code Screenshots (online)
+- [carbon-now-cli](https://github.com/mixn/carbon-now-cli) Generated Code/Command line screenshots from the terminal
  - High quality animated screencasts:
    - GIFs: [asciinema](https://github.com/asciinema/asciinema) (https://asciinema.org/) free and open source solution for recording terminal sessions and sharing them
    - SVG: [svg-term-cli](https://github.com/marionebl/svg-term-cli) Share terminal sessions as razor-sharp animated SVG
@@ -164,16 +175,25 @@ Personal curated collection of awesome engineering, coding & setup links & usefu
 
 - Plugins:
   - [GREP Console](https://plugins.jetbrains.com/plugin/7125-grep-console) GREP the console in IntelliJ
-  - GitToolBox
+  - [GitToolBox](https://plugins.jetbrains.com/plugin/7499-gittoolbox) Git integration for IntelliJ (e.g. Git Graph)
+  - [Vim](https://plugins.jetbrains.com/plugin/164-ideavim) Vim emulation plugin for IntelliJ
 - Themes:
   - [PaleNight (Material Theme)](https://plugins.jetbrains.com/plugin/8006-material-theme-ui) Material theme (esp. Palenight) is generally awesome
 	
+#### Vim
+
+- [NeoVim](https://github.com/neovim/neovim) (https://neovim.io/) Vim-fork focused on extensibility and usability
+  ```
+  brew install neovim
+  ```
+
 #### Visual Studio
 - Themes:
   - [PaleNight (Material Theme)](https://marketplace.visualstudio.com/items?itemName=gjactat.palenightvs2017) Material theme (esp. Palenight) is generally awesome
 
 #### VS Code
-	
+
+- [VS Code](https://github.com/microsoft/vscode) (https://code.visualstudio.com/) Code editor redefined and optimized for building and debugging modern applications
 - Plugins:
   - Code Screenshots: https://github.com/octref/polacode
   - GitHub Pull Requests and Issues: https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github
@@ -210,20 +230,25 @@ Personal curated collection of awesome engineering, coding & setup links & usefu
 - https://www.flaticon.com
 
 ### Screen Recorders / Screen Caster
-- Win: Record Screen http://www.screentogif.com/downloads.html#
-- SnagIt
+- [ScreenToGif](https://github.com/NickeManarin/ScreenToGif) (https://www.screentogif.com/) Free screen recording tool for Windows
+- [SnagIt](https://www.techsmith.com/screen-capture.html) Fully-featured screen capture tool (PAID)
 
 ### Comparison
-- Beyond Compare
+- [Beyond Compare](https://www.scootersoftware.com/download.php) Best file comparison tool (PAID)
 
 ### Operating Systems
+
+#### Arch Linux
+- [Pacman](https://gitlab.archlinux.org/archlinux/packaging/packages/pacman) (https://wiki.archlinux.org/index.php/Pacman) Package manager for Arch Linux
+
+#### OSX
+- [Homebrew](https://github.com/Homebrew/brew) (https://brew.sh/) Package manager for OSX
 
 #### Windows
 - [choco](https://github.com/chocolatey/choco) (https://chocolatey.org/install) Windows package manager
 
 ### Interesting/Unsorted:
 - https://www.barbarianmeetscoding.com/blog/2019/02/08/boost-your-coding-fu-with-vscode-and-vim
-- devdocs.io — API documentation for all popular programming languages and frameworks. Includes instant search and works offline too.
 - https://www.robertcooper.me/elegant-development-experience-with-zsh-and-hyper-terminal
 - https://www.maketecheasier.com/install-zsh-and-oh-my-zsh-windows10/
 - https://www.labnol.org/internet/useful-tools-for-programmers/29227/- https://medium.com/@ssharizal/hyper-js-oh-my-zsh-as-ubuntu-on-windows-wsl-terminal-8bf577cdbd97
@@ -234,3 +259,6 @@ Personal curated collection of awesome engineering, coding & setup links & usefu
 - [Postman](https://www.postman.com/) REST Client and API Platform
 - [Postman Interceptor](https://chromewebstore.google.com/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo) Capture requests from any website and send them to Postman Client
 
+### Workflow Automation
+
+- [n8n](https://n8n.io/) Workflow Automation Tool (self-host)
