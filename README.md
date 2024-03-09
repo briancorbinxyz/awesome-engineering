@@ -2,16 +2,20 @@
 
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-Personally curated and opinionated collection of awesome engineering, coding & setup links & useful some snippets
+Personally curated and opinionated collection of awesome engineering, coding & setup links & useful some snippets for the productive engineer.
 
 ## Contents
 
 - [AI](#ai)
 - [Coding & CLI Fonts](#codingcli-fonts)
+- [Comparison](#comparison)
+- [Culture](#culture)
 - [EduTech](#edutech)
 - [IDEs](#ides)
 - [Documentation](#documentation)
-- [Langauages](#languages)
+- [Languages](#languages)
+- [Operating Systems](#operating-systems)
+- [Scaffolding](#scaffolding)
 - [Terminal](#terminal)
 - [Terminal Tools](#terminal-tools)
 - [UX](#ux)
@@ -35,16 +39,24 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) Nice clear coding font
 - [Fira Code](https://github.com/tonsky/FiraCode) Font with nice ligatures that makes your code more compact and readable
 
+### Comparison
+- [Beyond Compare](https://www.scootersoftware.com/download.php) Best file comparison tool (PAID)
+
 ### Culture
 - [The Hot Co.](https://shop.thehot.co/) Awesome coding journals / notebooks and more (shameless plug!)
 
 ### Documentation
 - [devdocs.io](https://devdocs.io) — API documentation for all popular programming languages and frameworks. Includes instant search and works offline too.
 
+### Scaffoling
+
+- [Cookiecutter](https://github.com/cookiecutter/cookiecutter) (https://cookiecutter.readthedocs.io/en/latest/) A command-line utility that creates projects from cookiecutters (project templates)
+- [Yeoman](https://github.com/yeoman/yo) (https://yeoman.io) A set of tools for automating the creation of projects, templates, boilerplates, modules and applications.
+
 ### Terminal
 
 - [Cmder](https://cmder.app) Console emulator for Windows
-- [Hyper](https://hyper.is/): Cross platform terminal replacement with plugins
+- [Hyper](https://hyper.is/) Cross platform terminal replacement with plugins
   - Plugins ([Awesome](https://github.com/bnb/awesome-hyper?tab=readme-ov-file)):
     - [hyperpower](https://www.npmjs.com/package/hyperpower) completely unecessary but fun cursor (Run: ```wow``` for extra craziness)
       ```
@@ -88,6 +100,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [yq](https://github.com/kislyuk/yq) Command-line YAML processor (Also installs xq for XML and tomlq for TOML)
 - [fkill]() Cross-platform process killer
 - [thef*ck](https://github.com/nvbn/thefuck) Unfortunately named but super-useful for running the command you intended that just failed 
+- [colorls](https://github.com/athityakumar/colorls) Nice ls with colorful output
 
 ### UX
 
@@ -124,9 +137,12 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 #### JavaScript/Typescript:
 	
+- [NativeScript](https://github.com/NativeScript/NativeScript) (https://nativescript.org/) Build truly native iOS, Android and Progressive Web Apps with JavaScript
 - Repositories:
   - [npm](https://www.npmjs.com/): The package manager for JavaScript
 
+- Testing:
+  - [Cypress](https://github.com/cypress-io/cypress) (https://www.cypress.io/) Fast, easy and reliable testing for anything that runs in a browser.
 - UI:
   - [React](https://github.com/facebook/react) (https://reactjs.org/) A JavaScript library for building user interfaces
 - CLI:
@@ -134,6 +150,8 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 	
 #### Java
 	
+- [Guava](https://github.com/google/guava) (https://github.com/google/guava) Google's core Java libraries (especially useful pre-JDK17)
+- [Spring Boot](https://github.com/spring-projects/spring-boot) (https://spring.io/projects/spring-boot) Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run"
 - Testing:
   - [assertj](https://github.com/joel-costigliola/assertj-core) (https://assertj.github.io/doc/) Assertion library for Java
   - [hamcrest](https://github.com/hamcrest/JavaHamcrest) (https://hamcrest.org/JavaHamcrest/) Matcher library for Java
@@ -146,28 +164,38 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 	
 #### Python
 
-- Wheel
-- Virtualenv
-- Pipenv
-- Poetry
-- Autopep8
-- Pylint
-- Black
-- Pandas
-- Scikit-Learn
-- Taichi
-- Requests
+- [Wheel](https://github.com/pypa/wheel) (https://pythonwheels.com/) Build Python packages that work on Linux, Windows, and Mac
+- [Virtualenv](https://github.com/pypa/virtualenv) (https://virtualenv.pypa.io/en/latest/) Virtual Python Environment builder
+- [Pipenv](https://github.com/pypa/pipenv) (https://pipenv.pypa.io/en/latest/) Python Development Workflow for Humans
+- [Poetry](https://github.com/python-poetry/poetry) (https://python-poetry.org/) Python dependency management and packaging made easy
+- [Pip](https://github.com/pypa/pip) (https://pip.pypa.io/en/stable/) Package manager for Python
+- [Autopep8](https://github.com/hhatto/autopep8) (https://pypi.org/project/autopep8/) AutoPEP8 is a tool that automatically formats Python code to conform to the PEP 8 style guide
+- [Pylint](https://github.com/PyCQA/pylint) (https://www.pylint.org/) Python code static checker
+- [Black](https://github.com/psf/black) (https://black.readthedocs.io/en/stable/) The uncompromising Python code formatter
+- [Pandas](https://github.com/pandas-dev/pandas) (https://pandas.pydata.org/) Data analysis and manipulation tool
+- [Scikit-learn](https://github.com/scikit-learn/scikit-learn) (https://scikit-learn.org/stable/) Machine learning library for Python
+- [PyTorch](https://github.com/pytorch/pytorch) (https://pytorch.org/) an open source machine learning (ML) framework based on the Python for Deep Learning 
+- [Taichi](https://github.com/taichi-dev/taichi) (https://docs.taichi.graphics/) Python-based scientific computing uses JIT compilation to offload the Python source code to native GPU or CPU instructions for performance
+- [Requests](https://github.com/psf/requests) (https://requests.readthedocs.io/en/master/) Python HTTP Requests for Humans
+- [Cookiecutter](https://github.com/cookiecutter/cookiecutter) (https://cookiecutter.readthedocs.io/en/latest/) A command-line utility that creates projects from cookiecutters (project templates)
+- Homebrew / Niche Libraries:
+  - [Anki CozmoSDK](https://github.com/anki/cozmo-python-sdk) (https://data.bit-bots.de/cozmo_sdk_doc/cozmosdk.anki.com/docs/index.html) Little robot - Cozmo SDK for python
+  - [PyCozmo](https://github.com/zayfod/pycozmo) (https://pycozmo.readthedocs.io/en/stable/overview.html) Python SDK for the Cozmo robot in pure python
+  - [PyATV](https://github.com/postlund/pyatv) (https://pyatv.dev/) Python library to interface with Apple TV
 	
 ### EduTech
 
- - [IntelliJ EduTools Plugin](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy):
-   - [Educator Start Guide](https://www.jetbrains.com/help/education/educator-start-guide.html): NB: JPGs, MP4s etc. work as well within IntelliJ 
- - [VideoScribe](https://www.videoscribe.co/en/) Create video diagrams / animated explainer videos for tutorials. 
+- [IntelliJ EduTools Plugin](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy):
+  - [Educator Start Guide](https://www.jetbrains.com/help/education/educator-start-guide.html): NB : JPGs, MP4s etc. work as well within IntelliJ 
+- [VideoScribe](https://www.videoscribe.co/en/) Create video diagrams / animated explainer videos for tutorials. 
 - [carbon.now.sh](https://carbon.now.sh/) Simulated/Generated CLI / Code Screenshots (online)
 - [carbon-now-cli](https://github.com/mixn/carbon-now-cli) Generated Code/Command line screenshots from the terminal
- - High quality animated screencasts:
-   - GIFs: [asciinema](https://github.com/asciinema/asciinema) (https://asciinema.org/) free and open source solution for recording terminal sessions and sharing them
-   - SVG: [svg-term-cli](https://github.com/marionebl/svg-term-cli) Share terminal sessions as razor-sharp animated SVG
+  - High quality animated screencasts:
+    - GIFs: [asciinema](https://github.com/asciinema/asciinema) (https://asciinema.org/) free and open source solution for recording terminal sessions and sharing them
+    - SVG: [svg-term-cli](https://github.com/marionebl/svg-term-cli) Share terminal sessions as razor-sharp animated SVG
+- [ScreenToGif](https://github.com/NickeManarin/ScreenToGif) (https://www.screentogif.com/) Free screen recording tool for Windows
+- [SnagIt](https://www.techsmith.com/screen-capture.html) Fully-featured screen capture tool (PAID)
+
 
 ### IDEs
 
@@ -194,29 +222,26 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 #### VS Code
 
 - [VS Code](https://github.com/microsoft/vscode) (https://code.visualstudio.com/) Code editor redefined and optimized for building and debugging modern applications
-- Plugins:
-  - Code Screenshots: https://github.com/octref/polacode
-  - GitHub Pull Requests and Issues: https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github
-        § Atlassian Equivalent: https://marketplace.visualstudio.com/items?itemName=Atlassian.atlascode / https://support.atlassian.com/bitbucket-cloud/docs/jira-issues-in-vs-code/
-  - Extensions Review - Awesome VSCode: https://viatsko.github.io/awesome-vscode/
-  - [Java (Bundle)](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) Java Support
-  - Vim: https://marketplace.visualstudio.com/items?itemName=vscodevim.vim
-  - C++: https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
-  - C#: https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp
-  - Python: https://marketplace.visualstudio.com/items?itemName=ms-python.python
-  - Icons: https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons
-  - Code Screenshotting: https://marketplace.visualstudio.com/items?itemName=pnp.polacode
-  - Gradle: https://marketplace.visualstudio.com/items?itemName=naco-siren.gradle-language&source=post_page-----8de7d2b59902----------------------
-        § Gradle for Java: 
-  - Kotlin: https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin
-  - GitLens: https://gitlens.amod.io/
-  - SonarLint: https://www.sonarlint.org/vscode/
-  - Instant Markdown: https://marketplace.visualstudio.com/items?itemName=dbankier.vscode-instant-markdown
-  - Live Sharing/Collaboration: https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack
-  - List of Extensions: https://x-team.com/blog/best-vscode-extensions/
-        § Peacock: great for differentiating your coding windows: https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock
-  - https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek
-  - Hashicorp Terraform Plugin
+- Plugins: [Awesome VS Code](https://github.com/viatsko/awesome-vscode)
+  - [Polacode](https://github.com/octref/polacode) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)) Produce screenshots of code/files in VS Code
+  - [GitLens](https://github.com/eamodio/vscode-gitlens) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)) Supercharge the Git capabilities built into Visual Studio Code
+  - [GitHub Pull Requests](https://github.com/Microsoft/vscode-pull-request-github) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)) GitHub Pull Requests and Issues
+  - [Markdown All in One](https://github.com/yzhang-gh/vscode-markdown) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)) All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)
+  - [Jira and Bitbucket](https://bitbucket.org/atlassianlabs/atlascode.git/src) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=Atlassian.atlascode)) Connect to Jira and Bitbucket
+  - [CSS Peek](https://github.com/pranaygp/vscode-css-peek) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)) Peek into CSS
+  - [C++](https://github.com/Microsoft/vscode-cpptools) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)) C/C++ IntelliSense, debugging, and code browsing.
+  - [C#](https://github.com/OmniSharp/omnisharp-vscode) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)) C# support for Visual Studio Code
+  - Java (Bundle): ([Marketplace](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)) Java Support
+  - [Instant Markdown](https://github.com/yzhang-gh/vscode-markdown) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)) All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)
+  - [Peacock](https://github.com/johnpapa/vscode-peacock) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)) Peacock makes it easy to switch between your editor theme colors
+  - [Python](https://github.com/Microsoft/vscode-python) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-python.python)) Python support for Visual Studio Code
+  - [Kotlin](https://github.com/fwcd/vscode-kotlin) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin)) Kotlin language support for Visual Studio Code
+  - [Docker](https://github.com/microsoft/vscode-docker) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)) Docker extension for Visual Studio Code
+  - [Settings Sync](https://github.com/shanalikhan/code-settings-sync) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)) Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
+  - [Sonarlint](https://github.com/SonarSource/sonarlint-vscode) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)) SonarLint for Visual Studio Code
+  - [Terraform](https://github.com/mauve/vscode-terraform) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=mauve.terraform)) Terraform for Visual Studio Code
+  - [Vim](https://github.com/VSCodeVim/Vim): ([Marketplace](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)) Vim emulation plugin for VS Code
+  - [VSCode Icons](https://github.com/vscode-icons/vscode-icons) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)) Icons for Visual Studio Code
 
 - AI Assistants:
   - [Cody](https://marketplace.visualstudio.com/items?itemName=sourcegraph.cody-ai) AI code assistant by the sourcegraph folks with a free tier, even has natural language code search
@@ -229,16 +254,10 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 ### Icons and Images
 - https://www.flaticon.com
 
-### Screen Recorders / Screen Caster
-- [ScreenToGif](https://github.com/NickeManarin/ScreenToGif) (https://www.screentogif.com/) Free screen recording tool for Windows
-- [SnagIt](https://www.techsmith.com/screen-capture.html) Fully-featured screen capture tool (PAID)
-
-### Comparison
-- [Beyond Compare](https://www.scootersoftware.com/download.php) Best file comparison tool (PAID)
-
 ### Operating Systems
 
-#### Arch Linux
+#### Linux
+- [Distrobox](https://github.com/distrobox/distrobox) (https://distrobox.it/) Tool to create isolated environments for development (uses Docker, Pacman)
 - [Pacman](https://gitlab.archlinux.org/archlinux/packaging/packages/pacman) (https://wiki.archlinux.org/index.php/Pacman) Package manager for Arch Linux
 
 #### OSX
@@ -247,12 +266,12 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 #### Windows
 - [choco](https://github.com/chocolatey/choco) (https://chocolatey.org/install) Windows package manager
 
-### Interesting/Unsorted:
+### Interesting Reads:
 - https://www.barbarianmeetscoding.com/blog/2019/02/08/boost-your-coding-fu-with-vscode-and-vim
 - https://www.robertcooper.me/elegant-development-experience-with-zsh-and-hyper-terminal
 - https://www.maketecheasier.com/install-zsh-and-oh-my-zsh-windows10/
 - https://www.labnol.org/internet/useful-tools-for-programmers/29227/- https://medium.com/@ssharizal/hyper-js-oh-my-zsh-as-ubuntu-on-windows-wsl-terminal-8bf577cdbd97
-- https://github.com/athityakumar/colorls
+- https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769
 	
 ### Web Tools
 
