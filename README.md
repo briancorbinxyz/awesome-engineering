@@ -33,6 +33,8 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [node-chatgpt-api](https://github.com/waylaidwanderer/node-chatgpt-api) Interact with ChatGPT on CLI or over REST
 - LLMs:
   - [Ollama](https://github.com/ollama/ollama) Run large language models locally (https://ollama.com/download)
+- Frameworks:
+  - [Langchain](https://github.com/langchain-ai/langchain) Language model training framework
 
 ### Coding/CLI Fonts
 - [Operator Mono](https://github.com/keyding/Operator-Mono) Break from the norm, more interesting coding font (PAID)
@@ -284,6 +286,9 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [n8n](https://n8n.io/) Workflow Automation Tool (self-host)
 
+## Contributing
+
+Open in the sense of the 'O' in [SOLID](https://simple.wikipedia.org/wiki/SOLID_(object-oriented_design)) software engineering. i.e. "open" for extension, "closed" for modification! However, [suggestions welcome](https://freesuggestionbox.com/pub/zeolgfe)!
 
 ## Contributors
 
