@@ -145,6 +145,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [Cypress](https://github.com/cypress-io/cypress) (https://www.cypress.io/) Fast, easy and reliable testing for anything that runs in a browser.
 - UI:
   - [React](https://github.com/facebook/react) (https://reactjs.org/) A JavaScript library for building user interfaces
+  - [Svelte](https://github.com/sveltejs/svelte) (https://svelte.dev/) Cybernetically enhanced web apps (less verbosity than React - uses compiler)
 - CLI:
   - [Chalk](https://github.com/chalk/chalk) (https://www.npmjs.com/package/chalk) Terminal string styling done right
 	
@@ -182,6 +183,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [Anki CozmoSDK](https://github.com/anki/cozmo-python-sdk) (https://data.bit-bots.de/cozmo_sdk_doc/cozmosdk.anki.com/docs/index.html) Little robot - Cozmo SDK for python
   - [PyCozmo](https://github.com/zayfod/pycozmo) (https://pycozmo.readthedocs.io/en/stable/overview.html) Python SDK for the Cozmo robot in pure python
   - [PyATV](https://github.com/postlund/pyatv) (https://pyatv.dev/) Python library to interface with Apple TV
+  - [Crayons](https://github.com/MasterOdin/crayons) (https://pypi.org/project/crayons/) Terminal string styling for Python (built atop colorama)
 	
 ### EduTech
 
@@ -281,3 +283,8 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 ### Workflow Automation
 
 - [n8n](https://n8n.io/) Workflow Automation Tool (self-host)
+
+
+## Contributors
+
+[![awesome-engineering contributors](https://contrib.rocks/image?repo=briancorbinxyz/awesome-engineering&max=2000)](https://github.com/briancorbinxyz/awesome-engineering/graphs/contributors)
