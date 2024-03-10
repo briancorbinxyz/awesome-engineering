@@ -37,9 +37,15 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [Langchain](https://github.com/langchain-ai/langchain) Language model training framework
 
 ### Coding/CLI Fonts
-- [Operator Mono](https://github.com/keyding/Operator-Mono) Break from the norm, more interesting coding font (PAID)
-- [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) Nice clear coding font
-- [Fira Code](https://github.com/tonsky/FiraCode) Font with nice ligatures that makes your code more compact and readable
+
+- Favorites:
+  - [Operator Mono](https://github.com/keyding/Operator-Mono) Break from the norm, more interesting coding font (PAID)
+  - [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) Nice clear coding font
+  - [Fira Code](https://github.com/tonsky/FiraCode) Font with nice ligatures that makes your code more compact and readable
+  - [Hack](https://github.com/source-foundry/Hack) Font designed for source code
+- Lists:
+  - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) (https://www.nerdfonts.com) All the best fonts brought together in one place pre-patched for terminal with icons
+  - [Programming Fonts](https://github.com/braver/programmingfonts) (https://programmingfonts.org) All the best fonts brought together in one place and previewable
 
 ### Comparison
 - [Beyond Compare](https://www.scootersoftware.com/download.php) Best file comparison tool (PAID)
@@ -94,6 +100,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
        ```
        sudo ln -s "/Applications/Hyper.app/Contents/Resources/bin/hyper" /usr/local/bin/hyper
        ```
+- [Warp](https://www.warp.dev/) The terminal 'reimagined' - a real game changer for the age old terminal
 
 ### Terminal Tools
 
@@ -103,6 +110,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [fkill]() Cross-platform process killer
 - [thef*ck](https://github.com/nvbn/thefuck) Unfortunately named but super-useful for running the command you intended that just failed 
 - [colorls](https://github.com/athityakumar/colorls) Nice ls with colorful output
+- [lsd](https://github.com/lsd-rs/lsd) A Rust implementation of ls inspired by colorls
 
 ### UX
 
@@ -222,6 +230,16 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   ```
   brew install neovim
   ```
+  - Plugins:
+    - [Cody](https://github.com/sourcegraph/sg.nvim) (https://github.com/sourcegraph/cody) Code search/navigation and ai assistance plugin for NeoVim
+    - [Lazy](https://github.com/folke/lazy.nvim) (https://www.lazyvim.org/installation) Plugin/package manager for neovim
+    - [Lualine](https://github.com/nvim-lualine/lualine.nvim) (https://github.com/nvim-lualine/lualine.nvim) A blazing fast and easy to configure neovim statusline plugin written in pure lua
+    - [Mason](https://github.com/williamboman/mason.nvim) (https://github.com/nvim-lua/mason.nvim) Package manager for neovim for language servers, formatters
+    - [Nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) (https://github.com/neovim/nvim-lspconfig) Quickstart configurations for the Nvim LSP client
+    - [Nvim-cmp](https://github.com/hrsh7th/nvim-cmp) (https://github.com/hrsh7th/nvim-cmp) A completion plugin for neovim coded in Lua
+    - [Telescope](https://github.com/nvim-telescope/telescope.nvim) (https://github.com/nvim-telescope/telescope.nvim) Find, Filter, Preview, Pick. All lua, all the time.
+    - [Trouble](https://github.com/folke/trouble.nvim) (https://github.com/folke/trouble.nvim) A pretty list for showing diagnostics, references, telescope results, quickfix and location lists to help you solve all the trouble your code is causing
+    - [nVim Treesitter](https://github.com/nvim-treesitter/nvim-treesitter) (https://github.com/nvim-treesitter/nvim-treesitter) Neovim Treesitter configurations and abstraction layer for more advanced syntax highlighting
 
 #### Visual Studio
 - Themes:
@@ -280,6 +298,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - https://www.maketecheasier.com/install-zsh-and-oh-my-zsh-windows10/
 - https://www.labnol.org/internet/useful-tools-for-programmers/29227/- https://medium.com/@ssharizal/hyper-js-oh-my-zsh-as-ubuntu-on-windows-wsl-terminal-8bf577cdbd97
 - https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769
+- https://neovim.io/doc/user/nvim.html#nvim-from-vim
 	
 ### Web Tools
 
