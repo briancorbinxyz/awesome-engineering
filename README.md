@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-Personally curated and opinionated collection of awesome engineering, coding & setup links & useful some snippets for the productive engineer.
+Personally curated and opinionated collection of awesome engineering, coding & setup links & useful some snippets for the productive 10X engineer.
 
 ## Contents
 
@@ -101,7 +101,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
        ```
        sudo ln -s "/Applications/Hyper.app/Contents/Resources/bin/hyper" /usr/local/bin/hyper
        ```
-- [Warp](https://www.warp.dev/) The terminal 'reimagined' - a real game changer for the age old terminal
+- [Warp](https://www.warp.dev/) The terminal 'reimagined' - a real game changer for the age old terminal - terminal on steriods!
 
 ### Terminal Tools
 
@@ -130,6 +130,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 #### HTML/CSS
 
+- [Awesome HTML5](https://github.com/diegocard/awesome-html5)
 - Frameworks:
   - [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) (https://tailwindcss.com/) It's CSS but much faster to write!
     ```
@@ -148,6 +149,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 #### JavaScript/Typescript:
 	
+- [Awesome Javascript](https://github.com/sorrycc/awesome-javascript)
 - [NativeScript](https://github.com/NativeScript/NativeScript) (https://nativescript.org/) Build truly native iOS, Android and Progressive Web Apps with JavaScript
 - Repositories:
   - [npm](https://www.npmjs.com/): The package manager for JavaScript
@@ -162,6 +164,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 	
 #### Java
 	
+- [Awesome Java](https://github.com/akullpp/awesome-java)
 - [Guava](https://github.com/google/guava) (https://github.com/google/guava) Google's core Java libraries (especially useful pre-JDK17)
 - [Spring Boot](https://github.com/spring-projects/spring-boot) (https://spring.io/projects/spring-boot) Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run"
 - Testing:
@@ -176,6 +179,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 	
 #### Python
 
+- [Awesome Python](https://github.com/vinta/awesome-python)
 - [Wheel](https://github.com/pypa/wheel) (https://pythonwheels.com/) Build Python packages that work on Linux, Windows, and Mac
 - [Virtualenv](https://github.com/pypa/virtualenv) (https://virtualenv.pypa.io/en/latest/) Virtual Python Environment builder
 - [Pipenv](https://github.com/pypa/pipenv) (https://pipenv.pypa.io/en/latest/) Python Development Workflow for Humans
@@ -236,8 +240,9 @@ Personally curated and opinionated collection of awesome engineering, coding & s
     - [Lazy](https://github.com/folke/lazy.nvim) (https://www.lazyvim.org/installation) Plugin/package manager for neovim
     - [Lualine](https://github.com/nvim-lualine/lualine.nvim) (https://github.com/nvim-lualine/lualine.nvim) A blazing fast and easy to configure neovim statusline plugin written in pure lua
     - [Mason](https://github.com/williamboman/mason.nvim) (https://github.com/nvim-lua/mason.nvim) Package manager for neovim for language servers, formatters
+      - [terraform-lsp](https://github.com/hashicorp/terraform-lshttps://github.com) (https://github.com/hashicorp/terraform-ls) Terraform Language Server for Neovim
     - [Nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) (https://github.com/neovim/nvim-lspconfig) Quickstart configurations for the Nvim LSP client
-    - [Nvim-cmp](https://github.com/hrsh7th/nvim-cmp) (https://github.com/hrsh7th/nvim-cmp) A completion plugin for neovim coded in Lua
+    - [Oil](https://github.com/stevearc/oil.nvim) A file explorer that lets you edit your filesystem like a normal Neovim buffer
     - [Telescope](https://github.com/nvim-telescope/telescope.nvim) (https://github.com/nvim-telescope/telescope.nvim) Find, Filter, Preview, Pick. All lua, all the time.
     - [Trouble](https://github.com/folke/trouble.nvim) (https://github.com/folke/trouble.nvim) A pretty list for showing diagnostics, references, telescope results, quickfix and location lists to help you solve all the trouble your code is causing
     - [nVim Treesitter](https://github.com/nvim-treesitter/nvim-treesitter) (https://github.com/nvim-treesitter/nvim-treesitter) Neovim Treesitter configurations and abstraction layer for more advanced syntax highlighting
