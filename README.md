@@ -7,6 +7,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 ## Contents
 
 - [AI](#ai)
+- [Books](#books)
 - [Coding & CLI Fonts](#codingcli-fonts)
 - [Comparison](#comparison)
 - [Culture](#culture)
@@ -308,6 +309,74 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 ### Workflow Automation
 
 - [n8n](https://n8n.io/) Workflow Automation Tool (self-host)
+
+## Books
+
+- [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code)  by **'Uncle' Bob Martin** - As someone who was a self-taught programmer this was the first time I read a book (and watched a set of eccentric videos) that pulled me out of the mindset of *"my code is excellent, it never breaks, so I don't need to write tests for it and I love to write the complex code to try new things"*, to making functional code that works for the reader and not just the writer. Highly recommend undertanding clean code concepts and SOLID software engineering. NB: Java-centric.
+
+  <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1436202607i/3735293.jpg" width="150"/>
+  
+  > “Truth can only be found in one place: the code.”
+
+  > “So if you want to go fast, if you want to get done quickly, if you want your code to be easy to write, make it easy to read.”
+
+  > “One difference between a smart programmer and a professional programmer is that the professional understands that clarity is king. Professionals use their powers for good and write code that others can understand.”
+
+  > “First Law You may not write production code until you have written a failing unit test. Second Law You may not write more of a unit test than is sufficient to fail, and not compiling is failing. Third Law You may not write more production code than is sufficient to pass the currently failing test.”
+
+- [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.goodreads.com/book/show/85009.Design_Patterns) - Design patterns are a general reusable solution to common problems in software design. A lot of modern languages have first class (or standard library) support for some software design patterns these days but if you have to build them yourself, select the best one for a job, or have a common 'language' for system design features with colleagues, then this book is a good place to start. Don't reinvent the wheel.
+
+  <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348027904i/85009.jpg" width="150"/>
+
+  > “Design patterns should not be applied indiscriminately. Often they achieve flexibility and variability by introducing additional levels of indirection, and that can complicate a design and/or cost you some performance. A design pattern should only be applied when the flexibility it affords is actually needed.”
+
+- [Data Structures and Algorithms](https://www.goodreads.com/author/show/15693.Michael_T_Goodrich) by **Michael T Goodrich** - Books on data structures and algorithms - your basic recipes and building blocks for solving software engineering problems. Many data structures these are first class in modern languages but when you understand them in a more abstract way then you'll make the right decisions about which to use and when.
+
+  <div id="container" style="display: inline">
+    <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386920652i/27842.jpg" width="150"/><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1361147120i/13838796.jpg" width="150"/><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347939315i/7405645.jpg" width="150"/>
+  </div>
+
+- [The Pragmatic Programmer](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer) by **Andy Hunt** - The Pragmatic Programmer is a book about programming and software development. It is aimed at software developers who want to write better code and avoid common pitfalls.
+
+  <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1401432508i/4099.jpg" width="150"/>
+
+  > “Don't be a slave to history. Don't let existing code dictate future code. All code can be replaced if it is no longer appropriate. Even within one program, don't let what you've already done constrain what you do next -- be ready to refactor... This decision may impact the project schedule. The assumption is that the impact will be less than the cost of /not/ making the change.”
+
+  > “You Can't Write Perfect Software. Did that hurt? It shouldn't. Accept it as an axiom of life. Embrace it. Celebrate it. Because perfect software doesn't exist. No one in the brief history of computing has ever written a piece of perfect software. It's unlikely that you'll be the first. And unless you accept this as a fact, you'll end up wasting time and energy chasing an impossible dream.”
+
+  > “All software you write will be tested—if not by you and your team, then by the eventual users—so you might as well plan on testing it thoroughly.”
+
+  > “Kaizen" is a Japanese term that captures the concept of continuously making many small improvements.”
+
+- [Atomic Habits](https://www.goodreads.com/book/show/40121378-atomic-habits) by James Clear
+
+  <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655988385i/40121378.jpg" alt="Atomic Habits" width="150"/>
+
+  Speaking of "Kaizen", its meaning is change for the better or continuous improvement, an awesome career in engineering is basically an unwritten agreement to continuously learn. So if you don't love that then it's time for a career change! Atomic Habits show how small improvements (e.g. read two pages of a book/article daily) can compound over time and lead to large rewards. It's worth applying that to your learning process.
+
+  > “Every action you take is a vote for the type of person you wish to become. No single instance will transform your beliefs, but as the votes build up, so does the evidence of your new identity.”
+
+  > “The only way to become excellent is to be endlessly fascinated by doing the same thing over and over. You have to fall in love with boredom.”
+
+- [How to Work with (Almost) Anyone](https://www.goodreads.com/book/show/123051638-how-to-work-with-almost-anyone) by **Michael Bungay Stanier** - It's a fallacy that 'tech' is just about sitting down 'staring at a screen'. It's entirely possible to code in a silo but engineering is fundamentally a team sport. Whether it's collaborating on an API, a product, in a team, or asking for candid 360 feedback, or working with your manager, you'll find yourself in a situation where you need to work together. This book will help you to achieve your best possible relationship with your colleagues. (Print > Audiobook)
+
+  <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1678429415i/123051638.jpg" width="150"/>
+
+  > “The curse of competence traps you doing what you’re good at but not fulfilled by.”
+  
+  > “You do it well, so you don’t wholly trust others to do it. That’s the curse of competence.”
+
+  Alternatively, opt for understanding:
+
+- [Emotional Intelligence 2.0](https://www.goodreads.com/book/show/6486483-emotional-intelligence-2-0) by **Travis Bradberry & Jean Greaves** - Your IQ will only get you so far in this industry. Relationships count. Emotional intelligence is the ability to understand and manage your own and others' emotions.
+
+  <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328765863i/6486483.jpg" alt="Emotional Intelligence 2.0" width="150"/>
+
+  > “Emotional intelligence is your ability to recognize and understand emotions in yourself and others, and your ability to use this awareness to manage your behavior and relationships.”
+
+  > “The secret to winning this culture game is to treat others how they want to be treated, not how you would want to be treated.”
+
+  > “Some of the most challenging and stressful situations people face are at work. Conflicts at work tend to fester when people passively avoid problems, because people lack the skills needed to initiate a direct, yet constructive conversation. Conflicts at work tend to explode when people don’t manage their anger or frustration, and choose to take it out on other people. Relationship management gives you the skills you need to avoid both scenarios, and make the most out of every interaction you have with another person.” 
 
 ## Contributing
 
