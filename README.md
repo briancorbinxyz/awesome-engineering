@@ -25,6 +25,8 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 ---
 
+## Awesomeness
+
 ### AI
 
 - Chats:
