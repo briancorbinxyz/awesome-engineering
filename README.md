@@ -205,6 +205,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 #### IaC
 
   - [Terraform](https://github.com/hashicorp/terraform) (https://www.terraform.io/) Tool for building, changing, and versioning infrastructure
+    - [Terraform Modules](https://developer.hashicorp.com/terraform/tutorials/modules/pattern-module-creation)
 	
 ### EduTech
 
