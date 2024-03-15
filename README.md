@@ -32,6 +32,8 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - Chats:
   - [OpenAI](https://chat.openai.com/) AI Chatbot
   - [Claude](https://claude.ai/chats) AI Chatbot
+- Code Review:
+  [WhatTheDiff](https://whatthediff.ai/) AI Code Review and Changelogs
 - CLIs:
   - [node-chatgpt-api](https://github.com/waylaidwanderer/node-chatgpt-api) Interact with ChatGPT on CLI or over REST
 - LLMs:
@@ -318,6 +320,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 ### Workflow Automation
 
 - [n8n](https://n8n.io/) Workflow Automation Tool (self-host)
+- [Ansible](https://www.ansible.com/) Automation tool useful for internal automations, configuration, and setup
 
 ## Books
 
