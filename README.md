@@ -14,6 +14,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [Design](#design)
 - [Documentation](#documentation)
 - [EduTech](#edutech)
+- [External Tools](#external-tools)
 - [IDEs](#ides)
 - [Journaling and Knowledge Building](#journaling-and-knowledge-building)
 - [Languages](#languages)
@@ -55,9 +56,11 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [Programming Fonts](https://github.com/braver/programmingfonts) (https://programmingfonts.org) All the best fonts brought together in one place and previewable
 
 ### Comparison
+
 - [Beyond Compare](https://www.scootersoftware.com/download.php) Best file comparison tool (PAID)
 
 ### Culture
+
 - [The Hot Co.](https://shop.thehot.co/) Awesome coding journals / notebooks and more (shameless plug!)
 
 ### Design
@@ -66,10 +69,15 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [draw.io](https://www.draw.io/) Open source diagramming tool
 
 ### Documentation
+<<<<<<< HEAD
 - [devdocs.io](https://devdocs.io) API documentation for all popular programming languages and frameworks. Includes instant search and works offline too.
 - [aws command line](https://aws.amazon.com/cli/) Official AWS CLI documentation
+=======
 
-### Scaffoling
+- [devdocs.io](https://devdocs.io) — API documentation for all popular programming languages and frameworks. Includes instant search and works offline too.
+>>>>>>> 781a09b (Update README.md)
+
+### Scaffolding
 
 - [Cookiecutter](https://github.com/cookiecutter/cookiecutter) (https://cookiecutter.readthedocs.io/en/latest/) A command-line utility that creates projects from cookiecutters (project templates)
 - [Yeoman](https://github.com/yeoman/yo) (https://yeoman.io) A set of tools for automating the creation of projects, templates, boilerplates, modules and applications.
@@ -78,50 +86,58 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [Cmder](https://cmder.app) Console emulator for Windows
 - [Hyper](https://hyper.is/) Cross platform terminal replacement with plugins
+
   - Plugins ([Awesome](https://github.com/bnb/awesome-hyper?tab=readme-ov-file)):
-    - [hyperpower](https://www.npmjs.com/package/hyperpower) completely unecessary but fun cursor (Run: ```wow``` for extra craziness)
+
+    - [hyperpower](https://www.npmjs.com/package/hyperpower) completely unecessary but fun cursor (Run: `wow` for extra craziness)
+
       ```
       hyper i hyperpower
       ```
 
     - [hyper-pane](https://www.npmjs.com/package/hyper-pane) Pane navigation
+
       ```
       hyper i hyper-pane
       ```
 
     - [hyper-search](https://www.npmjs.com/package/hyper-search) Search the hyper terminal (Cmd/Ctrl-F)
+
       ```
       hyper i hyper-search
       ```
 
     - [hyper-tabs](https://www.npmjs.com/package/hyperterm-tabs): Let's you rearrange tabs by drag & dropping them.
+
       ```
       hyper i hyperterm-tabs
       ```
 
-    - [hyper-capture](https://www.npmjs.com/package/hyper-capture): Capture the output of hyper to a video file (Run: ```togglecapture``` to start)
+    - [hyper-capture](https://www.npmjs.com/package/hyper-capture): Capture the output of hyper to a video file (Run: `togglecapture` to start)
       ```
       hyper i hyper-capture
       ```
-    
+
   - Awesome:
+
     - [Awesome Hyper](https://github.com/bnb/awesome-hyper): Another curated collection of hyper links
 
   - Snippets:
 
-    - Fix the hyper command on OSX (if you're using ZSH): ```zsh: command not found: hyper```
-       ```
-       sudo ln -s "/Applications/Hyper.app/Contents/Resources/bin/hyper" /usr/local/bin/hyper
-       ```
+    - Fix the hyper command on OSX (if you're using ZSH): `zsh: command not found: hyper`
+      ```
+      sudo ln -s "/Applications/Hyper.app/Contents/Resources/bin/hyper" /usr/local/bin/hyper
+      ```
+
 - [Warp](https://www.warp.dev/) The terminal 'reimagined' - a real game changer for the age old terminal - terminal on steriods!
 
 ### Terminal Tools
 
 - [httpie](https://httpie.org/) Alternative for cURL, wget
-- [jq](https://github.com/jqlang/jq) Command-line JSON processor 
+- [jq](https://github.com/jqlang/jq) Command-line JSON processor
 - [yq](https://github.com/kislyuk/yq) Command-line YAML processor (Also installs xq for XML and tomlq for TOML)
 - [fkill]() Cross-platform process killer
-- [thef*ck](https://github.com/nvbn/thefuck) Unfortunately named but super-useful for running the command you intended that just failed 
+- [thef\*ck](https://github.com/nvbn/thefuck) Unfortunately named but super-useful for running the command you intended that just failed
 - [colorls](https://github.com/athityakumar/colorls) Nice ls with colorful output
 - [lsd](https://github.com/lsd-rs/lsd) A Rust implementation of ls inspired by colorls
 
@@ -131,6 +147,10 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [Balsamiq](https://balsamiq.com/) Wireframing tool (PAID)
 - [Axure](https://www.axure.com/) UI/UX design tool (PAID)
 - [Figma](https://www.figma.com/) UI/UX design tool (PAID)
+
+### External Tools
+
+- [Sourcegraph](https://sourcegraph.com/) Code search and navigation tool (PAID)
 
 ### CIT
 
@@ -144,26 +164,33 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [Awesome HTML5](https://github.com/diegocard/awesome-html5)
 - Frameworks:
+
   - [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) (https://tailwindcss.com/) It's CSS but much faster to write!
-    ```
+
+    ```bash
     npm install -D tailwindcss
     npx tailwindcss init
     ```
+
   - [UI Kit](https://github.com/uikit/uikit) (https://getuikit.com/docs/slideshow) Clean and simple web UI framework
-    ```
+
+    ```bash
     npm i uikit
     ```
+
   - [Bootstrap](https://github.com/twbs/bootstrap) (https://getbootstrap.com/) World's most popular grid system framework, pretty easy to use (v 5 ditched JQuery)
     ```
     npm i bootstrap
     ```
+
 - In-browser UI editor: https://www.codeply.com
 
 #### JavaScript/Typescript:
-	
+
 - [Awesome Javascript](https://github.com/sorrycc/awesome-javascript)
 - [NativeScript](https://github.com/NativeScript/NativeScript) (https://nativescript.org/) Build truly native iOS, Android and Progressive Web Apps with JavaScript
 - Repositories:
+
   - [npm](https://www.npmjs.com/): The package manager for JavaScript
 
 - Testing:
@@ -173,9 +200,9 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [Svelte](https://github.com/sveltejs/svelte) (https://svelte.dev/) Cybernetically enhanced web apps (less verbosity than React - uses compiler)
 - CLI:
   - [Chalk](https://github.com/chalk/chalk) (https://www.npmjs.com/package/chalk) Terminal string styling done right
-	
+
 #### Java
-	
+
 - [Awesome Java](https://github.com/akullpp/awesome-java)
 - [Guava](https://github.com/google/guava) (https://github.com/google/guava) Google's core Java libraries (especially useful pre-JDK17)
 - [Spring Boot](https://github.com/spring-projects/spring-boot) (https://spring.io/projects/spring-boot) Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run"
@@ -188,7 +215,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [Selenium](https://github.com/SeleniumHQ/selenium) (https://www.selenium.dev/) Browser automation framework ideal for testing
 - Reactive: (https://www.reactivemanifesto.org/)
   - [RxJava](https://github.com/ReactiveX/RxJava) (https://github.com/ReactiveX/RxJava/wiki) Reactive Extensions for the JVM
-	
+
 #### Python
 
 - [Awesome Python](https://github.com/vinta/awesome-python)
@@ -202,7 +229,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [Black](https://github.com/psf/black) (https://black.readthedocs.io/en/stable/) The uncompromising Python code formatter
 - [Pandas](https://github.com/pandas-dev/pandas) (https://pandas.pydata.org/) Data analysis and manipulation tool
 - [Scikit-learn](https://github.com/scikit-learn/scikit-learn) (https://scikit-learn.org/stable/) Machine learning library for Python
-- [PyTorch](https://github.com/pytorch/pytorch) (https://pytorch.org/) an open source machine learning (ML) framework based on the Python for Deep Learning 
+- [PyTorch](https://github.com/pytorch/pytorch) (https://pytorch.org/) an open source machine learning (ML) framework based on the Python for Deep Learning
 - [Taichi](https://github.com/taichi-dev/taichi) (https://docs.taichi.graphics/) Python-based scientific computing uses JIT compilation to offload the Python source code to native GPU or CPU instructions for performance
 - [Requests](https://github.com/psf/requests) (https://requests.readthedocs.io/en/master/) Python HTTP Requests for Humans
 - [Cookiecutter](https://github.com/cookiecutter/cookiecutter) (https://cookiecutter.readthedocs.io/en/latest/) A command-line utility that creates projects from cookiecutters (project templates)
@@ -211,17 +238,17 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [PyCozmo](https://github.com/zayfod/pycozmo) (https://pycozmo.readthedocs.io/en/stable/overview.html) Python SDK for the Cozmo robot in pure python
   - [PyATV](https://github.com/postlund/pyatv) (https://pyatv.dev/) Python library to interface with Apple TV
   - [Crayons](https://github.com/MasterOdin/crayons) (https://pypi.org/project/crayons/) Terminal string styling for Python (built atop colorama)
-	
+
 #### IaC
 
-  - [Terraform](https://github.com/hashicorp/terraform) (https://www.terraform.io/) Tool for building, changing, and versioning infrastructure
-    - [Terraform Modules](https://developer.hashicorp.com/terraform/tutorials/modules/pattern-module-creation)
-	
+- [Terraform](https://github.com/hashicorp/terraform) (https://www.terraform.io/) Tool for building, changing, and versioning infrastructure
+  - [Terraform Modules](https://developer.hashicorp.com/terraform/tutorials/modules/pattern-module-creation)
+
 ### EduTech
 
 - [IntelliJ EduTools Plugin](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy):
-  - [Educator Start Guide](https://www.jetbrains.com/help/education/educator-start-guide.html): NB : JPGs, MP4s etc. work as well within IntelliJ 
-- [VideoScribe](https://www.videoscribe.co/en/) Create video diagrams / animated explainer videos for tutorials. 
+  - [Educator Start Guide](https://www.jetbrains.com/help/education/educator-start-guide.html): NB : JPGs, MP4s etc. work as well within IntelliJ
+- [VideoScribe](https://www.videoscribe.co/en/) Create video diagrams / animated explainer videos for tutorials.
 - [carbon.now.sh](https://carbon.now.sh/) Simulated/Generated CLI / Code Screenshots (online)
 - [carbon-now-cli](https://github.com/mixn/carbon-now-cli) Generated Code/Command line screenshots from the terminal
   - High quality animated screencasts:
@@ -229,7 +256,6 @@ Personally curated and opinionated collection of awesome engineering, coding & s
     - SVG: [svg-term-cli](https://github.com/marionebl/svg-term-cli) Share terminal sessions as razor-sharp animated SVG
 - [ScreenToGif](https://github.com/NickeManarin/ScreenToGif) (https://www.screentogif.com/) Free screen recording tool for Windows
 - [SnagIt](https://www.techsmith.com/screen-capture.html) Fully-featured screen capture tool (PAID)
-
 
 ### IDEs
 
@@ -241,7 +267,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [Vim](https://plugins.jetbrains.com/plugin/164-ideavim) Vim emulation plugin for IntelliJ
 - Themes:
   - [PaleNight (Material Theme)](https://plugins.jetbrains.com/plugin/8006-material-theme-ui) Material theme (esp. Palenight) is generally awesome
-	
+
 #### Vim
 
 - [NeoVim](https://github.com/neovim/neovim) (https://neovim.io/) Vim-fork focused on extensibility and usability
@@ -249,7 +275,11 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   brew install neovim
   ```
   - Plugins:
-    - [Cody](https://github.com/sourcegraph/sg.nvim) (https://github.com/sourcegraph/cody) Code search/navigation and ai assistance plugin for NeoVim
+    - AI Assistants:
+      - [Cody](https://github.com/sourcegraph/sg.nvim) (https://github.com/sourcegraph/cody) Code search/navigation and ai assistance plugin for NeoVim
+        - [Installation](https://sourcegraph.com/docs/cody/clients/install-neovim)
+      - [Codeium](https://github.com/Exafunction/codeium.vim) (https://codeium.com/) AI assistants for Vim
+        - [Installation](https://codeium.com/vim_tutorial?page=install)
     - [Lazy](https://github.com/folke/lazy.nvim) (https://www.lazyvim.org/installation) Plugin/package manager for neovim
     - [Lualine](https://github.com/nvim-lualine/lualine.nvim) (https://github.com/nvim-lualine/lualine.nvim) A blazing fast and easy to configure neovim statusline plugin written in pure lua
     - [Mason](https://github.com/williamboman/mason.nvim) (https://github.com/nvim-lua/mason.nvim) Package manager for neovim for language servers, formatters
@@ -259,8 +289,12 @@ Personally curated and opinionated collection of awesome engineering, coding & s
     - [Telescope](https://github.com/nvim-telescope/telescope.nvim) (https://github.com/nvim-telescope/telescope.nvim) Find, Filter, Preview, Pick. All lua, all the time.
     - [Trouble](https://github.com/folke/trouble.nvim) (https://github.com/folke/trouble.nvim) A pretty list for showing diagnostics, references, telescope results, quickfix and location lists to help you solve all the trouble your code is causing
     - [nVim Treesitter](https://github.com/nvim-treesitter/nvim-treesitter) (https://github.com/nvim-treesitter/nvim-treesitter) Neovim Treesitter configurations and abstraction layer for more advanced syntax highlighting
+    - [Colorschemes](https://github.com/topics/neovim-colorscheme):
+      - [Tokyonight](https://github.com/folke/tokyonight.nvim)
+      - [Pastel Night](https://github.com/pauchiner/pastelnight.nvim)
 
 #### Visual Studio
+
 - Themes:
   - [PaleNight (Material Theme)](https://marketplace.visualstudio.com/items?itemName=gjactat.palenightvs2017) Material theme (esp. Palenight) is generally awesome
 
@@ -268,6 +302,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [VS Code](https://github.com/microsoft/vscode) (https://code.visualstudio.com/) Code editor redefined and optimized for building and debugging modern applications
 - Plugins: [Awesome VS Code](https://github.com/viatsko/awesome-vscode)
+
   - [Polacode](https://github.com/octref/polacode) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)) Produce screenshots of code/files in VS Code
   - [GitLens](https://github.com/eamodio/vscode-gitlens) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)) Supercharge the Git capabilities built into Visual Studio Code
   - [GitHub Pull Requests](https://github.com/Microsoft/vscode-pull-request-github) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)) GitHub Pull Requests and Issues
@@ -292,6 +327,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [VSCode Icons](https://github.com/vscode-icons/vscode-icons) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)) Icons for Visual Studio Code
 
 - AI Assistants:
+
   - [Cody](https://marketplace.visualstudio.com/items?itemName=sourcegraph.cody-ai) AI code assistant by the sourcegraph folks with a free tier, even has natural language code search
   - [Codeium](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium) 'Free Forver' code assistant - intelligently generates code as you type comments or use chat
 
@@ -300,6 +336,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [Fairyfloss](https://marketplace.visualstudio.com/items?itemName=nopjmp.fairyfloss) About as far from dark mode themes as I am willing to go. Cozy much?
 
 ### Icons and Images
+
 - https://unsplash.com
 - https://www.flaticon.com
 
@@ -310,16 +347,20 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 ### Operating Systems
 
 #### Linux
+
 - [Distrobox](https://github.com/distrobox/distrobox) (https://distrobox.it/) Tool to create isolated environments for development (uses Docker, Pacman)
 - [Pacman](https://gitlab.archlinux.org/archlinux/packaging/packages/pacman) (https://wiki.archlinux.org/index.php/Pacman) Package manager for Arch Linux
 
 #### OSX
+
 - [Homebrew](https://github.com/Homebrew/brew) (https://brew.sh/) Package manager for OSX
 
 #### Windows
+
 - [choco](https://github.com/chocolatey/choco) (https://chocolatey.org/install) Windows package manager
 
 ### Interesting Reads:
+
 - https://www.barbarianmeetscoding.com/blog/2019/02/08/boost-your-coding-fu-with-vscode-and-vim
 - https://www.robertcooper.me/elegant-development-experience-with-zsh-and-hyper-terminal
 - https://www.maketecheasier.com/install-zsh-and-oh-my-zsh-windows10/
@@ -339,10 +380,10 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 ## Books
 
-- [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code)  by **'Uncle' Bob Martin** - As someone who was a self-taught programmer this was the first time I read a book (and watched a set of eccentric videos) that pulled me out of the mindset of *"my code is excellent, it never breaks, so I don't need to write tests for it and I love to write the complex code to try new things"*, to making functional code that works for the reader and not just the writer. Highly recommend undertanding clean code concepts and SOLID software engineering. NB: Java-centric.
+- [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code) by **'Uncle' Bob Martin** - As someone who was a self-taught programmer this was the first time I read a book (and watched a set of eccentric videos) that pulled me out of the mindset of _"my code is excellent, it never breaks, so I don't need to write tests for it and I love to write the complex code to try new things"_, to making functional code that works for the reader and not just the writer. Highly recommend undertanding clean code concepts and SOLID software engineering. NB: Java-centric.
 
   <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1436202607i/3735293.jpg" width="150"/>
-  
+
   > “Truth can only be found in one place: the code.”
 
   > “So if you want to go fast, if you want to get done quickly, if you want your code to be easy to write, make it easy to read.”
@@ -390,7 +431,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1678429415i/123051638.jpg" width="150"/>
 
   > “The curse of competence traps you doing what you’re good at but not fulfilled by.”
-  
+
   > “You do it well, so you don’t wholly trust others to do it. That’s the curse of competence.”
 
   Alternatively, opt for understanding:
@@ -403,12 +444,13 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
   > “The secret to winning this culture game is to treat others how they want to be treated, not how you would want to be treated.”
 
-  > “Some of the most challenging and stressful situations people face are at work. Conflicts at work tend to fester when people passively avoid problems, because people lack the skills needed to initiate a direct, yet constructive conversation. Conflicts at work tend to explode when people don’t manage their anger or frustration, and choose to take it out on other people. Relationship management gives you the skills you need to avoid both scenarios, and make the most out of every interaction you have with another person.” 
+  > “Some of the most challenging and stressful situations people face are at work. Conflicts at work tend to fester when people passively avoid problems, because people lack the skills needed to initiate a direct, yet constructive conversation. Conflicts at work tend to explode when people don’t manage their anger or frustration, and choose to take it out on other people. Relationship management gives you the skills you need to avoid both scenarios, and make the most out of every interaction you have with another person.”
 
 ## Contributing
 
-Open in the sense of the 'O' in [SOLID](https://simple.wikipedia.org/wiki/SOLID_(object-oriented_design)) software engineering. i.e. "open" for extension, "closed" for modification! However, [suggestions welcome](https://freesuggestionbox.com/pub/zeolgfe)!
+Open in the sense of the 'O' in [SOLID](<https://simple.wikipedia.org/wiki/SOLID_(object-oriented_design)>) software engineering. i.e. "open" for extension, "closed" for modification! However, [suggestions welcome](https://freesuggestionbox.com/pub/zeolgfe)!
 
 ## Contributors
 
 [![awesome-engineering contributors](https://contrib.rocks/image?repo=briancorbinxyz/awesome-engineering&max=2000)](https://github.com/briancorbinxyz/awesome-engineering/graphs/contributors)
+
