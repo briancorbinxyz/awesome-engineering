@@ -28,7 +28,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 ---
 
-## Awesomeness
+## Awesome Tools
 
 ### AI
 
@@ -378,6 +378,12 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [n8n](https://n8n.io/) Workflow Automation Tool (self-host)
 - [Ansible](https://www.ansible.com/) Automation tool useful for internal automations, configuration, and setup
 
+## Articles
+
+### Testing
+
+- [Types of Software Testing](https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing) Automated testing is a broad term that can refer to a wide variety of testing methods.
+
 ## Books
 
 ### Technical Skills
@@ -407,6 +413,8 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
   > “"Kaizen" is a Japanese term that captures the concept of continuously making many small improvements.”
 
+  > "Your ability to learn new things is your most important strategic asset."
+
 - [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.goodreads.com/book/show/85009.Design_Patterns) - Design patterns are a general reusable solution to common problems in software design. A lot of modern languages have first class (or standard library) support for some software design patterns these days but if you have to build them yourself, select the best one for a job, or have a common 'language' for system design features with colleagues, then this book is a good place to start. Don't reinvent the wheel.
 
   <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348027904i/85009.jpg" width="150"/>
@@ -418,6 +426,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   <div id="container" style="display: inline">
     <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386920652i/27842.jpg" width="150"/><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1361147120i/13838796.jpg" width="150"/><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347939315i/7405645.jpg" width="150"/>
   </div>
+
 
 ### Architectural Skills
 
@@ -434,7 +443,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
   <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655988385i/40121378.jpg" alt="Atomic Habits" width="150"/>
 
-  Speaking of "Kaizen", its meaning is change for the better or continuous improvement, an awesome career in engineering is basically an unwritten agreement to continuously learn. So if you don't love that then it's time for a career change! Atomic Habits show how small improvements (e.g. read two pages of a book/article daily) can compound over time and lead to large rewards. It's worth applying that to your learning process.
+  Speaking of "Kaizen", its meaning is change for the better or continuous improvement, an awesome career in engineering is basically an unwritten agreement to continuously learn. So if you don't love that then it's time for a career change! Atomic Habits show how small improvements (e.g. read two pages of a book/article daily) can compound over time and lead to large rewards. It's worth applying that to your learning process - pairs well with the advice in "The Pragmatic Programmer".
 
   > “Every action you take is a vote for the type of person you wish to become. No single instance will transform your beliefs, but as the votes build up, so does the evidence of your new identity.”
 
@@ -460,6 +469,26 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   > “The secret to winning this culture game is to treat others how they want to be treated, not how you would want to be treated.”
 
   > “Some of the most challenging and stressful situations people face are at work. Conflicts at work tend to fester when people passively avoid problems, because people lack the skills needed to initiate a direct, yet constructive conversation. Conflicts at work tend to explode when people don’t manage their anger or frustration, and choose to take it out on other people. Relationship management gives you the skills you need to avoid both scenarios, and make the most out of every interaction you have with another person.”
+
+### Archives
+
+A few books that were awesome for their time but less relevant as a full read for todays engineers - the quotes are still worth reading:
+
+- [Working Effectively with Legacy Code](https://www.goodreads.com/book/show/44919.Working_Effectively_with_Legacy_Code) by **Michael C Feathers** Oldie but a goodie. Not all software development is greenfield, when you find yourself working on a codebase that doesn't have tests, or sufficient tests/testing you may want to read this book! (At least, so long as AI can't explain the whole end to end architecture and implementation intent of the prior developers)
+
+  <div id="container" style="display: inline">
+    <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348627451i/44919.jpg" width="150"/>
+  </div>
+
+  > “Code without tests is bad code. It doesn't matter how well written it is; it doesn't matter how pretty or object-oriented or well-encapsulated it is. With tests, we can change the behavior of our code quickly and verifiably. Without them, we really don't know if our code is getting better or worse.”
+
+  > “Programming is the art of doing one thing at a time”
+
+  > “Big classes can hide too much. This question comes up over and over again from people new to unit testing: “How do I test private methods?” Many people spend a lot of time trying to figure out how to get around this problem, but, as I mentioned in an earlier chapter, the real answer is that if you have the urge to test a private method, the method shouldn’t be private; if making the method public bothers you, chances are, it is because it is part of a separate responsibility. It should be on another class.”
+
+  > “The brutal truth is that architecture is too important to be left exclusively to a few people. It’s fine to have an architect, but the key way to keep an architecture intact is to make sure that everyone on the team knows what it is and has a stake in it.”
+
+  > "Changes in a system can be made in two primary ways. I like to call them Edit and Pray and Cover and Modify...Unfortunately, Edit and Pray, is pretty much the industry standard. We carefully plan the changes, modify and run the system to ensure we didn’t break anything. We hope and pray that we got them right...The idea behind Cover and Modify, is that we work with a safety net when we make changes. Covering software means covering it with tests. When we have good set of tests, we can make changes and find out very quickly whether the effects were good or bad."
 
 ## Contributing
 
