@@ -380,6 +380,8 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 ## Books
 
+### Technical Skills
+
 - [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code) by **'Uncle' Bob Martin** - As someone who was a self-taught programmer this was the first time I read a book (and watched a set of eccentric videos) that pulled me out of the mindset of _"my code is excellent, it never breaks, so I don't need to write tests for it and I love to write the complex code to try new things"_, to making functional code that works for the reader and not just the writer. Highly recommend undertanding clean code concepts and SOLID software engineering. NB: Java-centric.
 
   <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1436202607i/3735293.jpg" width="150"/>
@@ -391,6 +393,19 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   > “One difference between a smart programmer and a professional programmer is that the professional understands that clarity is king. Professionals use their powers for good and write code that others can understand.”
 
   > “First Law You may not write production code until you have written a failing unit test. Second Law You may not write more of a unit test than is sufficient to fail, and not compiling is failing. Third Law You may not write more production code than is sufficient to pass the currently failing test.”
+
+
+- [The Pragmatic Programmer](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer) by **Andy Hunt and David Thomas** - The Pragmatic Programmer is a great book about owning your engineering / development career and focusing on regularly making small changes for continuous improvement. It is aimed at software developers who want to write better code and avoid common pitfalls. The writers were also involved in the creation of the agile manifesto.
+
+  <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1401432508i/4099.jpg" width="150"/>
+
+  > “Don't be a slave to history. Don't let existing code dictate future code. All code can be replaced if it is no longer appropriate. Even within one program, don't let what you've already done constrain what you do next -- be ready to refactor... This decision may impact the project schedule. The assumption is that the impact will be less than the cost of /not/ making the change.”
+
+  > “You Can't Write Perfect Software. Did that hurt? It shouldn't. Accept it as an axiom of life. Embrace it. Celebrate it. Because perfect software doesn't exist. No one in the brief history of computing has ever written a piece of perfect software. It's unlikely that you'll be the first. And unless you accept this as a fact, you'll end up wasting time and energy chasing an impossible dream.”
+
+  > “All software you write will be tested—if not by you and your team, then by the eventual users—so you might as well plan on testing it thoroughly.”
+
+  > “"Kaizen" is a Japanese term that captures the concept of continuously making many small improvements.”
 
 - [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.goodreads.com/book/show/85009.Design_Patterns) - Design patterns are a general reusable solution to common problems in software design. A lot of modern languages have first class (or standard library) support for some software design patterns these days but if you have to build them yourself, select the best one for a job, or have a common 'language' for system design features with colleagues, then this book is a good place to start. Don't reinvent the wheel.
 
@@ -404,17 +419,16 @@ Personally curated and opinionated collection of awesome engineering, coding & s
     <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386920652i/27842.jpg" width="150"/><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1361147120i/13838796.jpg" width="150"/><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347939315i/7405645.jpg" width="150"/>
   </div>
 
-- [The Pragmatic Programmer](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer) by **Andy Hunt** - The Pragmatic Programmer is a book about programming and software development. It is aimed at software developers who want to write better code and avoid common pitfalls.
+### Architectural Skills
 
-  <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1401432508i/4099.jpg" width="150"/>
+- [Microservices Patterns](https://www.goodreads.com/book/show/34372564-microservice-patterns) by **Chris Richardson** - Microservices Patterns is an excellent book about microservices architecture and design. It is aimed at software architects, developers, and system administrators who want to understand how to build scalable, reliable, and maintainable systems (See also [microservices.io](https://microservices.io/patterns/index.html)).
 
-  > “Don't be a slave to history. Don't let existing code dictate future code. All code can be replaced if it is no longer appropriate. Even within one program, don't let what you've already done constrain what you do next -- be ready to refactor... This decision may impact the project schedule. The assumption is that the impact will be less than the cost of /not/ making the change.”
+  <div id="container" style="display: inline">
+    <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1487751473i/34372564.jpg" width="150"/>
+  </div>
 
-  > “You Can't Write Perfect Software. Did that hurt? It shouldn't. Accept it as an axiom of life. Embrace it. Celebrate it. Because perfect software doesn't exist. No one in the brief history of computing has ever written a piece of perfect software. It's unlikely that you'll be the first. And unless you accept this as a fact, you'll end up wasting time and energy chasing an impossible dream.”
 
-  > “All software you write will be tested—if not by you and your team, then by the eventual users—so you might as well plan on testing it thoroughly.”
-
-  > “Kaizen" is a Japanese term that captures the concept of continuously making many small improvements.”
+### Soft Skills
 
 - [Atomic Habits](https://www.goodreads.com/book/show/40121378-atomic-habits) by James Clear
 
@@ -426,7 +440,8 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
   > “The only way to become excellent is to be endlessly fascinated by doing the same thing over and over. You have to fall in love with boredom.”
 
-- [How to Work with (Almost) Anyone](https://www.goodreads.com/book/show/123051638-how-to-work-with-almost-anyone) by **Michael Bungay Stanier** - It's a fallacy that 'tech' is just about sitting down 'staring at a screen'. It's entirely possible to code in a silo but engineering is fundamentally a team sport. Whether it's collaborating on an API, a product, in a team, or asking for candid 360 feedback, or working with your manager, you'll find yourself in a situation where you need to work together. This book will help you to achieve your best possible relationship with your colleagues. (Print > Audiobook)
+
+- [How to Work with (Almost) Anyone](https://www.goodreads.com/book/show/123051638-how-to-work-with-almost-anyone) by **Michael Bungay Stanier** - It's a fallacy that 'tech' is just about sitting down 'staring at a screen'. It's entirely possible to code in a silo but engineering is fundamentally a team sport. Whether it's collaborating on an API, a product, in a team, or asking for candid 360 feedback, or working with your manager, you'll find yourself in a situation where you need to work together. This book will help you to achieve your best possible relationship with your colleagues. Just bear in mind it does say 'almost' everyone!  (NB: Print > Audiobook)
 
   <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1678429415i/123051638.jpg" width="150"/>
 
