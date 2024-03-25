@@ -69,13 +69,8 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [draw.io](https://www.draw.io/) Open source diagramming tool
 
 ### Documentation
-<<<<<<< HEAD
 - [devdocs.io](https://devdocs.io) API documentation for all popular programming languages and frameworks. Includes instant search and works offline too.
 - [aws command line](https://aws.amazon.com/cli/) Official AWS CLI documentation
-=======
-
-- [devdocs.io](https://devdocs.io) — API documentation for all popular programming languages and frameworks. Includes instant search and works offline too.
->>>>>>> 781a09b (Update README.md)
 
 ### Scaffolding
 
