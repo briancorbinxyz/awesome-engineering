@@ -11,9 +11,11 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [Coding & CLI Fonts](#codingcli-fonts)
 - [Comparison](#comparison)
 - [Culture](#culture)
+- [Design](#design)
+- [Documentation](#documentation)
 - [EduTech](#edutech)
 - [IDEs](#ides)
-- [Documentation](#documentation)
+- [Journaling and Knowledge Building](#journaling-and-knowledge-building)
 - [Languages](#languages)
 - [Operating Systems](#operating-systems)
 - [Scaffolding](#scaffolding)
@@ -58,8 +60,14 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 ### Culture
 - [The Hot Co.](https://shop.thehot.co/) Awesome coding journals / notebooks and more (shameless plug!)
 
+### Design
+- [PlantUML](https://plantuml.com/) UML diagrams for documentation and design utilizing notation to generate them
+- [sequencediagram.org](https://sequencediagram.org/) Use notation to create sequence diagrams (similar to PlantUML)
+- [draw.io](https://www.draw.io/) Open source diagramming tool
+
 ### Documentation
-- [devdocs.io](https://devdocs.io) — API documentation for all popular programming languages and frameworks. Includes instant search and works offline too.
+- [devdocs.io](https://devdocs.io) API documentation for all popular programming languages and frameworks. Includes instant search and works offline too.
+- [aws command line](https://aws.amazon.com/cli/) Official AWS CLI documentation
 
 ### Scaffoling
 
@@ -268,15 +276,18 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [CSS Peek](https://github.com/pranaygp/vscode-css-peek) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)) Peek into CSS
   - [C++](https://github.com/Microsoft/vscode-cpptools) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)) C/C++ IntelliSense, debugging, and code browsing.
   - [C#](https://github.com/OmniSharp/omnisharp-vscode) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)) C# support for Visual Studio Code
+  - [Draw.io](https://github.com/hediet/vscode-drawio) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) draw.io diagramming support directly offline in VS Code
   - Java (Bundle): ([Marketplace](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)) Java Support
   - [Instant Markdown](https://github.com/yzhang-gh/vscode-markdown) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)) All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)
   - [Peacock](https://github.com/johnpapa/vscode-peacock) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)) Peacock makes it easy to switch between your editor theme colors
   - [Python](https://github.com/Microsoft/vscode-python) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-python.python)) Python support for Visual Studio Code
   - [Kotlin](https://github.com/fwcd/vscode-kotlin) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin)) Kotlin language support for Visual Studio Code
   - [Docker](https://github.com/microsoft/vscode-docker) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)) Docker extension for Visual Studio Code
+  - [PlantUML](https://github.com/qjebbs/vscode-plantuml) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)) PlantUML integration for Visual Studio Code
   - [Settings Sync](https://github.com/shanalikhan/code-settings-sync) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)) Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
   - [Sonarlint](https://github.com/SonarSource/sonarlint-vscode) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)) SonarLint for Visual Studio Code
   - [Terraform](https://github.com/mauve/vscode-terraform) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=mauve.terraform)) Terraform for Visual Studio Code
+  - [Hashicorp Terraform](https://github.com/hashicorp/terraform-vscode) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform)) Terraform for Visual Studio Code
   - [Vim](https://github.com/VSCodeVim/Vim): ([Marketplace](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)) Vim emulation plugin for VS Code
   - [VSCode Icons](https://github.com/vscode-icons/vscode-icons) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)) Icons for Visual Studio Code
 
@@ -291,6 +302,10 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 ### Icons and Images
 - https://unsplash.com
 - https://www.flaticon.com
+
+### Journaling and Knowledge Building
+- [Obsidian](https://obsidian.md/) ([GitHub](https://github.com/obsidianmd/obsidian-releases)) A powerful knowledge base that works on local Markdown files
+- [One Note](https://www.onenote.com/) Note-taking software designed for free-form information gathering and multi-user collaboration.
 
 ### Operating Systems
 
@@ -311,7 +326,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - https://www.labnol.org/internet/useful-tools-for-programmers/29227/- https://medium.com/@ssharizal/hyper-js-oh-my-zsh-as-ubuntu-on-windows-wsl-terminal-8bf577cdbd97
 - https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769
 - https://neovim.io/doc/user/nvim.html#nvim-from-vim
-	
+
 ### Web Tools
 
 - [Postman](https://www.postman.com/) REST Client and API Platform
