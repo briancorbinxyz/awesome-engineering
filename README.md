@@ -378,15 +378,25 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [n8n](https://n8n.io/) Workflow Automation Tool (self-host)
 - [Ansible](https://www.ansible.com/) Automation tool useful for internal automations, configuration, and setup
 
-## Articles
+## Resources
 
-### Testing
+### Articles
+
+#### Architecture
+
+- [Is OOP relevant today](https://medium.com/nerd-for-tech/is-oop-relevant-today-3b3fdc2d1ab2) Is OOP relevant today? Discusses the true meaning of OOP and its modern application
+- [Back of the Envelope Calculations](https://highscalability.com/google-pro-tip-use-back-of-the-envelope-calculations-to-choo/) Compare and contrast approachs to bulding architectures based on known latencies
+- [Consistent Hashing](https://highscalability.com/consistent-hashing-algorithm/) The path to using consistent hashing to solve the scalability of caches
+- [microservices.io](https://microservices.io/patterns/index.html) Microservice architectures and patterns including data management, transactional messaging, service discovery and others.
+- [How S3 Works](https://www.allthingsdistributed.com/2023/07/building-and-operating-a-pretty-big-storage-system.html?ref=highscalability.com) A dive into the inner-workings of S3
+
+#### Testing
 
 - [Types of Software Testing](https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing) Automated testing is a broad term that can refer to a wide variety of testing methods.
 
-## Books
+### Books
 
-### Technical Skills
+#### Engineering Skills
 
 - [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code) by **'Uncle' Bob Martin** - As someone who was a self-taught programmer this was the first time I read a book (and watched a set of eccentric videos) that pulled me out of the mindset of _"my code is excellent, it never breaks, so I don't need to write tests for it and I love to write the complex code to try new things"_, to making functional code that works for the reader and not just the writer. Highly recommend undertanding clean code concepts and SOLID software engineering. NB: Java-centric.
 
@@ -403,7 +413,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [The Pragmatic Programmer](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer) by **Andy Hunt and David Thomas** - The Pragmatic Programmer is a great book about owning your engineering / development career and focusing on regularly making small changes for continuous improvement. It is aimed at software developers who want to write better code and avoid common pitfalls. The writers were also involved in the creation of the agile manifesto.
 
-  <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1401432508i/4099.jpg" width="150"/>
+  <img src="https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/tpp20_hu7d9a813cf46675dfb7b1bf4930cee733_2802494_250x0_resize_q75_box.jpg" width="150"/>
 
   > “Don't be a slave to history. Don't let existing code dictate future code. All code can be replaced if it is no longer appropriate. Even within one program, don't let what you've already done constrain what you do next -- be ready to refactor... This decision may impact the project schedule. The assumption is that the impact will be less than the cost of /not/ making the change.”
 
@@ -428,16 +438,21 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   </div>
 
 
-### Architectural Skills
+#### Architectural Skills
 
-- [Microservices Patterns](https://www.goodreads.com/book/show/34372564-microservice-patterns) by **Chris Richardson** - Microservices Patterns is an excellent book about microservices architecture and design. It is aimed at software architects, developers, and system administrators who want to understand how to build scalable, reliable, and maintainable systems (See also [microservices.io](https://microservices.io/patterns/index.html)).
+- [Build Microservices](https://www.goodreads.com/book/show/22512931-building-microservices) - by **Sam Newman** by provides you with a firm grounding in the concepts while diving into current solutions for modeling, integrating, testing, deploying, and monitoring your own autonomous services microservices, whilst recognizing microservces are not the solution to everything. 
 
-  <div id="container" style="display: inline">
-    <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1487751473i/34372564.jpg" width="150"/>
-  </div>
+  <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1403186979i/22512931.jpg" width="150"/>
 
+- [Designing Data-Intensive Applications](https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications) by  **Martin Kleppmann** - Designing Data-Intensive Applications is a book about building scalable, reliable, and maintainable systems. It is aimed at software architects, developers, and system administrators who want to understand how to build scalable, reliable, and maintainable systems. Great for deep, foundational, and internals knowledge.
 
-### Soft Skills
+  <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1415816873i/23463279.jpg" width="150"/>
+
+  > “Data outlives code.”
+
+  > “ Consensus is one of the most important and fundamental problems in distributed computing. On the surface, it seems simple: informally, the goal is simply to get several nodes to agree on something.”
+
+#### Soft Skills
 
 - [Atomic Habits](https://www.goodreads.com/book/show/40121378-atomic-habits) by James Clear
 
@@ -470,15 +485,13 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
   > “Some of the most challenging and stressful situations people face are at work. Conflicts at work tend to fester when people passively avoid problems, because people lack the skills needed to initiate a direct, yet constructive conversation. Conflicts at work tend to explode when people don’t manage their anger or frustration, and choose to take it out on other people. Relationship management gives you the skills you need to avoid both scenarios, and make the most out of every interaction you have with another person.”
 
-### Archives
+#### Archives
 
 A few books that were awesome for their time but less relevant as a full read for todays engineers - the quotes are still worth reading:
 
 - [Working Effectively with Legacy Code](https://www.goodreads.com/book/show/44919.Working_Effectively_with_Legacy_Code) by **Michael C Feathers** Oldie but a goodie. Not all software development is greenfield, when you find yourself working on a codebase that doesn't have tests, or sufficient tests/testing you may want to read this book! (At least, so long as AI can't explain the whole end to end architecture and implementation intent of the prior developers)
 
-  <div id="container" style="display: inline">
-    <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348627451i/44919.jpg" width="150"/>
-  </div>
+  <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348627451i/44919.jpg" width="150"/>
 
   > “Code without tests is bad code. It doesn't matter how well written it is; it doesn't matter how pretty or object-oriented or well-encapsulated it is. With tests, we can change the behavior of our code quickly and verifiably. Without them, we really don't know if our code is getting better or worse.”
 
