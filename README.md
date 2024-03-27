@@ -510,7 +510,7 @@ A few books that were awesome for their time but less relevant as a full read fo
 
 ### Blogs
 
-- [The Code Influencer](https://briancorbinxyz.medium.com/) - Blog my Brian Corbin covering engineering and management
+- [The Code Influencer](https://briancorbinxyz.medium.com/) - Blog by Brian Corbin covering engineering and management
 - [The Pragmatic Engineer](https://blog.pragmaticengineer.com/) - A blog by Gergely Orosz
 
 ## Contributing
