@@ -8,6 +8,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [AI](#ai)
 - [Books](#books)
+- [Bloggoing](#blogging)
 - [Coding & CLI Fonts](#codingcli-fonts)
 - [Comparison](#comparison)
 - [Culture](#culture)
@@ -44,6 +45,10 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - Frameworks:
   - [Langchain](https://github.com/langchain-ai/langchain) Language model training framework
 
+### Blogging
+
+- [Jekyll](https://github.com/jekyll/jekyll) blog-aware, static site generator perfect for personal, project, or organization sites
+
 ### Coding/CLI Fonts
 
 - Favorites:
@@ -61,7 +66,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 ### Culture
 
-- [The Hot Co.](https://shop.thehot.co/) Awesome coding journals / notebooks and more (shameless plug!)
+- [The Hot Co.](https://shop.thehot.co/) Awesome coding journals / notebooks and more 
 
 ### Design
 - [PlantUML](https://plantuml.com/) UML diagrams for documentation and design utilizing notation to generate them
@@ -71,6 +76,8 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 ### Documentation
 - [devdocs.io](https://devdocs.io) API documentation for all popular programming languages and frameworks. Includes instant search and works offline too.
 - [aws command line](https://aws.amazon.com/cli/) Official AWS CLI documentation
+- [htmlreference.io](https://htmlreference.io/) HTML reference
+- [cssreference.io](https://cssreference.io/) CSS reference
 
 ### Scaffolding
 
@@ -90,7 +97,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
       hyper i hyperpower
       ```
 
-    - [hyper-pane](https://www.npmjs.com/package/hyper-pane) Pane navigation
+    - [hyper-pane](https://www.npmjs.com/package/hyper-pane) Pane navigatio
 
       ```
       hyper i hyper-pane
@@ -251,6 +258,9 @@ Personally curated and opinionated collection of awesome engineering, coding & s
     - SVG: [svg-term-cli](https://github.com/marionebl/svg-term-cli) Share terminal sessions as razor-sharp animated SVG
 - [ScreenToGif](https://github.com/NickeManarin/ScreenToGif) (https://www.screentogif.com/) Free screen recording tool for Windows
 - [SnagIt](https://www.techsmith.com/screen-capture.html) Fully-featured screen capture tool (PAID)
+- [CodeFlask](https://github.com/kazzkiq/CodeFlask) / [codeflask.io](https://kazzkiq.github.io/CodeFlask/) A micro code-editor for awesome web pages - allows you to add interactive code to web pages. 
+- [Prism](https://github.com/PrismJS/prism) [prismjs.com](https://prismjs.com/) Lightweight, robust, elegant syntax highlighting for websites
+ 
 
 ### IDEs
 
@@ -497,6 +507,11 @@ A few books that were awesome for their time but less relevant as a full read fo
   > “The brutal truth is that architecture is too important to be left exclusively to a few people. It’s fine to have an architect, but the key way to keep an architecture intact is to make sure that everyone on the team knows what it is and has a stake in it.”
 
   > "Changes in a system can be made in two primary ways. I like to call them Edit and Pray and Cover and Modify...Unfortunately, Edit and Pray, is pretty much the industry standard. We carefully plan the changes, modify and run the system to ensure we didn’t break anything. We hope and pray that we got them right...The idea behind Cover and Modify, is that we work with a safety net when we make changes. Covering software means covering it with tests. When we have good set of tests, we can make changes and find out very quickly whether the effects were good or bad."
+
+### Blogs
+
+- [The Code Influencer](https://briancorbinxyz.medium.com/) - Blog my Brian Corbin covering engineering and management
+- [The Pragmatic Engineer](https://blog.pragmaticengineer.com/) - A blog by Gergely Orosz
 
 ## Contributing
 
