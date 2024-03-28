@@ -69,6 +69,11 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [The Hot Co.](https://shop.thehot.co/) Awesome coding journals / notebooks and more 
 
 ### Design
+- [Figma](https://www.figma.com/) The defacto online UX/prototyping tool
+- [Figjam](https://www.figma.com/templates/boards/figjam): Collaborative whiteboarding and meetings from the creators of Figma with great usability
+- [Lucidspark](https://lucidspark.com/) Collaborative tool / virtual whiteboard for visual planning and ideation, remote meetings, story mapping, and brainstorming
+- [Lucidchart](https://www.lucidchart.com/) Collaborative design tool for creating architectural diagrams and flowcharts
+- [Mermaid](https://mermaid-js.github.io/mermaid/#/) Markdown-like syntax for generating flowcharts, sequence diagrams, class diagrams, gantt charts and more
 - [PlantUML](https://plantuml.com/) UML diagrams for documentation and design utilizing notation to generate them
 - [sequencediagram.org](https://sequencediagram.org/) Use notation to create sequence diagrams (similar to PlantUML)
 - [draw.io](https://www.draw.io/) Open source diagramming tool
