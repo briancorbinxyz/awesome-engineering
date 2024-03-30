@@ -147,6 +147,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [thef\*ck](https://github.com/nvbn/thefuck) Unfortunately named but super-useful for running the command you intended that just failed
 - [colorls](https://github.com/athityakumar/colorls) Nice ls with colorful output
 - [lsd](https://github.com/lsd-rs/lsd) A Rust implementation of ls inspired by colorls
+- [zoxide](https://github.com/ajeetdsouza/zoxide) A smarter cd command, remembers which directories you use most frequently, so you can "jump" to them in just a few keystrokes
 
 ### UX
 
