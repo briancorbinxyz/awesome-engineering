@@ -157,7 +157,8 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [Balsamiq](https://balsamiq.com/) Wireframing tool (PAID)
 - [Axure](https://www.axure.com/) UI/UX design tool (PAID)
 - [Figma](https://www.figma.com/) UI/UX design tool (PAID)
-
+  - [figcomponents.com](https://www.figcomponents.com/) Curated figma components 
+  - [material.io](https://www.figma.com/community/file/1035203688168086460/material-3-design-kit) Material 3 design kit
 ### External Tools
 
 - [Sourcegraph](https://sourcegraph.com/) Code search and navigation tool (PAID)
