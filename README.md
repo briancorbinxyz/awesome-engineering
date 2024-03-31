@@ -83,6 +83,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [aws command line](https://aws.amazon.com/cli/) Official AWS CLI documentation
 - [htmlreference.io](https://htmlreference.io/) HTML reference
 - [cssreference.io](https://cssreference.io/) CSS reference
+- [components.gallery](https://components.gallery/) A collection of web component references and design systems
 
 ### Scaffolding
 
