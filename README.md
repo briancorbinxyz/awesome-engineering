@@ -94,6 +94,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [devdocs.io](https://devdocs.io) API documentation for all popular programming languages and frameworks. Includes instant search and works offline too.
 - [aws command line](https://aws.amazon.com/cli/) Official AWS CLI documentation
 - [htmlreference.io](https://htmlreference.io/) HTML reference
+- [gleam stdlib](https://hexdocs.pm/gleam/gleam/stdlib.html) Gleam standard library documentation
 - [cssreference.io](https://cssreference.io/) CSS reference
 - [components.gallery](https://components.gallery/) A collection of web component references and design systems
 
