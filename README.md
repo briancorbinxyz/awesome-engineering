@@ -8,9 +8,10 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [AI](#ai)
 - [Books](#books)
-- [Bloggoing](#blogging)
+- [Blogging](#blogging)
 - [Coding & CLI Fonts](#codingcli-fonts)
 - [Comparison](#comparison)
+- [Courses](#courses)
 - [Culture](#culture)
 - [Design](#design)
 - [Documentation](#documentation)
@@ -64,6 +65,11 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [Beyond Compare](https://www.scootersoftware.com/download.php) Best file comparison tool (PAID)
 
+### Courses
+
+- [Exercism](https://exercism.io/) Learn to code by solving problems
+- [Project Euler](https://projecteuler.net/) Solve math problems using computational algorithms
+
 ### Culture
 
 - [The Hot Co.](https://shop.thehot.co/) Awesome coding journals / notebooks and more 
@@ -77,6 +83,12 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [PlantUML](https://plantuml.com/) UML diagrams for documentation and design utilizing notation to generate them
 - [sequencediagram.org](https://sequencediagram.org/) Use notation to create sequence diagrams (similar to PlantUML)
 - [draw.io](https://www.draw.io/) Open source diagramming tool
+
+### Inspo
+
+- [codepen.io](https://codepen.io/) Code snippets, demos, and experiments for front-end web developers
+- [Dribble.com](https://dribbble.com/) Design inspiration
+- [siteinspire.com](https://www.siteinspire.com/) Website inspiration
 
 ### Documentation
 - [devdocs.io](https://devdocs.io) API documentation for all popular programming languages and frameworks. Includes instant search and works offline too.
@@ -213,6 +225,10 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - CLI:
   - [Chalk](https://github.com/chalk/chalk) (https://www.npmjs.com/package/chalk) Terminal string styling done right
 
+#### Gleam
+
+- [Awesome Gleam](https://github.com/gleam-lang/awesome-gleam)
+
 #### Java
 
 - [Awesome Java](https://github.com/akullpp/awesome-java)
@@ -326,6 +342,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [CSS Peek](https://github.com/pranaygp/vscode-css-peek) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)) Peek into CSS
   - [C++](https://github.com/Microsoft/vscode-cpptools) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)) C/C++ IntelliSense, debugging, and code browsing.
   - [C#](https://github.com/OmniSharp/omnisharp-vscode) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)) C# support for Visual Studio Code
+  - [Gleam](https://github.com/gleam-lang/vscode-gleam) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=Gleam.gleam)) Gleam language support for VS Code
   - [Draw.io](https://github.com/hediet/vscode-drawio) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) draw.io diagramming support directly offline in VS Code
   - Java (Bundle): ([Marketplace](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)) Java Support
   - [Instant Markdown](https://github.com/yzhang-gh/vscode-markdown) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)) All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)
