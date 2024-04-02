@@ -18,7 +18,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [EduTech](#edutech)
 - [External Tools](#external-tools)
 - [IDEs](#ides)
-- [Journaling and Knowledge Building](#journaling-and-knowledge-building)
+- [Journaling and Knowledge Management](#journaling-and-knowledge-management)
 - [Languages](#languages)
 - [Operating Systems](#operating-systems)
 - [Scaffolding](#scaffolding)
@@ -373,7 +373,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - https://unsplash.com
 - https://www.flaticon.com
 
-### Journaling and Knowledge Building
+### Journaling and Knowledge Management
 - [Obsidian](https://obsidian.md/) ([GitHub](https://github.com/obsidianmd/obsidian-releases)) A powerful knowledge base that works on local Markdown files
 - [One Note](https://www.onenote.com/) Note-taking software designed for free-form information gathering and multi-user collaboration.
 
