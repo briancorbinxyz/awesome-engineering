@@ -49,6 +49,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 ### Blogging
 
 - [Jekyll](https://github.com/jekyll/jekyll) blog-aware, static site generator perfect for personal, project, or organization sites
+- [Quartz](https://quartz.jzhao.xyz/) Self-publish your own blog, knowledge base, documentation, or any other type of markdown content
 
 ### Coding/CLI Fonts
 
@@ -422,6 +423,10 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [Consistent Hashing](https://highscalability.com/consistent-hashing-algorithm/) The path to using consistent hashing to solve the scalability of caches
 - [microservices.io](https://microservices.io/patterns/index.html) Microservice architectures and patterns including data management, transactional messaging, service discovery and others.
 - [How S3 Works](https://www.allthingsdistributed.com/2023/07/building-and-operating-a-pretty-big-storage-system.html?ref=highscalability.com) A dive into the inner-workings of S3
+
+#### Philosophy
+
+- [Learn in Public](https://www.swyx.io/learn-in-public) Whatever your thing is, make the thing you wish you had found when you were learning
 
 #### Testing
 
