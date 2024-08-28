@@ -22,11 +22,13 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [Languages](#languages)
 - [Operating Systems](#operating-systems)
 - [Scaffolding](#scaffolding)
+- [STEM](#stem)
+- [Testing](#testing)
 - [Terminal](#terminal)
 - [Terminal Tools](#terminal-tools)
 - [UX](#ux)
 - [Web Tools](#web-tools)
-- [Workflow Automation](workflow-automation)
+- [Workflow Automation](#workflow-automation)
 
 ---
 
@@ -94,10 +96,21 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 ### Documentation
 - [devdocs.io](https://devdocs.io) API documentation for all popular programming languages and frameworks. Includes instant search and works offline too.
 - [aws command line](https://aws.amazon.com/cli/) Official AWS CLI documentation
-- [htmlreference.io](https://htmlreference.io/) HTML reference
+- [mojo stdlib](https://docs.modular.com/mojo/stdlib) Mojo stand library reference documentation
 - [gleam stdlib](https://hexdocs.pm/gleam/gleam/stdlib.html) Gleam standard library documentation
 - [cssreference.io](https://cssreference.io/) CSS reference
+- [htmlreference.io](https://htmlreference.io/) HTML reference
 - [components.gallery](https://components.gallery/) A collection of web component references and design systems
+- [aws command line](https://aws.amazon.com/cli/) Official AWS CLI documentation
+- [macOs command line](https://ss64.com/mac/)A-Z Index of the **Apple macOS** command line (macOS bash)
+- [linux command line](https://ss64.com/bash/) A-Z Index of the **Linux** command line: bash + utilities
+- [powershell command line](https://ss64.com/ps/) An A-Z Index of Windows **PowerShell** command
+
+#### References
+
+- [Keep a ChangeLog](https://keepachangelog.com/): A curated, chronologically ordered list of notable changes for each version of a project
+- [Reactive Manifesto](https://www.reactivemanifesto.org/): Building systems that are Responsive, Resilient, Elastic and Message Driven
+- 
 
 ### Scaffolding
 
@@ -163,8 +176,11 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [colorls](https://github.com/athityakumar/colorls) Nice ls with colorful output
 - [lsd](https://github.com/lsd-rs/lsd) A Rust implementation of ls inspired by colorls
 - [zoxide](https://github.com/ajeetdsouza/zoxide) A smarter cd command, remembers which directories you use most frequently, so you can "jump" to them in just a few keystrokes (needs fzf)
-- [fzf](https://github.com/junegunn/fzf) Command-line fuzzy finder
+- [fzf](https://github.com/junegunn/fzf) Command-line fuzzy finderx
 - [ripgrep](https://github.com/BurntSushi/ripgrep) A faster grep that respects .gitignore (filtering can be disabled with rg -uuu)
+- [hyperfine](https://github.com/sharkdp/hyperfine) A command-line benchmarking tool with live feedback, warmup capability, parameterization, and more.
+- [bat](https://github.com/sharkdp/bat) replacement for the 'cat' command with 'wings' including syntax highlighting and themes (e.g. can apply tokyonight)
+- [powerlevel10k](https://github.com/romkatv/powerlevel10k) A Zsh theme (and a bunch of other things)
 
 ### UX
 
@@ -234,8 +250,15 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 #### Java
 
 - [Awesome Java](https://github.com/akullpp/awesome-java)
+- [Gradle](https://github.com/gradle/gradle) (https://gradle.org/) Build tool designed to support build automation across multiple languages and platforms
+	- [gradle-changelog-plugin](https://github.com/JetBrains/gradle-changelog-plugin): Plugin for parsing and managing the Changelog in a "keep a changelog" style
+- Documentation:
+  - [Java Docs](https://docs.oracle.com/en/java/javase) Java SDK documentation
+  - [Java Almanac](https://javaalmanac.io/) Systematic collection of information about the history and the future of Java.
 - [Guava](https://github.com/google/guava) (https://github.com/google/guava) Google's core Java libraries (especially useful pre-JDK17)
 - [Spring Boot](https://github.com/spring-projects/spring-boot) (https://spring.io/projects/spring-boot) Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run"
+- [PicoCLI](https://github.com/remkop/picocli) (https://picocli.info/) A mighty tiny command line interface for Java
+- [Open-Rewrite](https://github.com/openrewrite) (https://docs.openrewrite.org/) Large-scale automated code refactoring and technical debt elimination ecosystem
 - Testing:
   - [assertj](https://github.com/joel-costigliola/assertj-core) (https://assertj.github.io/doc/) Assertion library for Java
   - [hamcrest](https://github.com/hamcrest/JavaHamcrest) (https://hamcrest.org/JavaHamcrest/) Matcher library for Java
@@ -243,8 +266,15 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [JUnit](https://github.com/junit-team/junit5) (https://junit.org/junit5/) Testing framework for Java
   - [Cucumber](https://github.com/cucumber/cucumber-jvm) (https://cucumber.io/) Behavior-Driven Development for Java
   - [Selenium](https://github.com/SeleniumHQ/selenium) (https://www.selenium.dev/) Browser automation framework ideal for testing
+  - [Playwright](https://github.com/microsoft/playwright) (https://playwright.dev/) Cross-language browser testing and automation framework
+  - [JMH](https://github.com/openjdk/jmh) (https://openjdk.org/projects/code-tools/jmh/) Java harness for building, running, and analyzing nano/micro/milli/macro benchmarks written in Java and other languages targeting the JVM.
 - Reactive: (https://www.reactivemanifesto.org/)
   - [RxJava](https://github.com/ReactiveX/RxJava) (https://github.com/ReactiveX/RxJava/wiki) Reactive Extensions for the JVM
+- Profiling and Analysis:
+	- [VisualVM](https://github.com/oracle/visualvm) (https://visualvm.github.io/) JVM profiling 
+	- [Eclipse Memory Analyzer](https://github.com/blacelle/org.eclipse.mat)(https://projects.eclipse.org/projects/tools.mat/) General purpose toolkit to analyze Java heap dumps
+  - [Spotless](https://github.com/diffplug/spotless) (https://plugins.gradle.org/plugin/com.diffplug.spotless) Keeps code formatting 'spotless'
+  - [Palantir](https://github.com/palantir/palantir-java-format) (https://github.com/palantir/palantir-java-format) Java code format extended with Google Style and spotless support
 
 #### Python
 
@@ -269,6 +299,17 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [PyATV](https://github.com/postlund/pyatv) (https://pyatv.dev/) Python library to interface with Apple TV
   - [Crayons](https://github.com/MasterOdin/crayons) (https://pypi.org/project/crayons/) Terminal string styling for Python (built atop colorama)
 
+#### Rust
+
+- [Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
+- [CBindGen](https://github.com/mozilla/cbindgen) creates C/C++11 headers for Rust libraries which expose a public C API
+- Gradle:
+	- [Rust Android Gradle Plugin](https://github.com/mozilla/rust-android-gradle) Cross compile Rust Cargo projects for Android / Java targets. 
+- [Learn Rust](https://www.rust-lang.org/learn) Rust Language books and tutorials
+- [Rust Documentation](https://doc.rust-lang.org/book/) Rust Language books and tutorials
+- [Rust by Example](https://doc.rust-lang.org/rust-by-example/) Rust by Example
+- [Inside Rust Blog](https://blog.rust-lang.org/) Rust Language blog
+
 #### IaC
 
 - [Terraform](https://github.com/hashicorp/terraform) (https://www.terraform.io/) Tool for building, changing, and versioning infrastructure
@@ -288,6 +329,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [SnagIt](https://www.techsmith.com/screen-capture.html) Fully-featured screen capture tool (PAID)
 - [CodeFlask](https://github.com/kazzkiq/CodeFlask) / [codeflask.io](https://kazzkiq.github.io/CodeFlask/) A micro code-editor for awesome web pages - allows you to add interactive code to web pages. 
 - [Prism](https://github.com/PrismJS/prism) [prismjs.com](https://prismjs.com/) Lightweight, robust, elegant syntax highlighting for websites
+- [Keycastr](https://github.com/keycastr/keycastr) Open source keystroke visualizer for OSX 
  
 
 ### IDEs
@@ -351,24 +393,31 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [Peacock](https://github.com/johnpapa/vscode-peacock) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)) Peacock makes it easy to switch between your editor theme colors
   - [Python](https://github.com/Microsoft/vscode-python) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-python.python)) Python support for Visual Studio Code
   - [Kotlin](https://github.com/fwcd/vscode-kotlin) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin)) Kotlin language support for Visual Studio Code
+  - [Todo Tree](https://github.com/Gruntfuggly/todo-tree) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)) Show TODO, FIXME, etc. comments in a tree view
   - [Docker](https://github.com/microsoft/vscode-docker) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)) Docker extension for Visual Studio Code
   - [PlantUML](https://github.com/qjebbs/vscode-plantuml) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)) PlantUML integration for Visual Studio Code
+  - [Rust](https://github.com/rust-lang/rust-analyzer) ([Marketpace](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)) Rust language support for Visual Studio Code
   - [Settings Sync](https://github.com/shanalikhan/code-settings-sync) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)) Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
   - [Sonarlint](https://github.com/SonarSource/sonarlint-vscode) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)) SonarLint for Visual Studio Code
   - [Terraform](https://github.com/mauve/vscode-terraform) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=mauve.terraform)) Terraform for Visual Studio Code
   - [Hashicorp Terraform](https://github.com/hashicorp/terraform-vscode) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform)) Terraform for Visual Studio Code
   - [Vim](https://github.com/VSCodeVim/Vim): ([Marketplace](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)) Vim emulation plugin for VS Code
   - [VSCode Icons](https://github.com/vscode-icons/vscode-icons) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)) Icons for Visual Studio Code
+  - [VisualVM](https://github.com/oracle/visualvm) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=oracle-labs-graalvm.visualvm-vscode)) Integrates the [VisualVM](https://visualvm.github.io/ "https://visualvm.github.io") monitoring and troubleshooting tool into Visual Studio Code
 
 - AI Assistants:
 
   - [Cody](https://marketplace.visualstudio.com/items?itemName=sourcegraph.cody-ai) AI code assistant by the sourcegraph folks with a free tier, even has natural language code search
-  - [Codeium](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium) 'Free Forver' code assistant - intelligently generates code as you type comments or use chat
+  - [Codeium](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium) 'Free Forever' code assistant - intelligently generates code as you type comments or use chat
 
 - Themes:
   - [PaleNight (Material Theme)](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme) Material theme (esp. Palenight) is generally awesome
   - [Fairyfloss](https://marketplace.visualstudio.com/items?itemName=nopjmp.fairyfloss) About as far from dark mode themes as I am willing to go. Cozy much?
 
+### Testing
+
+- [jepsen](https://github.com/jepsen-io) ([https://jepsen.io/](https://jepsen.io/)) "Trust but verify" - Putting distributed systems through their paces - an effort to improve the safety of distributed databases, queues, consensus systems, etc
+- [TestContainers](https://testcontainers.com/getting-started/) (https://testcontainers.com/) An open source framework for providing throwaway, lightweight instances of databases, message brokers, web browsers,
 ### Icons and Images
 
 - https://unsplash.com
@@ -402,6 +451,9 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769
 - https://neovim.io/doc/user/nvim.html#nvim-from-vim
 
+### STEM
+
+- [Arduino IDE](https://github.com/arduino/arduino-ide) an open-source electronics platform based on easy-to-use hardware and software
 ### Web Tools
 
 - [Postman](https://www.postman.com/) REST Client and API Platform
@@ -486,10 +538,15 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
   <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1415816873i/23463279.jpg" width="150"/>
 
-  > “Data outlives code.”
-
-  > “ Consensus is one of the most important and fundamental problems in distributed computing. On the surface, it seems simple: informally, the goal is simply to get several nodes to agree on something.”
-
+ > 	“Data outlives code.”
+  > 
+ > 	"Pretending that replication is synchronous when in fact it is asynchronous is a recipe for problems down the line."
+> 
+> 	"Working with distributed systems is fundamentally different from writing software on a single computer—and the main difference is that there are lots of new and exciting ways for things to go wrong"
+> 
+> 	“Consensus is one of the most important and fundamental problems in distributed computing. On the surface, it seems simple: informally, the goal is simply to get several nodes to agree on something.”
+> 
+> 	"Violations of timeliness are "eventual consistency," whereas violations of integrity are "perpetual inconsistency"
 #### Soft Skills
 
 - [Atomic Habits](https://www.goodreads.com/book/show/40121378-atomic-habits) by James Clear
@@ -544,6 +601,7 @@ A few books that were awesome for their time but less relevant as a full read fo
 ### Blogs
 
 - [The Code Influencer](https://briancorbinxyz.medium.com/) - Blog by Brian Corbin covering engineering and management
+- [The Life of Brian Corbin](https://thelifeof.briancorbin.xyz/)- [Engineering](https://thelifeof.briancorbin.xyz/tags/engineering) - A digital garden including articles and notes on engineering and management 
 - [The Pragmatic Engineer](https://blog.pragmaticengineer.com/) - A blog by Gergely Orosz
 
 ## Contributing
