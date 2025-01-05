@@ -105,65 +105,28 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [macOs command line](https://ss64.com/mac/)A-Z Index of the **Apple macOS** command line (macOS bash)
 - [linux command line](https://ss64.com/bash/) A-Z Index of the **Linux** command line: bash + utilities
 - [powershell command line](https://ss64.com/ps/) An A-Z Index of Windows **PowerShell** command
+- [protobuf.dev](https://protobuf.dev/) Reference for Protocol Buffers: language-neutral, platform-neutral extensible mechanisms for serializing structured data.
+-  [Truffle](https://www.graalvm.org/latest/graalvm-as-a-platform/language-implementation-framework/): An open-source library for building tools and programming languages implementations as interpreters for self-modifying Abstract Syntax Tree
+- [GraalVM](https://www.graalvm.org/latest/reference-manual/java/): Advanced JDK with AOT cmpilation
+- [GraalPy](https://www.graalvm.org/latest/reference-manual/python/): Python on the JVM / Native
+- [Tailwind Cheat Sheet](https://nerdcave.com/tailwind-cheat-sheet): Tailwind cheat sheets
 
 #### References
 
 - [Keep a ChangeLog](https://keepachangelog.com/): A curated, chronologically ordered list of notable changes for each version of a project
 - [Reactive Manifesto](https://www.reactivemanifesto.org/): Building systems that are Responsive, Resilient, Elastic and Message Driven
-- 
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/): A specification for adding human and machine readable meaning to commit messages
 
 ### Scaffolding
 
 - [Cookiecutter](https://github.com/cookiecutter/cookiecutter) (https://cookiecutter.readthedocs.io/en/latest/) A command-line utility that creates projects from cookiecutters (project templates)
 - [Yeoman](https://github.com/yeoman/yo) (https://yeoman.io) A set of tools for automating the creation of projects, templates, boilerplates, modules and applications.
+- [Gitpod](https://github.com/gitpod-io/gitpod) (https://www.gitpod.io) Developer platform for on-demand cloud development environments to create software faster and more securely
 
 ### Terminal
 
 - [Cmder](https://cmder.app) Console emulator for Windows
-- [Hyper](https://hyper.is/) Cross platform terminal replacement with plugins
-
-  - Plugins ([Awesome](https://github.com/bnb/awesome-hyper?tab=readme-ov-file)):
-
-    - [hyperpower](https://www.npmjs.com/package/hyperpower) completely unecessary but fun cursor (Run: `wow` for extra craziness)
-
-      ```
-      hyper i hyperpower
-      ```
-
-    - [hyper-pane](https://www.npmjs.com/package/hyper-pane) Pane navigatio
-
-      ```
-      hyper i hyper-pane
-      ```
-
-    - [hyper-search](https://www.npmjs.com/package/hyper-search) Search the hyper terminal (Cmd/Ctrl-F)
-
-      ```
-      hyper i hyper-search
-      ```
-
-    - [hyper-tabs](https://www.npmjs.com/package/hyperterm-tabs): Let's you rearrange tabs by drag & dropping them.
-
-      ```
-      hyper i hyperterm-tabs
-      ```
-
-    - [hyper-capture](https://www.npmjs.com/package/hyper-capture): Capture the output of hyper to a video file (Run: `togglecapture` to start)
-      ```
-      hyper i hyper-capture
-      ```
-
-  - Awesome:
-
-    - [Awesome Hyper](https://github.com/bnb/awesome-hyper): Another curated collection of hyper links
-
-  - Snippets:
-
-    - Fix the hyper command on OSX (if you're using ZSH): `zsh: command not found: hyper`
-      ```
-      sudo ln -s "/Applications/Hyper.app/Contents/Resources/bin/hyper" /usr/local/bin/hyper
-      ```
-
+- [Alacritty](https://alacritty.org/) Cross-platform OpenGL-based terminal
 - [Warp](https://www.warp.dev/) The terminal 'reimagined' - a real game changer for the age old terminal - terminal on steriods!
 
 ### Terminal Tools
@@ -181,6 +144,9 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [hyperfine](https://github.com/sharkdp/hyperfine) A command-line benchmarking tool with live feedback, warmup capability, parameterization, and more.
 - [bat](https://github.com/sharkdp/bat) replacement for the 'cat' command with 'wings' including syntax highlighting and themes (e.g. can apply tokyonight)
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k) A Zsh theme (and a bunch of other things)
+- [curl](https://github.com/curl/curl) not an alternative to cURL, cURL
+- [grpcurl](https://github.com/fullstorydev/grpcurl) like cURL but for gRPC
+- [websocat](https://github.com/vi/websocat) like cURL / netstat but for websockets
 
 ### UX
 
@@ -214,6 +180,8 @@ Personally curated and opinionated collection of awesome engineering, coding & s
     npx tailwindcss init
     ```
 
+- [Pines UI](https://github.com/thedevdojo/pines) (https://devdojo.com/pines) Set of UI elements that can be copy and pasted into any [Alpine](https://alpinejs.dev/) and [Tailwind](https://tailwindcss.com/) projects
+
   - [UI Kit](https://github.com/uikit/uikit) (https://getuikit.com/docs/slideshow) Clean and simple web UI framework
 
     ```bash
@@ -231,17 +199,75 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [Awesome Javascript](https://github.com/sorrycc/awesome-javascript)
 - [NativeScript](https://github.com/NativeScript/NativeScript) (https://nativescript.org/) Build truly native iOS, Android and Progressive Web Apps with JavaScript
+- [tiny-invariant](https://github.com/alexreardon/tiny-invariant) (https://www.npmjs.com/package/tiny-invariant) runtime type checks and type narrowing
 - Repositories:
 
   - [npm](https://www.npmjs.com/): The package manager for JavaScript
-
+- DB:
+	- [Prisma](https://github.com/prisma/prisma) (https://www.prisma.io) Full ORM for interacting with databases.
+	- [Kysely](https://github.com/kysely-org/kysely) (https://kysely.dev) Typescript SQL query builder
+	- [Drizzle](https://github.com/drizzle-team/drizzle-orm) (https://orm.drizzle.team) Lightweight and performant ORM for interacting with databases
 - Testing:
   - [Cypress](https://github.com/cypress-io/cypress) (https://www.cypress.io/) Fast, easy and reliable testing for anything that runs in a browser.
+  - [vitest](https://github.com/vitest-dev/vitest) (https://vitest.dev) Next generation testing framework powered by Vite
+
 - UI:
-  - [React](https://github.com/facebook/react) (https://reactjs.org/) A JavaScript library for building user interfaces
   - [Svelte](https://github.com/sveltejs/svelte) (https://svelte.dev/) Cybernetically enhanced web apps (less verbosity than React - uses compiler)
+  - [React](https://github.com/facebook/react) (https://reactjs.org/) A JavaScript library for building user interfaces
+  - [Remix](https://github.com/remix-run/remix) (https://remix.run) Full stack web framework - loads data in parallel on the server and sends a fully formed HTML document.
 - CLI:
   - [Chalk](https://github.com/chalk/chalk) (https://www.npmjs.com/package/chalk) Terminal string styling done right
+  - Formatting:
+	- [Prettier](https://github.com/prettier/prettier) (https://prettier.io) An opinionated code formatter
+- Linting:
+	- [ESLint](https://github.com/eslint/eslint) (https://eslint.org) Statically analyzes your code to quickly find problems
+- Animation:
+	- [React-Spring](https://github.com/pmndrs/react-spring) (https://www.react-spring.dev/) Naturally fluid physics-based animations
+	- [Framer-Motion](https://github.com/framer/motion) (https://www.framer.com/motion) Declarative production-ready animation and gesture library for React
+- [React-Router](https://github.com/remix-run/react-router) (https://reactrouter.com/) Declarative routing for React
+
+#### Python
+
+- [Awesome Python](https://github.com/vinta/awesome-python)
+- [FastAPI](https://github.com/tiangolo/fastapi) (https://fastapi.tiangolo.com/) Modern, fast web framework for building APIs with Python based on standard type hints
+  - [Tutorial](https://fastapi.tiangolo.com/tutorial/): Comprehensive guide to FastAPI features
+  - [fastapi.middleware.cors](https://fastapi.tiangolo.com/tutorial/cors/): Cross-Origin Resource Sharing support
+  - [fastapi.security](https://fastapi.tiangolo.com/tutorial/security/): Authentication and authorization
+  - [fastapi.openapi](https://fastapi.tiangolo.com/tutorial/metadata/): OpenAPI (Swagger) documentation
+  - [fastapi.websockets](https://fastapi.tiangolo.com/advanced/websockets/): WebSocket support
+  - [fastapi.staticfiles](https://fastapi.tiangolo.com/tutorial/static-files/): Static file serving
+  - [fastapi.testclient](https://fastapi.tiangolo.com/tutorial/testing/): Testing utilities
+  - [SQLModel](https://sqlmodel.tiangolo.com/): SQL databases in FastAPI with Python types
+  - [python-multipart](https://fastapi.tiangolo.com/tutorial/request-files/): File upload handling
+  - [python-jose](https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/): JWT token handling
+  - [passlib](https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/#password-hashing): Password hashing
+  - [pydantic](https://docs.pydantic.dev/): Data validation using Python type annotations
+  - [alembic](https://alembic.sqlalchemy.org/): Database migrations
+  - [celery](https://docs.celeryq.dev/): Distributed task queue
+  - [redis](https://redis.io/docs/): Caching and message broker
+- [Wheel](https://github.com/pypa/wheel) (https://pythonwheels.com/) Build Python packages that work on Linux, Windows, and Mac
+- [Virtualenv](https://github.com/pypa/virtualenv) (https://virtualenv.pypa.io/en/latest/) Virtual Python Environment builder
+- [Pipenv](https://github.com/pypa/pipenv) (https://pipenv.pypa.io/en/latest/) Python Development Workflow for Humans
+- [Poetry](https://github.com/python-poetry/poetry) (https://python-poetry.org/) Python dependency management and packaging made easy
+- [Pip](https://github.com/pypa/pip) (https://pip.pypa.io/en/stable/) Package manager for Python
+- [Autopep8](https://github.com/hhatto/autopep8) (https://pypi.org/project/autopep8/) AutoPEP8 is a tool that automatically formats Python code to conform to the PEP 8 style guide
+- [Pylint](https://github.com/PyCQA/pylint) (https://www.pylint.org/) Python code static checker
+- [Black](https://github.com/psf/black) (https://black.readthedocs.io/en/stable/) The uncompromising Python code formatter
+- [Pandas](https://github.com/pandas-dev/pandas) (https://pandas.pydata.org/) Data analysis and manipulation tool
+- [Scikit-learn](https://github.com/scikit-learn/scikit-learn) (https://scikit-learn.org/stable/) Machine learning library for Python
+- [PyTorch](https://github.com/pytorch/pytorch) (https://pytorch.org/) an open source machine learning (ML) framework based on the Python for Deep Learning
+- [Taichi](https://github.com/taichi-dev/taichi) (https://docs.taichi.graphics/) Python-based scientific computing uses JIT compilation to offload the Python source code to native GPU or CPU instructions for performance
+- [Requests](https://github.com/psf/requests) (https://requests.readthedocs.io/en/master/) Python HTTP Requests for Humans
+- [Cookiecutter](https://github.com/cookiecutter/cookiecutter) (https://cookiecutter.readthedocs.io/en/latest/) A command-line utility that creates projects from cookiecutters (project templates)
+- [Playwright](https://github.com/microsoft/playwright) (https://playwright.dev/) Cross-language browser testing and automation framework
+- [Pendulum](https://github.com/sdispater/pendulum) (https://pendulum.eustace.io) Python datetimes made easy
+- [Python-dotenv](https://github.com/theskumar/python-dotenv) (https://pypi.org/project/python-dotenv/) Read key-value pairs from a .env file and set them as environment variables
+- Homebrew / Niche Libraries:
+  - [Anki CozmoSDK](https://github.com/anki/cozmo-python-sdk) (https://data.bit-bots.de/cozmo_sdk_doc/cozmosdk.anki.com/docs/index.html) Little robot - Cozmo SDK for python
+  - [PyCozmo](https://github.com/zayfod/pycozmo) (https://pycozmo.readthedocs.io/en/stable/overview.html) Python SDK for the Cozmo robot in pure python
+  - [PyATV](https://github.com/postlund/pyatv) (https://pyatv.dev/) Python library to interface with Apple TV
+  - [Crayons](https://github.com/MasterOdin/crayons) (https://pypi.org/project/crayons/) Terminal string styling for Python (built atop colorama)
+
 
 #### Gleam
 
@@ -257,6 +283,27 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [Java Almanac](https://javaalmanac.io/) Systematic collection of information about the history and the future of Java.
 - [Guava](https://github.com/google/guava) (https://github.com/google/guava) Google's core Java libraries (especially useful pre-JDK17)
 - [Spring Boot](https://github.com/spring-projects/spring-boot) (https://spring.io/projects/spring-boot) Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run"
+
+  - [Starters](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#using.build-systems.starters) The complete catalog of Spring Boot starters
+  - [spring-boot-starter-actuator](https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html): production-ready features like health checks, metrics, and monitoring
+  - [spring-boot-starter-web](https://docs.spring.io/spring-boot/docs/current/reference/html/web.html): build web applications including RESTful with Spring MVC
+  - [spring-boot-starter-security](https://docs.spring.io/spring-boot/docs/current/reference/html/web.html#web.security): authentication and authorization support
+  - [spring-boot-starter-data-jpa](https://docs.spring.io/spring-boot/docs/current/reference/html/data.html#data.sql.jpa-and-spring-data): JPA persistence with Hibernate
+  - [spring-boot-starter-graphql](https://docs.spring.io/spring-graphql/docs/current/reference/html/): GraphQL support with Spring for GraphQL
+  - [spring-boot-starter-validation](https://docs.spring.io/spring-boot/docs/current/reference/html/io.html#io.validation): bean validation with Hibernate Validator
+  - [spring-boot-starter-test](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.testing): testing support with JUnit Jupiter, Hamcrest, and Mockito
+  - [spring-boot-starter-cache](https://docs.spring.io/spring-boot/docs/current/reference/html/io.html#io.caching): caching support
+  - [spring-boot-starter-oauth2-client](https://docs.spring.io/spring-boot/docs/current/reference/html/web.html#web.security.oauth2): OAuth2/OIDC authentication
+  - [spring-boot-starter-websocket](https://docs.spring.io/spring-framework/reference/web/websocket.html): WebSocket messaging support
+  - [spring-boot-starter-webflux](https://docs.spring.io/spring-framework/reference/web/webflux.html): reactive web applications with Spring WebFlux
+  - [spring-boot-starter-amqp](https://docs.spring.io/spring-boot/docs/current/reference/html/messaging.html#messaging.amqp): messaging with RabbitMQ
+  - [spring-boot-starter-data-redis](https://docs.spring.io/spring-data/redis/reference/redis.html): Redis support for caching and messaging
+  - [spring-cloud-starter](https://docs.spring.io/spring-cloud/docs/current/reference/html/): core Spring Cloud support for service discovery and config
+  - [spring-cloud-starter-netflix-eureka-client](https://docs.spring.io/spring-cloud-netflix/docs/current/reference/html/): service registration and discovery with Eureka
+  - [spring-cloud-starter-gateway](https://docs.spring.io/spring-cloud-gateway/docs/current/reference/html/): API gateway built on Spring WebFlux
+  - [spring-cloud-starter-circuitbreaker-resilience4j](https://docs.spring.io/spring-cloud-circuitbreaker/docs/current/reference/html/): circuit breaker pattern with Resilience4j
+  - [spring-boot-starter-data-elasticsearch](https://docs.spring.io/spring-data/elasticsearch/reference/elasticsearch.html): Elasticsearch integration
+  - [spring-boot-starter-quartz](https://docs.spring.io/spring-boot/docs/current/reference/html/io.html#io.quartz): sophisticated job scheduling
 - [PicoCLI](https://github.com/remkop/picocli) (https://picocli.info/) A mighty tiny command line interface for Java
 - [Open-Rewrite](https://github.com/openrewrite) (https://docs.openrewrite.org/) Large-scale automated code refactoring and technical debt elimination ecosystem
 - Testing:
@@ -267,14 +314,39 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [Cucumber](https://github.com/cucumber/cucumber-jvm) (https://cucumber.io/) Behavior-Driven Development for Java
   - [Selenium](https://github.com/SeleniumHQ/selenium) (https://www.selenium.dev/) Browser automation framework ideal for testing
   - [Playwright](https://github.com/microsoft/playwright) (https://playwright.dev/) Cross-language browser testing and automation framework
+  - [RestAssured](https://github.com/rest-assured/rest-assured) (https://rest-assured.io/) Java DSL for easy testing of REST services
   - [JMH](https://github.com/openjdk/jmh) (https://openjdk.org/projects/code-tools/jmh/) Java harness for building, running, and analyzing nano/micro/milli/macro benchmarks written in Java and other languages targeting the JVM.
 - Reactive: (https://www.reactivemanifesto.org/)
   - [RxJava](https://github.com/ReactiveX/RxJava) (https://github.com/ReactiveX/RxJava/wiki) Reactive Extensions for the JVM
 - Profiling and Analysis:
 	- [VisualVM](https://github.com/oracle/visualvm) (https://visualvm.github.io/) JVM profiling 
-	- [Eclipse Memory Analyzer](https://github.com/blacelle/org.eclipse.mat)(https://projects.eclipse.org/projects/tools.mat/) General purpose toolkit to analyze Java heap dumps
+	- [Eclipse Memory Analyzer](https://github.com/eclipse/mat)(https://projects.eclipse.org/projects/tools.mat/) General purpose toolkit to analyze Java heap dumps
   - [Spotless](https://github.com/diffplug/spotless) (https://plugins.gradle.org/plugin/com.diffplug.spotless) Keeps code formatting 'spotless'
   - [Palantir](https://github.com/palantir/palantir-java-format) (https://github.com/palantir/palantir-java-format) Java code format extended with Google Style and spotless support
+- [Quarkus](https://github.com/quarkusio/quarkus) (https://quarkus.io/guides) "Supersonic Subatomic Java" A Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards
+  - [Extensions](https://quarkus.io/extensions/) The complete catalog of Quarkus extensions for adding capabilities to your applications
+  - [quarkus-smallrye-health](https://quarkus.io/guides/smallrye-health): health check and liveness, readiness probes
+  - [quarkus-grpc](https://quarkus.io/guides/grpc): grpc support
+  - [quarkus-smallrye-openapi](https://quarkus.io/guides/openapi-swaggerui): openapi support (swagger)
+  - [quarkus-micrometer-registry-prometheus](https://quarkus.io/guides/micrometer): micrometer support for metrics through prometheus
+  - [quarkus-rest](https://quarkus.io/guides/rest): REST support
+  - [quarkus-arc](https://quarkus.io/guides/cdi): dependency injection
+  - [quarkus-junit5](https://quarkus.io/guides/getting-started-testing): testing support with junit (add io.restassured)
+  - [quarkus-websockets-next](https://quarkus.io/guides/websockets-next-reference): websocket support
+  - [quarkus-container-image-docker](https://quarkus.io/guides/container-image): container image building support with jib
+  - [quarkus-kubernetes](https://quarkus.io/guides/kubernetes): kubernetes manifest generation and native integration
+  - [quarkus-config](https://quarkus.io/guides/config-reference): externalized configuration support
+  - [quarkus-smallrye-fault-tolerance](https://quarkus.io/guides/smallrye-fault-tolerance): resilience patterns (circuit breaker, fallback, etc.)
+  - [quarkus-security](https://quarkus.io/guides/security): security features and role-based access control
+  - [quarkus-oidc](https://quarkus.io/guides/security-openid-connect): OpenID Connect authentication and authorization
+  - [quarkus-hibernate-validator](https://quarkus.io/guides/validation): bean validation support
+  - [quarkus-scheduler](https://quarkus.io/guides/scheduler): task scheduling capabilities
+  - [quarkus-reactive-messaging](https://quarkus.io/guides/reactive-event-bus): event-driven messaging support
+  - [quarkus-cache](https://quarkus.io/guides/cache): application-level caching
+  - [quarkus-smallrye-graphql](https://quarkus.io/guides/smallrye-graphql): GraphQL endpoint development and client support
+  - [quarkus-stork](https://quarkus.io/guides/stork): service discovery and client-side load balancing
+- FFI:
+  - [jextract](https://github.com/openjdk/jextract): (https://github.com/openjdk/jextract/blob/master/doc/GUIDE.md) Tool which mechanically generates Java bindings from native library headers compatible with FFM API
 
 #### Python
 
@@ -309,6 +381,17 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [Rust Documentation](https://doc.rust-lang.org/book/) Rust Language books and tutorials
 - [Rust by Example](https://doc.rust-lang.org/rust-by-example/) Rust by Example
 - [Inside Rust Blog](https://blog.rust-lang.org/) Rust Language blog
+- Serialization:
+	- [serde](https://github.com/serde-rs/serde) ([serde](https://crates.io/crates/serde)): serialization/deserialization
+- Web:
+	- [tokio](https://github.com/tokio-rs/tokio) ([tokio](https://crates.io/crates/tokio)) - [Documentation](https://docs.rs/tokio/) - An event-driven, non-blocking I/O platform for writing asynchronous applications with Rust.
+	- [reqwest](https://github.com/seanmonstar/reqwest) ([reqwest](https://crates.io/crates/reqwest)) - [Documentation](https://docs.rs/reqwest/) - A convenient, higher-level HTTP client for making requests.
+	- [rayon](https://github.com/rayon-rs/rayon) ([rayon](https://crates.io/crates/rayon)) - [Documentation](https://docs.rs/rayon/) - A data parallelism library that simplifies converting sequential computations into parallel ones.
+	- [actix-web](https://github.com/actix/actix-web) ([actix-web](https://crates.io/crates/actix-web)) - [Documentation](https://actix.rs/) - A powerful, pragmatic, and extremely fast web framework for Rust.
+- Arduino:
+	- [embedded-hal](https://github.com/rust-embedded/embedded-hal) ([embedded-hal](https://crates.io/crates/embedded-hal)) - [Documentation](https://docs.rs/embedded-hal/) - A set of traits for writing embedded hardware drivers in Rust.
+	- [embedded-nal](https://github.com/rust-embedded/embedded-nal) ([embedded-nal](https://crates.io/crates/embedded-nal)) - [Documentation](https://docs.rs/embedded-nal/) - Network Abstraction Layer for embedded systems in Rust.
+	- [avr-rust](https://github.com/avr-rust/avr-rust) - [avr](https://crates.io/crates/avr) - [Documentation](https://docs.rs/avr/) - A Rust compiler for AVR microcontrollers, enabling Rust development on Arduino platforms.
 
 #### IaC
 
@@ -376,6 +459,8 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 #### VS Code
 
 - [VS Code](https://github.com/microsoft/vscode) (https://code.visualstudio.com/) Code editor redefined and optimized for building and debugging modern applications
+- VS Code Forks:
+  - [Cursor](https://github.com/getcursor/cursor) (https://www.cursor.sh/) AI-assisted coding
 - Plugins: [Awesome VS Code](https://github.com/viatsko/awesome-vscode)
 
   - [Polacode](https://github.com/octref/polacode) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)) Produce screenshots of code/files in VS Code
@@ -392,10 +477,14 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [Instant Markdown](https://github.com/yzhang-gh/vscode-markdown) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)) All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)
   - [Peacock](https://github.com/johnpapa/vscode-peacock) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)) Peacock makes it easy to switch between your editor theme colors
   - [Python](https://github.com/Microsoft/vscode-python) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-python.python)) Python support for Visual Studio Code
+  - [Prisma](https://github.com/prisma/language-tools) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma)) Adds syntax highlighting, formatting, auto-completion, jump-to-definition and linting for .prisma files.
   - [Kotlin](https://github.com/fwcd/vscode-kotlin) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin)) Kotlin language support for Visual Studio Code
+  - [TailwindCSS Intellisense](https://github.com/tailwindlabs/tailwindcss-intellisense) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)) Intelligent Tailwind CSS tooling (essential)
+  - [Tailwind Docs](https://github.com/austenc/vscode-tailwind-docs) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=austenc.tailwind-docs)) Go to Tailwind docs directly from the code editor
   - [Todo Tree](https://github.com/Gruntfuggly/todo-tree) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)) Show TODO, FIXME, etc. comments in a tree view
   - [Docker](https://github.com/microsoft/vscode-docker) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)) Docker extension for Visual Studio Code
   - [PlantUML](https://github.com/qjebbs/vscode-plantuml) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)) PlantUML integration for Visual Studio Code
+  - [Prettier](https://github.com/prettier/prettier-vscode) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)) Opinionated code formatter for JS./TS
   - [Rust](https://github.com/rust-lang/rust-analyzer) ([Marketpace](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)) Rust language support for Visual Studio Code
   - [Settings Sync](https://github.com/shanalikhan/code-settings-sync) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)) Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
   - [Sonarlint](https://github.com/SonarSource/sonarlint-vscode) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)) SonarLint for Visual Studio Code
@@ -404,6 +493,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [Vim](https://github.com/VSCodeVim/Vim): ([Marketplace](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)) Vim emulation plugin for VS Code
   - [VSCode Icons](https://github.com/vscode-icons/vscode-icons) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)) Icons for Visual Studio Code
   - [VisualVM](https://github.com/oracle/visualvm) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=oracle-labs-graalvm.visualvm-vscode)) Integrates the [VisualVM](https://visualvm.github.io/ "https://visualvm.github.io") monitoring and troubleshooting tool into Visual Studio Code
+  - [ESLint](https://github.com/Microsoft/vscode-eslint) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)) Integrate ESLint into VS Code
 
 - AI Assistants:
 
@@ -422,6 +512,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - https://unsplash.com
 - https://www.flaticon.com
+- https://flowbite.com/icons
 
 ### Journaling and Knowledge Management
 - [Obsidian](https://obsidian.md/) ([GitHub](https://github.com/obsidianmd/obsidian-releases)) A powerful knowledge base that works on local Markdown files
@@ -431,7 +522,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 #### Linux
 
-- [Distrobox](https://github.com/distrobox/distrobox) (https://distrobox.it/) Tool to create isolated environments for development (uses Docker, Pacman)
+- [Distrobox](https://github.com/89luca89/distrobox) (https://distrobox.it/) Tool to create isolated environments for development (uses Docker, Pacman)
 - [Pacman](https://gitlab.archlinux.org/archlinux/packaging/packages/pacman) (https://wiki.archlinux.org/index.php/Pacman) Package manager for Arch Linux
 
 #### OSX
@@ -447,7 +538,8 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - https://www.barbarianmeetscoding.com/blog/2019/02/08/boost-your-coding-fu-with-vscode-and-vim
 - https://www.robertcooper.me/elegant-development-experience-with-zsh-and-hyper-terminal
 - https://www.maketecheasier.com/install-zsh-and-oh-my-zsh-windows10/
-- https://www.labnol.org/internet/useful-tools-for-programmers/29227/- https://medium.com/@ssharizal/hyper-js-oh-my-zsh-as-ubuntu-on-windows-wsl-terminal-8bf577cdbd97
+- https://www.labnol.org/internet/useful-tools-for-programmers/29227/
+- https://medium.com/@ssharizal/hyper-js-oh-my-zsh-as-ubuntu-on-windows-wsl-terminal-8bf577cdbd97
 - https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769
 - https://neovim.io/doc/user/nvim.html#nvim-from-vim
 
@@ -458,6 +550,8 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [Postman](https://www.postman.com/) REST Client and API Platform
 - [Postman Interceptor](https://chromewebstore.google.com/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo) Capture requests from any website and send them to Postman Client
+- [GiftOfSpeed.com](https://www.giftofspeed.com) Help you get the speed of your website to the highest level possible
+- [Lighthouse](https://github.com/GoogleChrome/lighthouse) Automated auditing, performance metrics, and best practices for the web
 
 ### Workflow Automation
 
@@ -503,7 +597,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [The Pragmatic Programmer](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer) by **Andy Hunt and David Thomas** - The Pragmatic Programmer is a great book about owning your engineering / development career and focusing on regularly making small changes for continuous improvement. It is aimed at software developers who want to write better code and avoid common pitfalls. The writers were also involved in the creation of the agile manifesto.
 
-  <img src="https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/tpp20_hu7d9a813cf46675dfb7b1bf4930cee733_2802494_250x0_resize_q75_box.jpg" width="150"/>
+  <img src="https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/tpp20_hu11835544608601469686.jpg" width="150"/>
 
   > “Don't be a slave to history. Don't let existing code dictate future code. All code can be replaced if it is no longer appropriate. Even within one program, don't let what you've already done constrain what you do next -- be ready to refactor... This decision may impact the project schedule. The assumption is that the impact will be less than the cost of /not/ making the change.”
 
@@ -564,9 +658,9 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
   <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1678429415i/123051638.jpg" width="150"/>
 
-  > “The curse of competence traps you doing what you’re good at but not fulfilled by.”
+  > “The curse of competence traps you doing what you're good at but not fulfilled by.”
 
-  > “You do it well, so you don’t wholly trust others to do it. That’s the curse of competence.”
+  > “You do it well, so you don't wholly trust others to do it. That's the curse of competence.”
 
   Alternatively, opt for understanding:
 
@@ -578,11 +672,11 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
   > “The secret to winning this culture game is to treat others how they want to be treated, not how you would want to be treated.”
 
-  > “Some of the most challenging and stressful situations people face are at work. Conflicts at work tend to fester when people passively avoid problems, because people lack the skills needed to initiate a direct, yet constructive conversation. Conflicts at work tend to explode when people don’t manage their anger or frustration, and choose to take it out on other people. Relationship management gives you the skills you need to avoid both scenarios, and make the most out of every interaction you have with another person.”
+  > “Some of the most challenging and stressful situations people face are at work. Conflicts at work tend to fester when people passively avoid problems, because people lack the skills needed to initiate a direct, yet constructive conversation. Conflicts at work tend to explode when people don't manage their anger or frustration, and choose to take it out on other people. Relationship management gives you the skills you need to avoid both scenarios, and make the most out of every interaction you have with another person.”
 
 #### Archives
 
-A few books that were awesome for their time but less relevant as a full read for todays engineers - the quotes are still worth reading:
+A few books that were awesome for their time but less relevant as a full read for todays engineers - the quotes are still worth reading since they're timeless:
 
 - [Working Effectively with Legacy Code](https://www.goodreads.com/book/show/44919.Working_Effectively_with_Legacy_Code) by **Michael C Feathers** Oldie but a goodie. Not all software development is greenfield, when you find yourself working on a codebase that doesn't have tests, or sufficient tests/testing you may want to read this book! (At least, so long as AI can't explain the whole end to end architecture and implementation intent of the prior developers)
 
@@ -592,11 +686,11 @@ A few books that were awesome for their time but less relevant as a full read fo
 
   > “Programming is the art of doing one thing at a time”
 
-  > “Big classes can hide too much. This question comes up over and over again from people new to unit testing: “How do I test private methods?” Many people spend a lot of time trying to figure out how to get around this problem, but, as I mentioned in an earlier chapter, the real answer is that if you have the urge to test a private method, the method shouldn’t be private; if making the method public bothers you, chances are, it is because it is part of a separate responsibility. It should be on another class.”
+  > “Big classes can hide too much. This question comes up over and over again from people new to unit testing: “How do I test private methods?” Many people spend a lot of time trying to figure out how to get around this problem, but, as I mentioned in an earlier chapter, the real answer is that if you have the urge to test a private method, the method shouldn't be private; if making the method public bothers you, chances are, it is because it is part of a separate responsibility. It should be on another class.”
 
-  > “The brutal truth is that architecture is too important to be left exclusively to a few people. It’s fine to have an architect, but the key way to keep an architecture intact is to make sure that everyone on the team knows what it is and has a stake in it.”
+  > “The brutal truth is that architecture is too important to be left exclusively to a few people. It's fine to have an architect, but the key way to keep an architecture intact is to make sure that everyone on the team knows what it is and has a stake in it.”
 
-  > "Changes in a system can be made in two primary ways. I like to call them Edit and Pray and Cover and Modify...Unfortunately, Edit and Pray, is pretty much the industry standard. We carefully plan the changes, modify and run the system to ensure we didn’t break anything. We hope and pray that we got them right...The idea behind Cover and Modify, is that we work with a safety net when we make changes. Covering software means covering it with tests. When we have good set of tests, we can make changes and find out very quickly whether the effects were good or bad."
+  > "Changes in a system can be made in two primary ways. I like to call them Edit and Pray and Cover and Modify...Unfortunately, Edit and Pray, is pretty much the industry standard. We carefully plan the changes, modify and run the system to ensure we didn't break anything. We hope and pray that we got them right...The idea behind Cover and Modify, is that we work with a safety net when we make changes. Covering software means covering it with tests. When we have good set of tests, we can make changes and find out very quickly whether the effects were good or bad."
 
 ### Blogs
 
