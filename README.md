@@ -47,6 +47,8 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [Ollama](https://github.com/ollama/ollama) Run large language models locally (https://ollama.com/download)
 - Frameworks:
   - [Langchain](https://github.com/langchain-ai/langchain) Language model training framework
+- Skills:
+  - [skills.sh](https://skills.sh/) Open ecosystem by Vercel for enhancing AI agents (Claude Code, Cursor, Copilot, etc.) with specialized skills and best practices
 
 ### Blogging
 
