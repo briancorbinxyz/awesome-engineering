@@ -132,6 +132,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 ### Specification Driven Development (SDD)
 
 - [spec-kit](https://github.com/github/spec-kit) Toolkit to help you get started with Spec-Driven Development
+- [OpenSpec](https://github.com/Fission-AI/OpenSpec) Spec-driven development (SDD) for AI coding assistants
 
 ### Terminal
 
