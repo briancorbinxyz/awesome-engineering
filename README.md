@@ -494,6 +494,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [VSCode Icons](https://github.com/vscode-icons/vscode-icons) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)) Icons for Visual Studio Code
   - [VisualVM](https://github.com/oracle/visualvm) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=oracle-labs-graalvm.visualvm-vscode)) Integrates the [VisualVM](https://visualvm.github.io/ "https://visualvm.github.io") monitoring and troubleshooting tool into Visual Studio Code
   - [ESLint](https://github.com/Microsoft/vscode-eslint) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)) Integrate ESLint into VS Code
+  - [Swift](https://github.com/swiftlang/vscode-swift) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=swiftlang.swift-vscode)) Swift language support for VS Code including debugging, code completion, and package management
 
 - AI Assistants:
 
