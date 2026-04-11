@@ -62,7 +62,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 ### Coding/CLI Fonts
 
 - Favorites:
-  - [Operator Mono](https://github.com/keyding/Operator-Mono) Break from the norm, more interesting coding font (PAID)
+  - [Operator Mono](https://www.typography.com/fonts/operator/overview) Break from the norm, more interesting coding font (PAID)
   - [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) Nice clear coding font
   - [Fira Code](https://github.com/tonsky/FiraCode) Font with nice ligatures that makes your code more compact and readable
   - [Hack](https://github.com/source-foundry/Hack) Font designed for source code
@@ -85,7 +85,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 ### Design
 - [Figma](https://www.figma.com/) The defacto online UX/prototyping tool
-- [Figjam](https://www.figma.com/templates/boards/figjam): Collaborative whiteboarding and meetings from the creators of Figma with great usability
+- [Figjam](https://www.figma.com/figjam/): Collaborative whiteboarding and meetings from the creators of Figma with great usability
 - [Lucidspark](https://lucidspark.com/) Collaborative tool / virtual whiteboard for visual planning and ideation, remote meetings, story mapping, and brainstorming
 - [Lucidchart](https://www.lucidchart.com/) Collaborative design tool for creating architectural diagrams and flowcharts
 - [Mermaid](https://mermaid-js.github.io/mermaid/#/) Markdown-like syntax for generating flowcharts, sequence diagrams, class diagrams, gantt charts and more
@@ -103,10 +103,9 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [devdocs.io](https://devdocs.io) API documentation for all popular programming languages and frameworks. Includes instant search and works offline too.
 - [aws command line](https://aws.amazon.com/cli/) Official AWS CLI documentation
 - [mojo stdlib](https://docs.modular.com/mojo/stdlib) Mojo stand library reference documentation
-- [gleam stdlib](https://hexdocs.pm/gleam/gleam/stdlib.html) Gleam standard library documentation
+- [gleam stdlib](https://hexdocs.pm/gleam_stdlib/) Gleam standard library documentation
 - [cssreference.io](https://cssreference.io/) CSS reference
 - [htmlreference.io](https://htmlreference.io/) HTML reference
-- [components.gallery](https://components.gallery/) A collection of web component references and design systems
 - [aws command line](https://aws.amazon.com/cli/) Official AWS CLI documentation
 - [macOs command line](https://ss64.com/mac/)A-Z Index of the **Apple macOS** command line (macOS bash)
 - [linux command line](https://ss64.com/bash/) A-Z Index of the **Linux** command line: bash + utilities
@@ -202,7 +201,6 @@ Personally curated and opinionated collection of awesome engineering, coding & s
     npm i bootstrap
     ```
 
-- In-browser UI editor: https://www.codeply.com
 
 #### JavaScript/Typescript:
 
@@ -328,7 +326,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - Testing:
   - [assertj](https://github.com/joel-costigliola/assertj-core) (https://assertj.github.io/doc/) Assertion library for Java
   - [hamcrest](https://github.com/hamcrest/JavaHamcrest) (https://hamcrest.org/JavaHamcrest/) Matcher library for Java
-  - [TestNG](https://github.com/cbeust/testng) (https://testng.org/doc/) Testing framework for Java (preferred)
+  - [TestNG](https://github.com/cbeust/testng) (https://testng.org/) Testing framework for Java (preferred)
   - [JUnit](https://github.com/junit-team/junit5) (https://junit.org/junit5/) Testing framework for Java
   - [Cucumber](https://github.com/cucumber/cucumber-jvm) (https://cucumber.io/) Behavior-Driven Development for Java
   - [Selenium](https://github.com/SeleniumHQ/selenium) (https://www.selenium.dev/) Browser automation framework ideal for testing
@@ -339,7 +337,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [RxJava](https://github.com/ReactiveX/RxJava) (https://github.com/ReactiveX/RxJava/wiki) Reactive Extensions for the JVM
 - Profiling and Analysis:
 	- [VisualVM](https://github.com/oracle/visualvm) (https://visualvm.github.io/) JVM profiling 
-	- [Eclipse Memory Analyzer](https://github.com/eclipse/mat)(https://projects.eclipse.org/projects/tools.mat/) General purpose toolkit to analyze Java heap dumps
+	- [Eclipse Memory Analyzer](https://github.com/eclipse-mat/mat)(https://projects.eclipse.org/projects/tools.mat/) General purpose toolkit to analyze Java heap dumps
   - [Spotless](https://github.com/diffplug/spotless) (https://plugins.gradle.org/plugin/com.diffplug.spotless) Keeps code formatting 'spotless'
   - [Palantir](https://github.com/palantir/palantir-java-format) (https://github.com/palantir/palantir-java-format) Java code format extended with Google Style and spotless support
 - [Quarkus](https://github.com/quarkusio/quarkus) (https://quarkus.io/guides) "Supersonic Subatomic Java" A Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards
@@ -412,7 +410,6 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 	- [actix-web](https://github.com/actix/actix-web) ([actix-web](https://crates.io/crates/actix-web)) - [Documentation](https://actix.rs/) - A powerful, pragmatic, and extremely fast web framework for Rust.
 - Arduino:
 	- [embedded-hal](https://github.com/rust-embedded/embedded-hal) ([embedded-hal](https://crates.io/crates/embedded-hal)) - [Documentation](https://docs.rs/embedded-hal/) - A set of traits for writing embedded hardware drivers in Rust.
-	- [embedded-nal](https://github.com/rust-embedded/embedded-nal) ([embedded-nal](https://crates.io/crates/embedded-nal)) - [Documentation](https://docs.rs/embedded-nal/) - Network Abstraction Layer for embedded systems in Rust.
 	- [avr-rust](https://github.com/avr-rust/avr-rust) - [avr](https://crates.io/crates/avr) - [Documentation](https://docs.rs/avr/) - A Rust compiler for AVR microcontrollers, enabling Rust development on Arduino platforms.
 
 #### Zig
@@ -460,7 +457,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [SonarQube for IDEA](https://plugins.jetbrains.com/plugin/7973-sonarqube-for-ide) SonarQube for IntelliJ (formerly SonarLint)
   - [Rainbow CSV](https://plugins.jetbrains.com/plugin/12896-rainbow-csv) Rainbow CSV for IntelliJ
 - Ultimate:
-  - [JPA Buddy](https://plugins.jetbrains.com/plugin/4347-jpa-buddy) JPA Buddy for IntelliJ - Intuitive and powerful JPA/Hibernate tool
+  - [JPA Buddy](https://plugins.jetbrains.com/plugin/15075-jpa-buddy) JPA Buddy for IntelliJ - Intuitive and powerful JPA/Hibernate tool
   - [Markdown](https://plugins.jetbrains.com/plugin/7793-markdown) Markdown support for IntelliJ (use with PlantUML and Mermaid)
   - [Database Tools and SQL for WebStorm](https://plugins.jetbrains.com/plugin/10925-database-tools-and-sql-for-webstorm) Database Tools for IntelliJ
 
@@ -472,14 +469,14 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   ```
   - Plugins:
     - AI Assistants:
-      - [Cody](https://github.com/sourcegraph/sg.nvim) (https://github.com/sourcegraph/cody) Code search/navigation and ai assistance plugin for NeoVim
+      - [Cody](https://github.com/sourcegraph/sg.nvim) (https://sourcegraph.com/cody) Code search/navigation and ai assistance plugin for NeoVim
         - [Installation](https://sourcegraph.com/docs/cody/clients/install-neovim)
       - [Codeium](https://github.com/Exafunction/codeium.vim) (https://codeium.com/) AI assistants for Vim
         - [Installation](https://codeium.com/vim_tutorial?page=install)
     - [Lazy](https://github.com/folke/lazy.nvim) (https://www.lazyvim.org/installation) Plugin/package manager for neovim
     - [Lualine](https://github.com/nvim-lualine/lualine.nvim) (https://github.com/nvim-lualine/lualine.nvim) A blazing fast and easy to configure neovim statusline plugin written in pure lua
-    - [Mason](https://github.com/williamboman/mason.nvim) (https://github.com/nvim-lua/mason.nvim) Package manager for neovim for language servers, formatters
-      - [terraform-lsp](https://github.com/hashicorp/terraform-lshttps://github.com) (https://github.com/hashicorp/terraform-ls) Terraform Language Server for Neovim
+    - [Mason](https://github.com/williamboman/mason.nvim) (https://github.com/williamboman/mason.nvim) Package manager for neovim for language servers, formatters
+      - [terraform-lsp](https://github.com/hashicorp/terraform-ls) (https://github.com/hashicorp/terraform-ls) Terraform Language Server for Neovim
     - [Nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) (https://github.com/neovim/nvim-lspconfig) Quickstart configurations for the Nvim LSP client
     - [Oil](https://github.com/stevearc/oil.nvim) A file explorer that lets you edit your filesystem like a normal Neovim buffer
     - [Telescope](https://github.com/nvim-telescope/telescope.nvim) (https://github.com/nvim-telescope/telescope.nvim) Find, Filter, Preview, Pick. All lua, all the time.
@@ -528,7 +525,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [Settings Sync](https://github.com/shanalikhan/code-settings-sync) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)) Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
   - [Sonarlint](https://github.com/SonarSource/sonarlint-vscode) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)) SonarLint for Visual Studio Code
   - [Terraform](https://github.com/mauve/vscode-terraform) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=mauve.terraform)) Terraform for Visual Studio Code
-  - [Hashicorp Terraform](https://github.com/hashicorp/terraform-vscode) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform)) Terraform for Visual Studio Code
+  - [Hashicorp Terraform](https://github.com/hashicorp/vscode-terraform) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform)) Terraform for Visual Studio Code
   - [Vim](https://github.com/VSCodeVim/Vim): ([Marketplace](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)) Vim emulation plugin for VS Code
   - [VSCode Icons](https://github.com/vscode-icons/vscode-icons) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)) Icons for Visual Studio Code
   - [VisualVM](https://github.com/oracle/visualvm) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=oracle-labs-graalvm.visualvm-vscode)) Integrates the [VisualVM](https://visualvm.github.io/ "https://visualvm.github.io") monitoring and troubleshooting tool into Visual Studio Code
