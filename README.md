@@ -22,6 +22,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [Languages](#languages)
 - [Operating Systems](#operating-systems)
 - [Scaffolding](#scaffolding)
+- [Specification Driven Development (SDD)](#specification-driven-development-sdd)
 - [STEM](#stem)
 - [Testing](#testing)
 - [Terminal](#terminal)
@@ -127,6 +128,10 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [Cookiecutter](https://github.com/cookiecutter/cookiecutter) (https://cookiecutter.readthedocs.io/en/latest/) A command-line utility that creates projects from cookiecutters (project templates)
 - [Yeoman](https://github.com/yeoman/yo) (https://yeoman.io) A set of tools for automating the creation of projects, templates, boilerplates, modules and applications.
 - [Gitpod](https://github.com/gitpod-io/gitpod) (https://www.gitpod.io) Developer platform for on-demand cloud development environments to create software faster and more securely
+
+### Specification Driven Development (SDD)
+
+- [spec-kit](https://github.com/github/spec-kit) Toolkit to help you get started with Spec-Driven Development
 
 ### Terminal
 
