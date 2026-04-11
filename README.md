@@ -44,6 +44,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - CLIs:
   - [node-chatgpt-api](https://github.com/waylaidwanderer/node-chatgpt-api) Interact with ChatGPT on CLI or over REST
   - [Gemini](https://github.com/google-gemini/gemini-cli) ([Docs](https://cloud.google.com/gemini/docs/codeassist/gemini-cli)) Gemini CLI Code Assist
+  - [Claude Code](https://github.com/anthropics/claude-code) ([Docs](https://docs.anthropic.com/en/docs/claude-code)) Anthropic's agentic coding tool - CLI, VS Code extension, and web app
 - LLMs:
   - [Ollama](https://github.com/ollama/ollama) Run large language models locally (https://ollama.com/download)
 - Frameworks:
@@ -539,6 +540,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
   - [Cody](https://marketplace.visualstudio.com/items?itemName=sourcegraph.cody-ai) AI code assistant by the sourcegraph folks with a free tier, even has natural language code search
   - [Codeium](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium) 'Free Forever' code assistant - intelligently generates code as you type comments or use chat
+  - [Claude Code](https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code) ([GitHub](https://github.com/anthropics/claude-code)) Anthropic's agentic coding assistant with deep codebase understanding
 
 - Themes:
   - [PaleNight (Material Theme)](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme) Material theme (esp. Palenight) is generally awesome
