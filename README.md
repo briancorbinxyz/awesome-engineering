@@ -43,10 +43,15 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   [WhatTheDiff](https://whatthediff.ai/) AI Code Review and Changelogs
 - CLIs:
   - [node-chatgpt-api](https://github.com/waylaidwanderer/node-chatgpt-api) Interact with ChatGPT on CLI or over REST
+  - [Gemini](https://github.com/google-gemini/gemini-cli) ([Docs](https://cloud.google.com/gemini/docs/codeassist/gemini-cli)) Gemini CLI Code Assist
 - LLMs:
   - [Ollama](https://github.com/ollama/ollama) Run large language models locally (https://ollama.com/download)
 - Frameworks:
   - [Langchain](https://github.com/langchain-ai/langchain) Language model training framework
+- MCP:
+  - [GitHub](https://github.com/github/github-mcp-server) MCP Server for Github
+  - [Playwright](https://github.com/microsoft/playwright-mcp) MCP Server for browser automation and detailed accessibility snapshots
+  - [Context7](https://github.com/upstash/context7) MCP Server for retrieving versioned, up-to-date documentation / code snippets
 
 ### Blogging
 
@@ -106,7 +111,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [linux command line](https://ss64.com/bash/) A-Z Index of the **Linux** command line: bash + utilities
 - [powershell command line](https://ss64.com/ps/) An A-Z Index of Windows **PowerShell** command
 - [protobuf.dev](https://protobuf.dev/) Reference for Protocol Buffers: language-neutral, platform-neutral extensible mechanisms for serializing structured data.
--  [Truffle](https://www.graalvm.org/latest/graalvm-as-a-platform/language-implementation-framework/): An open-source library for building tools and programming languages implementations as interpreters for self-modifying Abstract Syntax Tree
+- [Truffle](https://www.graalvm.org/latest/graalvm-as-a-platform/language-implementation-framework/): An open-source library for building tools and programming languages implementations as interpreters for self-modifying Abstract Syntax Tree
 - [GraalVM](https://www.graalvm.org/latest/reference-manual/java/): Advanced JDK with AOT cmpilation
 - [GraalPy](https://www.graalvm.org/latest/reference-manual/python/): Python on the JVM / Native
 - [Tailwind Cheat Sheet](https://nerdcave.com/tailwind-cheat-sheet): Tailwind cheat sheets
@@ -127,7 +132,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [Cmder](https://cmder.app) Console emulator for Windows
 - [Alacritty](https://alacritty.org/) Cross-platform OpenGL-based terminal
-- [Warp](https://www.warp.dev/) The terminal 'reimagined' - a real game changer for the age old terminal - terminal on steriods!
+- [Ghostty](https://github.com/ghostty-org/ghostty) my current terminal of choice - fast, integrated.
 
 ### Terminal Tools
 
@@ -147,6 +152,9 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [curl](https://github.com/curl/curl) not an alternative to cURL, cURL
 - [grpcurl](https://github.com/fullstorydev/grpcurl) like cURL but for gRPC
 - [websocat](https://github.com/vi/websocat) like cURL / netstat but for websockets
+- [atuin](https://atuin.sh/) magical shell history and search with optional sync and backup
+- [spotify_player](https://github.com/aome510/spotify-player) if you're going to vibe code, you need the vibes! Terminal music player
+- [github cli](https://github.com/github) ([docs](https://cli.github.com/)) brings GitHub to the terminal
 
 ### UX
 
@@ -215,6 +223,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [Svelte](https://github.com/sveltejs/svelte) (https://svelte.dev/) Cybernetically enhanced web apps (less verbosity than React - uses compiler)
   - [React](https://github.com/facebook/react) (https://reactjs.org/) A JavaScript library for building user interfaces
   - [Remix](https://github.com/remix-run/remix) (https://remix.run) Full stack web framework - loads data in parallel on the server and sends a fully formed HTML document.
+  - [Ink](https://github.com/vadimdemedes/ink) Build interactive CLI tools using the React framework
 - CLI:
   - [Chalk](https://github.com/chalk/chalk) (https://www.npmjs.com/package/chalk) Terminal string styling done right
   - Formatting:
@@ -273,6 +282,12 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [Awesome Gleam](https://github.com/gleam-lang/awesome-gleam)
 
+#### C++
+
+- [Google Test](https://github.com/google/googletest) (google.github.io/googletest/) A unit testing framework based on xUnit from Google
+- [Catch2](https://github.com/catchorg/Catch2) (https://catch2-temp.readthedocs.io/en/latest/list-of-examples.html) A modern, C++-native, test framework for unit-tests, TDD and BDD
+- [vcpkg](https://github.com/microsoft/vcpkg) package manager for C++
+
 #### Java
 
 - [Awesome Java](https://github.com/akullpp/awesome-java)
@@ -282,6 +297,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [Java Docs](https://docs.oracle.com/en/java/javase) Java SDK documentation
   - [Java Almanac](https://javaalmanac.io/) Systematic collection of information about the history and the future of Java.
 - [Guava](https://github.com/google/guava) (https://github.com/google/guava) Google's core Java libraries (especially useful pre-JDK17)
+- [SDKMan!](https://github.com/sdkman/sdkman-cli) (https://sdkman.io/) SDK version manager for the JDK and Java ecosystem
 - [Spring Boot](https://github.com/spring-projects/spring-boot) (https://spring.io/projects/spring-boot) Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run"
 
   - [Starters](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#using.build-systems.starters) The complete catalog of Spring Boot starters
@@ -304,6 +320,8 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [spring-cloud-starter-circuitbreaker-resilience4j](https://docs.spring.io/spring-cloud-circuitbreaker/docs/current/reference/html/): circuit breaker pattern with Resilience4j
   - [spring-boot-starter-data-elasticsearch](https://docs.spring.io/spring-data/elasticsearch/reference/elasticsearch.html): Elasticsearch integration
   - [spring-boot-starter-quartz](https://docs.spring.io/spring-boot/docs/current/reference/html/io.html#io.quartz): sophisticated job scheduling
+  - [spring-ai-ollama-spring-boot-starter](https://docs.spring.io/spring-ai/reference/api/) spring ai using ollama models
+  - [spring-ai-openai-spring-boot-starter](https://docs.spring.io/spring-ai/reference/api/) spring ai using openai-compatible models
 - [PicoCLI](https://github.com/remkop/picocli) (https://picocli.info/) A mighty tiny command line interface for Java
 - [Open-Rewrite](https://github.com/openrewrite) (https://docs.openrewrite.org/) Large-scale automated code refactoring and technical debt elimination ecosystem
 - Testing:
@@ -381,6 +399,9 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [Rust Documentation](https://doc.rust-lang.org/book/) Rust Language books and tutorials
 - [Rust by Example](https://doc.rust-lang.org/rust-by-example/) Rust by Example
 - [Inside Rust Blog](https://blog.rust-lang.org/) Rust Language blog
+- [evcxr](https://github.com/evcxr/evcxr/tree/main/evcxr_repl) () A Rust REPL using the evxcr evaluation context
+- Formatting and Linting:
+	- [clippy](https://github.com/rust-lang/rust-clippy) ([clippy](https://rust-lang.github.io/rust-clippy/)) A collection of lints to catch common mistakes and improve your [Rust](https://github.com/rust-lang/rust) code.
 - Serialization:
 	- [serde](https://github.com/serde-rs/serde) ([serde](https://crates.io/crates/serde)): serialization/deserialization
 - Web:
@@ -392,6 +413,11 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 	- [embedded-hal](https://github.com/rust-embedded/embedded-hal) ([embedded-hal](https://crates.io/crates/embedded-hal)) - [Documentation](https://docs.rs/embedded-hal/) - A set of traits for writing embedded hardware drivers in Rust.
 	- [embedded-nal](https://github.com/rust-embedded/embedded-nal) ([embedded-nal](https://crates.io/crates/embedded-nal)) - [Documentation](https://docs.rs/embedded-nal/) - Network Abstraction Layer for embedded systems in Rust.
 	- [avr-rust](https://github.com/avr-rust/avr-rust) - [avr](https://crates.io/crates/avr) - [Documentation](https://docs.rs/avr/) - A Rust compiler for AVR microcontrollers, enabling Rust development on Arduino platforms.
+
+#### Zig
+
+- Zig https://ziglang.org/ A general-purpose programming language and toolchain for maintaining **robust**, **optimal** and **reusable** software
+- [Zig Langage Reference](https://ziglang.org/documentation/master/) 
 
 #### IaC
 
@@ -420,11 +446,22 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 #### IntelliJ / IDEA IDE
 
 - Plugins:
+  - [Cody AI](https://plugins.jetbrains.com/plugin/9682-cody-ai-code-assistant) Cody AI and Code Search for IntelliJ
   - [GREP Console](https://plugins.jetbrains.com/plugin/7125-grep-console) GREP the console in IntelliJ
   - [GitToolBox](https://plugins.jetbrains.com/plugin/7499-gittoolbox) Git integration for IntelliJ (e.g. Git Graph)
   - [Vim](https://plugins.jetbrains.com/plugin/164-ideavim) Vim emulation plugin for IntelliJ
 - Themes:
-  - [PaleNight (Material Theme)](https://plugins.jetbrains.com/plugin/8006-material-theme-ui) Material theme (esp. Palenight) is generally awesome
+  - [Material Theme UI](https://plugins.jetbrains.com/plugin/8006-material-theme-ui) Material Theme UI for IntelliJ (esp. Palenight, Moonlight)
+  - [Atom Material Icons](https://plugins.jetbrains.com/plugin/10044-atom-material-icons) Atom Material Icons for IntelliJ
+  - [IdeaVim](https://plugins.jetbrains.com/plugin/164-ideavim) Vim emulation plugin for IntelliJ
+  - [.env](https://plugins.jetbrains.com/plugin/9525--env-files) .env file support for IntelliJ
+  - [Rainbow Brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets) Rainbow Brackets for IntelliJ
+  - [SonarQube for IDEA](https://plugins.jetbrains.com/plugin/7973-sonarqube-for-ide) SonarQube for IntelliJ (formerly SonarLint)
+  - [Rainbow CSV](https://plugins.jetbrains.com/plugin/12896-rainbow-csv) Rainbow CSV for IntelliJ
+- Ultimate:
+  - [JPA Buddy](https://plugins.jetbrains.com/plugin/4347-jpa-buddy) JPA Buddy for IntelliJ - Intuitive and powerful JPA/Hibernate tool
+  - [Markdown](https://plugins.jetbrains.com/plugin/7793-markdown) Markdown support for IntelliJ (use with PlantUML and Mermaid)
+  - [Database Tools and SQL for WebStorm](https://plugins.jetbrains.com/plugin/10925-database-tools-and-sql-for-webstorm) Database Tools for IntelliJ
 
 #### Vim
 
@@ -461,6 +498,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [VS Code](https://github.com/microsoft/vscode) (https://code.visualstudio.com/) Code editor redefined and optimized for building and debugging modern applications
 - VS Code Forks:
   - [Cursor](https://github.com/getcursor/cursor) (https://www.cursor.sh/) AI-assisted coding
+  - [Windsurf](https://windsurf.com/) (http://windsurf.com/) Agentic AI coding
 - Plugins: [Awesome VS Code](https://github.com/viatsko/awesome-vscode)
 
   - [Polacode](https://github.com/octref/polacode) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)) Produce screenshots of code/files in VS Code
@@ -495,6 +533,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [VisualVM](https://github.com/oracle/visualvm) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=oracle-labs-graalvm.visualvm-vscode)) Integrates the [VisualVM](https://visualvm.github.io/ "https://visualvm.github.io") monitoring and troubleshooting tool into Visual Studio Code
   - [ESLint](https://github.com/Microsoft/vscode-eslint) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)) Integrate ESLint into VS Code
   - [Swift](https://github.com/swiftlang/vscode-swift) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=swiftlang.swift-vscode)) Swift language support for VS Code including debugging, code completion, and package management
+  - [Zig](https://github.com/ziglang/vscode-zig) ([Marketplace](https://marketplace.visualstudio.com/items?itemName=ziglang.vscode-zig)) Zig Language support for VS Code
 
 - AI Assistants:
 
@@ -696,7 +735,7 @@ A few books that were awesome for their time but less relevant as a full read fo
 ### Blogs
 
 - [The Code Influencer](https://briancorbinxyz.medium.com/) - Blog by Brian Corbin covering engineering and management
-- [The Life of Brian Corbin](https://thelifeof.briancorbin.xyz/)- [Engineering](https://thelifeof.briancorbin.xyz/tags/engineering) - A digital garden including articles and notes on engineering and management 
+- [The Sympathetic Engineer](https://www.sympatheticengineering.com)- [Engineering](https://www.sympatheticengineering.com) - A digital garden including articles and notes on engineering and management 
 - [The Pragmatic Engineer](https://blog.pragmaticengineer.com/) - A blog by Gergely Orosz
 
 ## Contributing
