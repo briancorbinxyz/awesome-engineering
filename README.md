@@ -229,6 +229,12 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [React](https://github.com/facebook/react) (https://reactjs.org/) A JavaScript library for building user interfaces
   - [Remix](https://github.com/remix-run/remix) (https://remix.run) Full stack web framework - loads data in parallel on the server and sends a fully formed HTML document.
   - [Ink](https://github.com/vadimdemedes/ink) Build interactive CLI tools using the React framework
+  - Component Libraries:
+    - [shadcn/ui](https://github.com/shadcn-ui/ui) (https://ui.shadcn.com/) Beautifully designed components you copy and paste into your apps, built on Radix UI and Tailwind CSS
+    - [Material UI](https://github.com/mui/material-ui) (https://mui.com/) Comprehensive React component library implementing Google's Material Design
+    - [Ant Design](https://github.com/ant-design/ant-design) (https://ant.design/) Enterprise-class UI design language and React component library
+  - Charts:
+    - [Recharts](https://github.com/recharts/recharts) (https://recharts.org/) Composable charting library built on React components and D3
 - CLI:
   - [Chalk](https://github.com/chalk/chalk) (https://www.npmjs.com/package/chalk) Terminal string styling done right
   - Formatting:
