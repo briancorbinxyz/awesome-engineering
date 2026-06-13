@@ -279,6 +279,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [PyTorch](https://github.com/pytorch/pytorch) (https://pytorch.org/) an open source machine learning (ML) framework based on the Python for Deep Learning
 - [Taichi](https://github.com/taichi-dev/taichi) (https://docs.taichi.graphics/) Python-based scientific computing uses JIT compilation to offload the Python source code to native GPU or CPU instructions for performance
 - [Requests](https://github.com/psf/requests) (https://requests.readthedocs.io/en/master/) Python HTTP Requests for Humans
+- [Beautiful Soup](https://git.launchpad.net/beautifulsoup) (https://www.crummy.com/software/BeautifulSoup/bs4/doc/) Pull data out of HTML and XML files - the go-to library for web scraping and parsing (`pip install beautifulsoup4`)
 - [Cookiecutter](https://github.com/cookiecutter/cookiecutter) (https://cookiecutter.readthedocs.io/en/latest/) A command-line utility that creates projects from cookiecutters (project templates)
 - [Playwright](https://github.com/microsoft/playwright) (https://playwright.dev/) Cross-language browser testing and automation framework
 - [Pendulum](https://github.com/sdispater/pendulum) (https://pendulum.eustace.io) Python datetimes made easy
@@ -394,6 +395,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [PyTorch](https://github.com/pytorch/pytorch) (https://pytorch.org/) an open source machine learning (ML) framework based on the Python for Deep Learning
 - [Taichi](https://github.com/taichi-dev/taichi) (https://docs.taichi.graphics/) Python-based scientific computing uses JIT compilation to offload the Python source code to native GPU or CPU instructions for performance
 - [Requests](https://github.com/psf/requests) (https://requests.readthedocs.io/en/master/) Python HTTP Requests for Humans
+- [Beautiful Soup](https://git.launchpad.net/beautifulsoup) (https://www.crummy.com/software/BeautifulSoup/bs4/doc/) Pull data out of HTML and XML files - the go-to library for web scraping and parsing (`pip install beautifulsoup4`)
 - [Cookiecutter](https://github.com/cookiecutter/cookiecutter) (https://cookiecutter.readthedocs.io/en/latest/) A command-line utility that creates projects from cookiecutters (project templates)
 - Homebrew / Niche Libraries:
   - [Anki CozmoSDK](https://github.com/anki/cozmo-python-sdk) (https://data.bit-bots.de/cozmo_sdk_doc/cozmosdk.anki.com/docs/index.html) Little robot - Cozmo SDK for python
