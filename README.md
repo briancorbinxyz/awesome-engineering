@@ -379,30 +379,6 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - FFI:
   - [jextract](https://github.com/openjdk/jextract): (https://github.com/openjdk/jextract/blob/master/doc/GUIDE.md) Tool which mechanically generates Java bindings from native library headers compatible with FFM API
 
-#### Python
-
-- [Awesome Python](https://github.com/vinta/awesome-python)
-- [Wheel](https://github.com/pypa/wheel) (https://pythonwheels.com/) Build Python packages that work on Linux, Windows, and Mac
-- [Virtualenv](https://github.com/pypa/virtualenv) (https://virtualenv.pypa.io/en/latest/) Virtual Python Environment builder
-- [Pipenv](https://github.com/pypa/pipenv) (https://pipenv.pypa.io/en/latest/) Python Development Workflow for Humans
-- [Poetry](https://github.com/python-poetry/poetry) (https://python-poetry.org/) Python dependency management and packaging made easy
-- [Pip](https://github.com/pypa/pip) (https://pip.pypa.io/en/stable/) Package manager for Python
-- [Autopep8](https://github.com/hhatto/autopep8) (https://pypi.org/project/autopep8/) AutoPEP8 is a tool that automatically formats Python code to conform to the PEP 8 style guide
-- [Pylint](https://github.com/PyCQA/pylint) (https://www.pylint.org/) Python code static checker
-- [Black](https://github.com/psf/black) (https://black.readthedocs.io/en/stable/) The uncompromising Python code formatter
-- [Pandas](https://github.com/pandas-dev/pandas) (https://pandas.pydata.org/) Data analysis and manipulation tool
-- [Scikit-learn](https://github.com/scikit-learn/scikit-learn) (https://scikit-learn.org/stable/) Machine learning library for Python
-- [PyTorch](https://github.com/pytorch/pytorch) (https://pytorch.org/) an open source machine learning (ML) framework based on the Python for Deep Learning
-- [Taichi](https://github.com/taichi-dev/taichi) (https://docs.taichi.graphics/) Python-based scientific computing uses JIT compilation to offload the Python source code to native GPU or CPU instructions for performance
-- [Requests](https://github.com/psf/requests) (https://requests.readthedocs.io/en/master/) Python HTTP Requests for Humans
-- [Beautiful Soup](https://git.launchpad.net/beautifulsoup) (https://www.crummy.com/software/BeautifulSoup/bs4/doc/) Pull data out of HTML and XML files - the go-to library for web scraping and parsing (`pip install beautifulsoup4`)
-- [Cookiecutter](https://github.com/cookiecutter/cookiecutter) (https://cookiecutter.readthedocs.io/en/latest/) A command-line utility that creates projects from cookiecutters (project templates)
-- Homebrew / Niche Libraries:
-  - [Anki CozmoSDK](https://github.com/anki/cozmo-python-sdk) (https://data.bit-bots.de/cozmo_sdk_doc/cozmosdk.anki.com/docs/index.html) Little robot - Cozmo SDK for python
-  - [PyCozmo](https://github.com/zayfod/pycozmo) (https://pycozmo.readthedocs.io/en/stable/overview.html) Python SDK for the Cozmo robot in pure python
-  - [PyATV](https://github.com/postlund/pyatv) (https://pyatv.dev/) Python library to interface with Apple TV
-  - [Crayons](https://github.com/MasterOdin/crayons) (https://pypi.org/project/crayons/) Terminal string styling for Python (built atop colorama)
-
 #### Rust
 
 - [Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
