@@ -134,6 +134,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [spec-kit](https://github.com/github/spec-kit) Toolkit to help you get started with Spec-Driven Development
 - [OpenSpec](https://github.com/Fission-AI/OpenSpec) Spec-driven development (SDD) for AI coding assistants
+- [Spectastic](https://spectastic.io/) Single-file HTML specs - the HTML-native alternative to markdown-based spec tooling, running a principles → spec → design → tasks → implement lifecycle
 
 ### Terminal
 
@@ -156,6 +157,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [hyperfine](https://github.com/sharkdp/hyperfine) A command-line benchmarking tool with live feedback, warmup capability, parameterization, and more.
 - [bat](https://github.com/sharkdp/bat) replacement for the 'cat' command with 'wings' including syntax highlighting and themes (e.g. can apply tokyonight)
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k) A Zsh theme (and a bunch of other things)
+- [starship](https://github.com/starship/starship) (https://starship.rs/) The minimal, blazing-fast, and infinitely customizable prompt for any shell (Rust)
 - [curl](https://github.com/curl/curl) not an alternative to cURL, cURL
 - [grpcurl](https://github.com/fullstorydev/grpcurl) like cURL but for gRPC
 - [websocat](https://github.com/vi/websocat) like cURL / netstat but for websockets
