@@ -616,7 +616,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code) by **'Uncle' Bob Martin** - As someone who was a self-taught programmer this was the first time I read a book (and watched a set of eccentric videos) that pulled me out of the mindset of _"my code is excellent, it never breaks, so I don't need to write tests for it and I love to write the complex code to try new things"_, to making functional code that works for the reader and not just the writer. Highly recommend undertanding clean code concepts and SOLID software engineering. NB: Java-centric.
 
-  <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1436202607i/3735293.jpg" width="150"/>
+  <a href="https://www.goodreads.com/book/show/3735293-clean-code"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1436202607i/3735293.jpg" width="150"/></a>
 
   > “Truth can only be found in one place: the code.”
 
@@ -629,7 +629,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [The Pragmatic Programmer](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer) by **Andy Hunt and David Thomas** - The Pragmatic Programmer is a great book about owning your engineering / development career and focusing on regularly making small changes for continuous improvement. It is aimed at software developers who want to write better code and avoid common pitfalls. The writers were also involved in the creation of the agile manifesto.
 
-  <img src="https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/tpp20_hu11835544608601469686.jpg" width="150"/>
+  <a href="https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer"><img src="https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/tpp20_hu11835544608601469686.jpg" width="150"/></a>
 
   > “Don't be a slave to history. Don't let existing code dictate future code. All code can be replaced if it is no longer appropriate. Even within one program, don't let what you've already done constrain what you do next -- be ready to refactor... This decision may impact the project schedule. The assumption is that the impact will be less than the cost of /not/ making the change.”
 
@@ -643,14 +643,14 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.goodreads.com/book/show/85009.Design_Patterns) - Design patterns are a general reusable solution to common problems in software design. A lot of modern languages have first class (or standard library) support for some software design patterns these days but if you have to build them yourself, select the best one for a job, or have a common 'language' for system design features with colleagues, then this book is a good place to start. Don't reinvent the wheel.
 
-  <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348027904i/85009.jpg" width="150"/>
+  <a href="https://www.goodreads.com/book/show/85009.Design_Patterns"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348027904i/85009.jpg" width="150"/></a>
 
   > “Design patterns should not be applied indiscriminately. Often they achieve flexibility and variability by introducing additional levels of indirection, and that can complicate a design and/or cost you some performance. A design pattern should only be applied when the flexibility it affords is actually needed.”
 
 - [Data Structures and Algorithms](https://www.goodreads.com/author/show/15693.Michael_T_Goodrich) by **Michael T Goodrich** - Books on data structures and algorithms - your basic recipes and building blocks for solving software engineering problems. Many data structures these are first class in modern languages but when you understand them in a more abstract way then you'll make the right decisions about which to use and when.
 
   <div id="container" style="display: inline">
-    <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386920652i/27842.jpg" width="150"/><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1361147120i/13838796.jpg" width="150"/><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347939315i/7405645.jpg" width="150"/>
+    <a href="https://www.goodreads.com/author/show/15693.Michael_T_Goodrich"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386920652i/27842.jpg" width="150"/></a><a href="https://www.goodreads.com/author/show/15693.Michael_T_Goodrich"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1361147120i/13838796.jpg" width="150"/></a><a href="https://www.goodreads.com/author/show/15693.Michael_T_Goodrich"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347939315i/7405645.jpg" width="150"/></a>
   </div>
 
 
@@ -658,11 +658,11 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [Build Microservices](https://www.goodreads.com/book/show/22512931-building-microservices) - by **Sam Newman** by provides you with a firm grounding in the concepts while diving into current solutions for modeling, integrating, testing, deploying, and monitoring your own autonomous services microservices, whilst recognizing microservces are not the solution to everything. 
 
-  <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1403186979i/22512931.jpg" width="150"/>
+  <a href="https://www.goodreads.com/book/show/22512931-building-microservices"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1403186979i/22512931.jpg" width="150"/></a>
 
 - [Designing Data-Intensive Applications](https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications) by  **Martin Kleppmann** - Designing Data-Intensive Applications is a book about building scalable, reliable, and maintainable systems. It is aimed at software architects, developers, and system administrators who want to understand how to build scalable, reliable, and maintainable systems. Great for deep, foundational, and internals knowledge.
 
-  <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1415816873i/23463279.jpg" width="150"/>
+  <a href="https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1415816873i/23463279.jpg" width="150"/></a>
 
  > 	“Data outlives code.”
   > 
@@ -677,7 +677,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [Atomic Habits](https://www.goodreads.com/book/show/40121378-atomic-habits) by James Clear
 
-  <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655988385i/40121378.jpg" alt="Atomic Habits" width="150"/>
+  <a href="https://www.goodreads.com/book/show/40121378-atomic-habits"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655988385i/40121378.jpg" alt="Atomic Habits" width="150"/></a>
 
   Speaking of "Kaizen", its meaning is change for the better or continuous improvement, an awesome career in engineering is basically an unwritten agreement to continuously learn. So if you don't love that then it's time for a career change! Atomic Habits show how small improvements (e.g. read two pages of a book/article daily) can compound over time and lead to large rewards. It's worth applying that to your learning process - pairs well with the advice in "The Pragmatic Programmer".
 
@@ -688,7 +688,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [How to Work with (Almost) Anyone](https://www.goodreads.com/book/show/123051638-how-to-work-with-almost-anyone) by **Michael Bungay Stanier** - It's a fallacy that 'tech' is just about sitting down 'staring at a screen'. It's entirely possible to code in a silo but engineering is fundamentally a team sport. Whether it's collaborating on an API, a product, in a team, or asking for candid 360 feedback, or working with your manager, you'll find yourself in a situation where you need to work together. This book will help you to achieve your best possible relationship with your colleagues. Just bear in mind it does say 'almost' everyone!  (NB: Print > Audiobook)
 
-  <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1678429415i/123051638.jpg" width="150"/>
+  <a href="https://www.goodreads.com/book/show/123051638-how-to-work-with-almost-anyone"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1678429415i/123051638.jpg" width="150"/></a>
 
   > “The curse of competence traps you doing what you're good at but not fulfilled by.”
 
@@ -698,7 +698,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [Emotional Intelligence 2.0](https://www.goodreads.com/book/show/6486483-emotional-intelligence-2-0) by **Travis Bradberry & Jean Greaves** - Your IQ will only get you so far in this industry. Relationships count. Emotional intelligence is the ability to understand and manage your own and others' emotions.
 
-  <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328765863i/6486483.jpg" alt="Emotional Intelligence 2.0" width="150"/>
+  <a href="https://www.goodreads.com/book/show/6486483-emotional-intelligence-2-0"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328765863i/6486483.jpg" alt="Emotional Intelligence 2.0" width="150"/></a>
 
   > “Emotional intelligence is your ability to recognize and understand emotions in yourself and others, and your ability to use this awareness to manage your behavior and relationships.”
 
@@ -712,7 +712,7 @@ A few books that were awesome for their time but less relevant as a full read fo
 
 - [Working Effectively with Legacy Code](https://www.goodreads.com/book/show/44919.Working_Effectively_with_Legacy_Code) by **Michael C Feathers** Oldie but a goodie. Not all software development is greenfield, when you find yourself working on a codebase that doesn't have tests, or sufficient tests/testing you may want to read this book! (At least, so long as AI can't explain the whole end to end architecture and implementation intent of the prior developers)
 
-  <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348627451i/44919.jpg" width="150"/>
+  <a href="https://www.goodreads.com/book/show/44919.Working_Effectively_with_Legacy_Code"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348627451i/44919.jpg" width="150"/></a>
 
   > “Code without tests is bad code. It doesn't matter how well written it is; it doesn't matter how pretty or object-oriented or well-encapsulated it is. With tests, we can change the behavior of our code quickly and verifiably. Without them, we really don't know if our code is getting better or worse.”
 
