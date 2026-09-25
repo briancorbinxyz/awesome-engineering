@@ -168,6 +168,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 ### UX
 
 - [Excalidraw](https://github.com/excalidraw/excalidraw) Hand-drawn style sketching app/whiteboarding with collaboration
+- [Drawbly](https://drawbly.com/) Browser canvas for rough technical diagrams with freehand arrows and editable text; no signup, local drafts, free credited PNG export
 - [Balsamiq](https://balsamiq.com/) Wireframing tool (PAID)
 - [Axure](https://www.axure.com/) UI/UX design tool (PAID)
 - [Figma](https://www.figma.com/) UI/UX design tool (PAID)
