@@ -312,6 +312,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - Documentation:
   - [Java Docs](https://docs.oracle.com/en/java/javase) Java SDK documentation
   - [Java Almanac](https://javaalmanac.io/) Systematic collection of information about the history and the future of Java.
+  - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html) Google's Java coding standard; google-java-format enforces its formatting rules
 - [Guava](https://github.com/google/guava) (https://github.com/google/guava) Google's core Java libraries (especially useful pre-JDK17)
 - [SDKMan!](https://github.com/sdkman/sdkman-cli) (https://sdkman.io/) SDK version manager for the JDK and Java ecosystem
 - [Spring Boot](https://github.com/spring-projects/spring-boot) (https://spring.io/projects/spring-boot) Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run"
@@ -350,6 +351,23 @@ Personally curated and opinionated collection of awesome engineering, coding & s
   - [Playwright](https://github.com/microsoft/playwright) (https://playwright.dev/) Cross-language browser testing and automation framework
   - [RestAssured](https://github.com/rest-assured/rest-assured) (https://rest-assured.io/) Java DSL for easy testing of REST services
   - [JMH](https://github.com/openjdk/jmh) (https://openjdk.org/projects/code-tools/jmh/) Java harness for building, running, and analyzing nano/micro/milli/macro benchmarks written in Java and other languages targeting the JVM.
+  - [PIT](https://github.com/hcoles/pitest) (https://pitest.org) Mutation testing for the JVM: changes your code and checks the tests notice
+  - [mutastic](https://docs.mutastic.io/) Mutation testing for Java, built on the ClassFile API: verifies that tests, including AI-written ones, actually catch bugs
+  - [ArchUnit](https://github.com/TNG/ArchUnit) (https://www.archunit.org/) Unit-test your architecture: package boundaries and coding rules asserted against bytecode
+  - [JaCoCo](https://github.com/jacoco/jacoco) (https://www.jacoco.org/jacoco/) Code coverage for Java, with a coverage threshold that can fail the build
+  - [Chaos Monkey for Spring Boot](https://github.com/codecentric/chaos-monkey-spring-boot) Injects latency, exceptions and app kills into a running Spring Boot app to prove the fallbacks fall back
+- Code Quality:
+  - [google-java-format](https://github.com/google/google-java-format) Reformats Java source to Google Java Style; pairs with Spotless
+  - [Checkstyle](https://github.com/checkstyle/checkstyle) (https://checkstyle.org/) Configurable checker for Java coding standards such as naming and method length
+  - [Error Prone](https://github.com/google/error-prone) (https://errorprone.info/) Compiler plugin that catches common Java mistakes at build time, with suggested fixes
+  - [NullAway](https://github.com/uber/NullAway) Fast Error Prone plugin that fails the build on likely NullPointerExceptions; understands JSpecify
+  - [JSpecify](https://github.com/jspecify/jspecify) (https://jspecify.dev) Standard nullness annotations for Java (`@NullMarked`, `@Nullable`)
+  - [Checker Framework](https://github.com/typetools/checker-framework) (https://checkerframework.org) Pluggable type checkers, including a complete nullness checker (slower than NullAway)
+- Security and Supply Chain:
+  - [OWASP Dependency-Check](https://github.com/dependency-check/DependencyCheck) (https://owasp.org/www-project-dependency-check/) Scans dependencies for publicly disclosed vulnerabilities (CVEs); get an NVD API key for fast updates
+  - [CycloneDX Gradle Plugin](https://github.com/CycloneDX/cyclonedx-gradle-plugin) (https://cyclonedx.org/) Generates an SBOM listing every component, its version and its license
+- Feature Flags:
+  - [OpenFeature](https://github.com/open-feature/java-sdk) (https://openfeature.dev) Vendor-neutral feature flag API (CNCF): release a change separately from deploying it
 - Reactive: (https://www.reactivemanifesto.org/)
   - [RxJava](https://github.com/ReactiveX/RxJava) (https://github.com/ReactiveX/RxJava/wiki) Reactive Extensions for the JVM
 - Profiling and Analysis:
@@ -415,6 +433,8 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [Terraform](https://github.com/hashicorp/terraform) (https://www.terraform.io/) Tool for building, changing, and versioning infrastructure
   - [Terraform Modules](https://developer.hashicorp.com/terraform/tutorials/modules/pattern-module-creation)
+- [Argo Rollouts](https://github.com/argoproj/argo-rollouts) (https://argoproj.github.io/rollouts/) Kubernetes controller for canary and blue-green deployments with metric-driven promotion and rollback
+- [Flagger](https://github.com/fluxcd/flagger) (https://flagger.app/) Progressive delivery operator for Kubernetes: automated canaries, A/B testing and blue-green
 
 ### EduTech
 
@@ -541,6 +561,9 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 
 - [jepsen](https://github.com/jepsen-io) ([https://jepsen.io/](https://jepsen.io/)) "Trust but verify" - Putting distributed systems through their paces - an effort to improve the safety of distributed databases, queues, consensus systems, etc
 - [TestContainers](https://testcontainers.com/getting-started/) (https://testcontainers.com/) An open source framework for providing throwaway, lightweight instances of databases, message brokers, web browsers,
+- [Toxiproxy](https://github.com/Shopify/toxiproxy) TCP proxy for simulating network conditions (latency, timeouts, dropped connections) in tests
+- [ZAP](https://github.com/zaproxy/zaproxy) (https://www.zaproxy.org/) OWASP's web app security scanner; the baseline scan suits a nightly DAST run against staging
+
 ### Icons and Images
 
 - https://unsplash.com
@@ -610,6 +633,12 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 #### Testing
 
 - [Types of Software Testing](https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing) Automated testing is a broad term that can refer to a wide variety of testing methods.
+
+#### AI-Assisted Coding
+
+- [The Hidden Cost of Readability: How Code Formatting Silently Consumes Your LLM Budget](https://arxiv.org/abs/2508.13666) Stripping formatting cut input tokens 24.5% across 10 models and 4 languages, with performance maintained
+- [Improving Code Style for Accurate Code Generation](https://nips.cc/virtual/2023/78370) NeurIPS 2023: restructuring training programs for readability improved a fine-tuned CodeLLaMa-7B by up to 30%
+- [AI code review comments in the wild](https://arxiv.org/abs/2607.03316) 31,073 CodeRabbit review comments across 239 repositories; 36.4% were accepted
 
 ### Books
 
