@@ -117,6 +117,7 @@ Personally curated and opinionated collection of awesome engineering, coding & s
 - [GraalVM](https://www.graalvm.org/latest/reference-manual/java/): Advanced JDK with AOT cmpilation
 - [GraalPy](https://www.graalvm.org/latest/reference-manual/python/): Python on the JVM / Native
 - [Tailwind Cheat Sheet](https://nerdcave.com/tailwind-cheat-sheet): Tailwind cheat sheets
+- [Astro Starlight](https://starlight.astro.build/): Documentation framework built on Astro: Markdown/MDX in your repo, built-in search, and component overrides for custom layouts
 
 #### References
 
